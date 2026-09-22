@@ -1,0 +1,316 @@
+{
+    "m_Version": 12,
+    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_RIFLES",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "izh18",
+            "MaxPriceThreshold": 885,
+            "MinPriceThreshold": 530,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "izh18_clean",
+                "izh18_black",
+                "izh18_green",
+                "izh18_yellow",
+                "izh18_orange",
+                "izh18_brown",
+                "izh18_white",
+                "izh18_grey",
+                "izh18_blue",
+                "izh18_red",
+                "izh18_pink"
+            ]
+        },
+        {
+            "ClassName": "ruger1022",
+            "MaxPriceThreshold": 1440,
+            "MinPriceThreshold": 865,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "mag_ruger1022_15rnd"
+            ],
+            "Variants": [
+                "ruger1022_clean",
+                "ruger1022_black",
+                "ruger1022_green",
+                "ruger1022_yellow",
+                "ruger1022_orange",
+                "ruger1022_brown",
+                "ruger1022_white",
+                "ruger1022_grey",
+                "ruger1022_blue",
+                "ruger1022_red",
+                "ruger1022_pink"
+            ]
+        },
+        {
+            "ClassName": "repeater",
+            "MaxPriceThreshold": 2500,
+            "MinPriceThreshold": 1500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "repeater_clean",
+                "repeater_black",
+                "repeater_green",
+                "repeater_yellow",
+                "repeater_orange",
+                "repeater_brown",
+                "repeater_white",
+                "repeater_grey",
+                "repeater_blue",
+                "repeater_red",
+                "repeater_pink"
+            ]
+        },
+        {
+            "ClassName": "mosin9130",
+            "MaxPriceThreshold": 2050,
+            "MinPriceThreshold": 1230,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "mosin9130_clean",
+                "mosin9130_black",
+                "mosin9130_green",
+                "mosin9130_yellow",
+                "mosin9130_orange",
+                "mosin9130_brown",
+                "mosin9130_white",
+                "mosin9130_grey",
+                "mosin9130_blue",
+                "mosin9130_red",
+                "mosin9130_pink",
+                "mosin9130_camo"
+            ]
+        },
+        {
+            "ClassName": "cz527",
+            "MaxPriceThreshold": 1300,
+            "MinPriceThreshold": 780,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "mag_cz527_5rnd"
+            ],
+            "Variants": [
+                "cz527_clean",
+                "cz527_black",
+                "cz527_green",
+                "cz527_yellow",
+                "cz527_orange",
+                "cz527_brown",
+                "cz527_white",
+                "cz527_grey",
+                "cz527_blue",
+                "cz527_red",
+                "cz527_pink",
+                "cz527_camo"
+            ]
+        },
+        {
+            "ClassName": "cz550",
+            "MaxPriceThreshold": 6210,
+            "MinPriceThreshold": 3725,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "mag_cz550_10rnd"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "winchester70",
+            "MaxPriceThreshold": 6210,
+            "MinPriceThreshold": 3725,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "winchester70_clean",
+                "winchester70_black",
+                "winchester70_green",
+                "winchester70_yellow",
+                "winchester70_orange",
+                "winchester70_brown",
+                "winchester70_white",
+                "winchester70_grey",
+                "winchester70_blue",
+                "winchester70_red",
+                "winchester70_pink"
+            ]
+        },
+        {
+            "ClassName": "ssg82",
+            "MaxPriceThreshold": 6600,
+            "MinPriceThreshold": 3960,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "mag_ssg82_5rnd"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "sks",
+            "MaxPriceThreshold": 1635,
+            "MinPriceThreshold": 980,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "sks_bayonet"
+            ],
+            "Variants": [
+                "sks_clean",
+                "sks_black",
+                "sks_green",
+                "sks_yellow",
+                "sks_orange",
+                "sks_brown",
+                "sks_white",
+                "sks_grey",
+                "sks_blue",
+                "sks_red",
+                "sks_pink"
+            ]
+        },
+        {
+            "ClassName": "m14",
+            "MaxPriceThreshold": 11190,
+            "MinPriceThreshold": 6715,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "mag_m14_10rnd"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "expansion_kar98",
+            "MaxPriceThreshold": 2050,
+            "MinPriceThreshold": 1230,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "expansion_m1a",
+            "MaxPriceThreshold": 11190,
+            "MinPriceThreshold": 6715,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "mag_expansion_m14_10rnd"
+            ],
+            "Variants": [
+                "expansion_m1a_black",
+                "expansion_m1a_tan",
+                "expansion_m1a_green"
+            ]
+        },
+        {
+            "ClassName": "pm73rak",
+            "MaxPriceThreshold": 4000,
+            "MinPriceThreshold": 2000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "r12",
+            "MaxPriceThreshold": 4000,
+            "MinPriceThreshold": 2000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "svd_wooden",
+            "MaxPriceThreshold": 4000,
+            "MinPriceThreshold": 2000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "sawedoffmosin9130",
+            "MaxPriceThreshold": 4000,
+            "MinPriceThreshold": 2000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "sawedoffmosin9130_black",
+                "sawedoffmosin9130_camo",
+                "sawedoffmosin9130_green"
+            ]
+        },
+        {
+            "ClassName": "sawedoffb95",
+            "MaxPriceThreshold": 1600,
+            "MinPriceThreshold": 800,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "sawedoffizh18",
+            "MaxPriceThreshold": 1600,
+            "MinPriceThreshold": 800,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        }
+    ]
+}

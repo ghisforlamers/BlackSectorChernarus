@@ -1,0 +1,128 @@
+{
+    "m_Version": 12,
+    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_HELICOPTER",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "expansiongyrocopter",
+            "MaxPriceThreshold": 1000000,
+            "MinPriceThreshold": 500000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 10,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "expansionhelicopterbattery",
+                "sparkplug"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "expansionbiggyrocopter",
+            "MaxPriceThreshold": 2000000,
+            "MinPriceThreshold": 1000000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 10,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "expansionhelicopterbattery",
+                "sparkplug"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "expansionmh6",
+            "MaxPriceThreshold": 3000000,
+            "MinPriceThreshold": 1500000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 10,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "expansionhelicopterbattery",
+                "expansionigniterplug",
+                "expansionhydraulichoses",
+                "headlighth7",
+                "expansion_mh6_door_1_1",
+                "expansion_mh6_door_1_2",
+                "expansion_mh6_door_2_1",
+                "expansion_mh6_door_2_2"
+            ],
+            "Variants": [
+                "expansionmh6_green",
+                "expansionmh6_blueline",
+                "expansionmh6_digital",
+                "expansionmh6_elliptical",
+                "expansionmh6_furious",
+                "expansionmh6_graywatcher",
+                "expansionmh6_jeans",
+                "expansionmh6_resistance",
+                "expansionmh6_shadow",
+                "expansionmh6_sheriff",
+                "expansionmh6_speedy",
+                "expansionmh6_sunset",
+                "expansionmh6_vrana",
+                "expansionmh6_wasp",
+                "expansionmh6_wave",
+                "expansionmh6_black"
+            ]
+        },
+        {
+            "ClassName": "expansionuh1h",
+            "MaxPriceThreshold": 3400000,
+            "MinPriceThreshold": 1700000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 10,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "expansionhelicopterbattery",
+                "expansionigniterplug",
+                "expansionhydraulichoses",
+                "headlighth7",
+                "expansionuh1hdoor_1_1",
+                "expansionuh1hdoor_1_2",
+                "expansionuh1hdoor_2_1",
+                "expansionuh1hdoor_2_2"
+            ],
+            "Variants": [
+                "expansionuh1h_green",
+                "expansionuh1h_civilian",
+                "expansionuh1h_medical",
+                "expansionuh1h_uber",
+                "expansionuh1h_resistance"
+            ]
+        },
+        {
+            "ClassName": "expansionmerlin",
+            "MaxPriceThreshold": 4000000,
+            "MinPriceThreshold": 2000000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 10,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "expansionhelicopterbattery",
+                "expansionigniterplug",
+                "expansionhydraulichoses",
+                "headlighth7",
+                "expansionmerlinfrontwheel",
+                "expansionmerlinfrontwheel",
+                "expansionmerlinbackwheel",
+                "expansionmerlinbackwheel"
+            ],
+            "Variants": [
+                "expansionmerlin_green",
+                "expansionmerlin_dahoman",
+                "expansionmerlin_ion",
+                "expansionmerlin_president",
+                "expansionmerlin_vrana",
+                "expansionmerlin_wave"
+            ]
+        }
+    ]
+}

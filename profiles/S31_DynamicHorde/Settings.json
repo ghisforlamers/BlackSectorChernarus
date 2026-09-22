@@ -1,0 +1,125 @@
+{
+    "Enabled": 1,
+    "TickIntervalSeconds": 5,
+    "LogVerbosity": 1,
+    "LingerMinSeconds": 20,
+    "LingerMaxSeconds": 60,
+    "Hordes": {
+        "MaxActiveHordes": 2,
+        "MinHordeSize": 12,
+        "MaxHordeSize": 24,
+        "SpawnCooldownSeconds": 60,
+        "MinDistanceBetweenHordes": 1200.0,
+        "MinSpawnDistanceFromPlayers": 500.0,
+        "SpawnBlockRadiusAfterWipe": 900.0,
+        "SpawnBlockSecondsAfterWipe": 1800,
+        "DespawnDistanceFromNearestPlayer": 0.0
+    },
+    "Materialization": {
+        "MaterializeDistance": 800.0,
+        "DematerializeDistance": 1000.0,
+        "HiddenSpawnMinDistanceFromPlayer": 140.0,
+        "HiddenSpawnSearchRadius": 110.0,
+        "ViewConeDot": 0.20000000298023225,
+        "HordeRadius": 24.0
+    },
+    "Movement": {
+        "VirtualTravelSpeed": 3.0,
+        "TravelMinDistance": 250.0,
+        "TravelMaxDistance": 650.0,
+        "StepDistance": 80.0
+    },
+    "Tracking": {
+        "TrackChancePercent": 12.0,
+        "TrackEnableDelaySeconds": 1800,
+        "TrackSearchRadius": 300.0,
+        "TrackDurationMinSeconds": 60,
+        "TrackDurationMaxSeconds": 150,
+        "ArrivalSearchRadius": 60.0,
+        "ReacquireRadius": 90.0,
+        "SearchMinSeconds": 45,
+        "SearchMaxSeconds": 90
+    },
+    "Gunshots": {
+        "Enabled": 1,
+        "HearingRadius": 1000.0,
+        "SuppressedHearingRadius": 50.0,
+        "InvestigateSeconds": 180,
+        "StartTracking": 1,
+        "AttractFromAIShots": 1
+    },
+    "Explosions": {
+        "Enabled": 1,
+        "HearingRadius": 1500.0,
+        "InvestigateSeconds": 240
+    },
+    "Ambient": {
+        "Enabled": 1,
+        "EventMinSeconds": 120,
+        "EventMaxSeconds": 240,
+        "AttractionRadius": 1800.0,
+        "InvestigateSeconds": 180
+    },
+    "Vehicles": {
+        "Enabled": 1,
+        "CheckIntervalSeconds": 10,
+        "HearingRadius": 700.0,
+        "InvestigateSeconds": 120
+    },
+    "EVR": {
+        "Enabled": 1,
+        "CheckIntervalSeconds": 15,
+        "HearingRadius": 2200.0,
+        "InvestigateSeconds": 240,
+        "SpeakerClassnames": [
+            "Land_Pas_Amps_Solo"
+        ]
+    },
+    "BaseSafety": {
+        "Enabled": 1,
+        "CheckRadius": 45.0,
+        "BlockRandomTracking": 1,
+        "BreakTrackingOnEnter": 1,
+        "PreventMaterialization": 1,
+        "IgnoreGunshotsFromBase": 0,
+        "BaseObjectClassnames": [
+            "TerritoryFlagBase",
+            "BaseBuildingBase"
+        ]
+    },
+    "Scaling": {
+        "EnableNightScaling": 1,
+        "NightSizeMultiplier": 1.399999976158142,
+        "NightTrackChanceMultiplier": 2.0,
+        "EnablePlayerScaling": 1,
+        "PlayersPerExtraZombie": 5,
+        "EnableGrowth": 0,
+        "GrowthPerHour": 4.0,
+        "AbsoluteMaxHordeSize": 40
+    },
+    "LiveReload": {
+        "Enabled": 1,
+        "IntervalSeconds": 30
+    },
+    "AdminMessages": {
+        "Enabled": 0,
+        "IntervalSeconds": 30,
+        "UseNotifications": 1,
+        "ShowCoordinates": 1,
+        "AdminPlainIds": []
+    },
+    "Discord": {
+        "Enabled": 0,
+        "WebhookURL": "",
+        "ServerLabel": "My DayZ Server",
+        "ShowPlayerNames": 1,
+        "ShowCoordinates": 0,
+        "MinSecondsBetweenMessages": 20,
+        "NotifyHordeSpawned": 1,
+        "NotifyHordeMaterialized": 0,
+        "NotifyHordeWiped": 1,
+        "NotifyHordeDespawned": 0,
+        "NotifyTrackingStarted": 1,
+        "NotifyGunshotHeard": 0
+    }
+}

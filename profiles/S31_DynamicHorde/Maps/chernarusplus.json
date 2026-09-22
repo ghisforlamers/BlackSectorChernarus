@@ -1,0 +1,204 @@
+{
+    "MapName": "ChernarusPlus",
+    "Notes": "Default Chernarus roam network. Tune weights/coordinates to fit your server hotspots.",
+    "MapMinX": 1000.0,
+    "MapMaxX": 14300.0,
+    "MapMinZ": 1500.0,
+    "MapMaxZ": 14800.0,
+    "UseWaypointOrder": 0,
+    "Waypoints": [
+        {
+            "X": 1700.0,
+            "Z": 14000.0,
+            "Weight": 3.4000000953674318,
+            "Label": "Tisy Military"
+        },
+        {
+            "X": 4600.0,
+            "Z": 10200.0,
+            "Weight": 3.5,
+            "Label": "NWAF"
+        },
+        {
+            "X": 4520.0,
+            "Z": 8250.0,
+            "Weight": 3.0,
+            "Label": "VMC"
+        },
+        {
+            "X": 3820.0,
+            "Z": 8900.0,
+            "Weight": 2.0,
+            "Label": "Vybor"
+        },
+        {
+            "X": 5300.0,
+            "Z": 8560.0,
+            "Weight": 2.0,
+            "Label": "Kabanino"
+        },
+        {
+            "X": 6050.0,
+            "Z": 7750.0,
+            "Weight": 2.4000000953674318,
+            "Label": "Stary Sobor"
+        },
+        {
+            "X": 7050.0,
+            "Z": 7700.0,
+            "Weight": 1.7999999523162842,
+            "Label": "Novy Sobor"
+        },
+        {
+            "X": 2740.0,
+            "Z": 5060.0,
+            "Weight": 2.5999999046325685,
+            "Label": "Zelenogorsk"
+        },
+        {
+            "X": 3700.0,
+            "Z": 6000.0,
+            "Weight": 2.200000047683716,
+            "Label": "Green Mountain"
+        },
+        {
+            "X": 4470.0,
+            "Z": 2450.0,
+            "Weight": 2.5999999046325685,
+            "Label": "Balota Airstrip"
+        },
+        {
+            "X": 6650.0,
+            "Z": 2600.0,
+            "Weight": 2.799999952316284,
+            "Label": "Chernogorsk"
+        },
+        {
+            "X": 10450.0,
+            "Z": 2300.0,
+            "Weight": 2.5999999046325685,
+            "Label": "Elektrozavodsk"
+        },
+        {
+            "X": 12050.0,
+            "Z": 3500.0,
+            "Weight": 1.5,
+            "Label": "Kamyshovo"
+        },
+        {
+            "X": 13400.0,
+            "Z": 6200.0,
+            "Weight": 1.600000023841858,
+            "Label": "Solnichniy"
+        },
+        {
+            "X": 12000.0,
+            "Z": 9500.0,
+            "Weight": 2.4000000953674318,
+            "Label": "Berezino"
+        },
+        {
+            "X": 9550.0,
+            "Z": 8800.0,
+            "Weight": 1.7999999523162842,
+            "Label": "Gorka"
+        },
+        {
+            "X": 11150.0,
+            "Z": 12300.0,
+            "Weight": 1.899999976158142,
+            "Label": "Krasnostav"
+        },
+        {
+            "X": 12100.0,
+            "Z": 12600.0,
+            "Weight": 2.5,
+            "Label": "NEAF"
+        },
+        {
+            "X": 11450.0,
+            "Z": 14350.0,
+            "Weight": 2.5999999046325685,
+            "Label": "Novodmitrovsk"
+        },
+        {
+            "X": 13950.0,
+            "Z": 13300.0,
+            "Weight": 2.0,
+            "Label": "Svetlojarsk"
+        },
+        {
+            "X": 7950.0,
+            "Z": 12600.0,
+            "Weight": 2.200000047683716,
+            "Label": "Severograd"
+        }
+    ],
+    "AmbientSources": [
+        {
+            "X": 4600.0,
+            "Z": 10300.0,
+            "Weight": 3.0,
+            "Label": "NWAF Tower Alarm"
+        },
+        {
+            "X": 6800.0,
+            "Z": 2400.0,
+            "Weight": 2.5,
+            "Label": "Cherno Harbor Crane"
+        },
+        {
+            "X": 10200.0,
+            "Z": 1900.0,
+            "Weight": 2.4000000953674318,
+            "Label": "Elektro Power Plant"
+        },
+        {
+            "X": 12300.0,
+            "Z": 9900.0,
+            "Weight": 2.0,
+            "Label": "Berezino Sawmill"
+        },
+        {
+            "X": 11400.0,
+            "Z": 14300.0,
+            "Weight": 2.200000047683716,
+            "Label": "Novo Construction Site"
+        },
+        {
+            "X": 4400.0,
+            "Z": 2500.0,
+            "Weight": 2.0,
+            "Label": "Balota Tower"
+        }
+    ],
+    "ZombieTypes": [
+        "ZmbM_PatrolNormal_Autumn",
+        "ZmbM_PatrolNormal_PautRev",
+        "ZmbM_PatrolNormal_Flat",
+        "ZmbM_SoldierNormal",
+        "ZmbM_PolicemanFat",
+        "ZmbF_PoliceWomanNormal",
+        "ZmbM_FirefighterNormal",
+        "ZmbM_CitizenASkinny_Brown",
+        "ZmbF_CitizenANormal_Beige",
+        "ZmbM_CitizenBFat_Blue",
+        "ZmbM_VillagerOld_Blue",
+        "ZmbF_VillagerOld_Blue",
+        "ZmbM_FarmerFat_Beige",
+        "ZmbM_HunterOld_Autumn",
+        "ZmbM_HermitSkinny_Beige",
+        "ZmbM_PrisonerSkinny",
+        "ZmbM_DoctorFat",
+        "ZmbF_NurseFat",
+        "ZmbF_MilkMaidOld_Beige",
+        "ZmbF_SurvivorNormal_Blue",
+        "ZmbM_ConstrWorkerNormal_Green",
+        "ZmbM_HandymanNormal_Grey",
+        "ZmbM_MechanicSkinny_Blue",
+        "ZmbM_BlueCollarFat_Blue",
+        "ZmbM_JoggerSkinny_Blue",
+        "ZmbM_Jacket_black",
+        "ZmbM_Jacket_stripes"
+    ]
+}

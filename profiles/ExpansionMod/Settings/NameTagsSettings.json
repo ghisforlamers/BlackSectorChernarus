@@ -1,0 +1,14 @@
+{
+    "m_Version": 5,
+    "EnablePlayerTags": 1,
+    "PlayerTagViewRange": 5.0,
+    "PlayerTagsIcon": "Persona",
+    "PlayerTagsColor": -1644826,
+    "PlayerNameColor": -1644826,
+    "OnlyInSafeZones": 0,
+    "OnlyInTerritories": 0,
+    "ShowPlayerItemInHands": 0,
+    "ShowNPCTags": 0,
+    "ShowPlayerFaction": 0,
+    "UseRarityColorForItemInHands": 0
+}
