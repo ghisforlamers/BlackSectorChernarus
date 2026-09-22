@@ -18,11 +18,10 @@ cd "$SRV_DIR"
    -limitFPS=25                                          \
    -cpuCount=4                                           \
    -exThreads=4                                          \
-   -enableHT                                             \
    -maxMem=8192                                          \
    -profiles="$CWD/profiles"                             \
    -config="$CWD/config/dayz.cfg"                        \
-   -mission="$CWD/mpmissions/dayzOffline.chernarusplus"  \
+   -mission="$CWD/mpmissions/dayzOffline.chernarusplus/" \
    -storage="$STORAGE_DIR"                               \
    -mod="$MODS"                                          \
    -serverMod="$SERVER_MODS"
