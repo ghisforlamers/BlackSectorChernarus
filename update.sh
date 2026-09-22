@@ -6,8 +6,7 @@ SRV_DIR="$CWD/bin"
 MOD_DIR="$CWD/mods"
 steamcmd \
     +force_install_dir "$SRV_DIR" \
-    +login "$STEAM_USER" \
-    +app_update 223350 validate \
+    +app_update 223350 validate   \
     +quit
 
 
@@ -21,7 +20,7 @@ for id in "${!SERVER_MOD_MAP[@]}"; do
 done
 steamcmd                                      \
     +force_install_dir "$MOD_DIR"             \
-    +login "$STEAM_USER" "$STEAM_PASS"        \
+    +login                                    \
     $MODS                                     \
     +quit
 for id in "${!MOD_MAP[@]}"; do
