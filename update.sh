@@ -9,6 +9,10 @@ steamcmd \
     +login "$STEAM_USER"          \
     +app_update 223350 validate   \
     +quit
+if [ $? -ne 0 ]; then
+    echo "ERROR: SteamCMD failed with exit code $?"
+    exit 1
+fi
 MODS=""
 for id in "${!MOD_MAP[@]}"; do
     MODS="$MODS +workshop_download_item 221100 $id"
@@ -21,6 +25,10 @@ steamcmd                                      \
     +login "$STEAM_USER"                      \
     $MODS                                     \
     +quit
+if [ $? -ne 0 ]; then
+    echo "ERROR: SteamCMD failed with exit code $?"
+    exit 1
+fi
 for id in "${!MOD_MAP[@]}"; do
     dst="$SRV_DIR/${MOD_MAP[$id]}"
     src="$MOD_DIR/steamapps/workshop/content/221100/$id"
