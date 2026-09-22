@@ -8,9 +8,6 @@ steamcmd \
     +force_install_dir "$SRV_DIR" \
     +app_update 223350 validate   \
     +quit
-
-
-set +x
 MODS=""
 for id in "${!MOD_MAP[@]}"; do
     MODS="$MODS +workshop_download_item 221100 $id"
