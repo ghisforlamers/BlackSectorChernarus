@@ -29,8 +29,7 @@ STEAM_USER="username" ./server update   # download server, mods, link keys
 ## Windows (PowerShell)
 
 Requirements: PowerShell 7+ (`pwsh`) or Windows PowerShell 5.1, `steamcmd.exe`
-(`C:\steamcmd\steamcmd.exe` by default, or on PATH), and a DayZ dedicated
-server in `bin\`. Run PowerShell as the user that hosts the server, and allow
+(on PATH). Run PowerShell as the user that hosts the server, and allow
 local scripts once:
 
 ```
@@ -55,3 +54,7 @@ headers, `#` comments, `key = value` lines):
 
 Add or remove mods by editing the `[mods]`/`[server_mods]` sections, then run
 `update` to download and link them.
+
+Custom mods are added to `custom`. They also need to be added to `server.ini` with fake Workshop IDs.
+
+The DayZ server config lives in `config/server.cfg`.
