@@ -1,6 +1,6 @@
 # DayZFallenEmpires
 
-DayZ server launcher scripts for Linux (bash) and Windows (PowerShell).
+DayZ server launcher scripts for PowerShell.
 
 Install:
 ```
@@ -8,35 +8,22 @@ git clone https://github.com/ghisforlamers/DayZFallenEmpires.git
 cd DayZFallenEmpires
 ```
 
-Both launchers use the same commands: `update`, `run`, `clean`.
-
 Update:
 ```
 git pull
 ```
 
-## Linux (bash)
+## PowerShell (Windows / Linux)
 
-Requirements: `bash`, `steamcmd`, `ln`, `cp`. The Steam download requires a
-login; set it via the `STEAM_USER` environment variable.
-
-```
-STEAM_USER="username" ./server update   # download server, mods, link keys
-./server run                           # launch DayZServer
-./server clean                         # remove bin/ and mods/
-```
-
-## Windows (PowerShell)
-
-Requirements: PowerShell 7+ (`pwsh`) or Windows PowerShell 5.1, `steamcmd.exe`
-(on PATH). Run PowerShell as the user that hosts the server, and allow
-local scripts once:
+Requirements: PowerShell 7+ (`pwsh`) or Windows PowerShell 5.1, `steamcmd`
+(on PATH).
 
 ```
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 $env:STEAM_USER = "username"
-.\server.ps1 update                     # download server, mods, link as junctions
-.\server.ps1 run                        # launch DayZServer_x64.exe
+.\server.ps1 update                     # download server, mods, link as junctions / symlinks
+
+.\server.ps1 run                        # launch DayZ server
+
 .\server.ps1 clean                      # remove bin\ and mods\
 ```
 
