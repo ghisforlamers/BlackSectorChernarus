@@ -1,6 +1,41 @@
 #!/bin/bash
 #set -x
-source "config/server.cfg"
+CWD=$(pwd)
+# Directory for user storage
+STORAGE_DIR="$CWD/storage/"
+
+# Parse the shared config/server.ini
+CFG_FILE="config/server.ini"
+if [ ! -f "$CFG_FILE" ]; then
+    echo "ERROR: config not found: $CFG_FILE" >&2
+    exit 1
+fi
+declare -A MOD_MAP=() SERVER_MOD_MAP=() CFG=()
+SECTION=""
+while IFS= read -r line || [ -n "$line" ]; do
+    line="${line%$'\r'}"
+    line="${line%%#*}"
+    line="${line#"${line%%[![:space:]]*}"}"
+    line="${line%"${line##*[![:space:]]}"}"
+    [ -z "$line" ] && continue
+    if [[ "$line" == \[*\] ]]; then
+        SECTION="${line:1:${#line}-2}"
+        continue
+    fi
+    if [[ "$line" != *=* ]]; then
+        continue
+    fi
+    key="${line%%=*}"
+    value="${line#*=}"
+    key="${key%"${key##*[![:space:]]}"}"
+    value="${value#"${value%%[![:space:]]*}"}"
+    case "$SECTION" in
+        run)    CFG[$key]="$value" ;;
+        steam)  CFG[$key]="$value" ;;
+        mods)   MOD_MAP[$key]="$value" ;;
+        server_mods) SERVER_MOD_MAP[$key]="$value" ;;
+    esac
+done < "$CFG_FILE"
 
 case "$1" in
     update)
@@ -9,7 +44,7 @@ case "$1" in
         steamcmd \
             +force_install_dir "$SRV_DIR" \
             +login "$STEAM_USER"          \
-            +app_update 223350 validate   \
+            +app_update "${CFG[server_app_id]}" validate   \
             +quit
         if [ $? -ne 0 ]; then
             echo "ERROR: SteamCMD failed with exit code $?"
@@ -17,10 +52,10 @@ case "$1" in
         fi
         MODS=""
         for id in "${!MOD_MAP[@]}"; do
-            MODS="$MODS +workshop_download_item 221100 $id"
+            MODS="$MODS +workshop_download_item ${CFG[workshop_app_id]} $id"
         done
         for id in "${!SERVER_MOD_MAP[@]}"; do
-            MODS="$MODS +workshop_download_item 221100 $id"
+            MODS="$MODS +workshop_download_item ${CFG[workshop_app_id]} $id"
         done
         steamcmd                                      \
             +force_install_dir "$MOD_DIR"             \
@@ -33,17 +68,18 @@ case "$1" in
         fi
         for id in "${!MOD_MAP[@]}"; do
             dst="$SRV_DIR/${MOD_MAP[$id]}"
-            src="$MOD_DIR/steamapps/workshop/content/221100/$id"
+            src="$MOD_DIR/steamapps/workshop/content/${CFG[workshop_app_id]}/$id"
             ln -sfn $src $dst
         done
         for id in "${!SERVER_MOD_MAP[@]}"; do
             dst="$SRV_DIR/${SERVER_MOD_MAP[$id]}"
-            src="$MOD_DIR/steamapps/workshop/content/221100/$id"
+            src="$MOD_DIR/steamapps/workshop/content/${CFG[workshop_app_id]}/$id"
             ln -sfn $src $dst
         done
-        cp -p "$MOD_DIR/steamapps/workshop/content/221100"/*/keys/*.bikey "$SRV_DIR/keys"
-        cp -p "$MOD_DIR/steamapps/workshop/content/221100"/*/Keys/*.bikey "$SRV_DIR/keys"
-        cp -p "$MOD_DIR/steamapps/workshop/content/221100"/*/key/*.bikey "$SRV_DIR/keys"
+        mkdir -p "$SRV_DIR/keys"
+        cp -p "$MOD_DIR/steamapps/workshop/content/${CFG[workshop_app_id]}"/*/keys/*.bikey "$SRV_DIR/keys"
+        cp -p "$MOD_DIR/steamapps/workshop/content/${CFG[workshop_app_id]}"/*/Keys/*.bikey "$SRV_DIR/keys"
+        cp -p "$MOD_DIR/steamapps/workshop/content/${CFG[workshop_app_id]}"/*/key/*.bikey "$SRV_DIR/keys"
         ;;
     run)
         SRV_DIR="$CWD/bin/"
@@ -58,14 +94,14 @@ case "$1" in
         done
         cd "$SRV_DIR"
         ./DayZServer                                             \
-           -port=2302                                            \
-           -limitFPS=25                                          \
-           -cpuCount=4                                           \
-           -exThreads=4                                          \
-           -maxMem=8192                                          \
+           -port="${CFG[port]}"                                  \
+           -limitFPS="${CFG[limitFPS]}"                          \
+           -cpuCount="${CFG[cpuCount]}"                          \
+           -exThreads="${CFG[exThreads]}"                        \
+           -maxMem="${CFG[maxMem]}"                              \
            -profiles="$CWD/profiles"                             \
-           -config="$CWD/config/dayz.cfg"                        \
-           -mission="$CWD/mpmissions/dayzOffline.chernarusplus/" \
+           -config="$CWD/${CFG[config]}"                         \
+           -mission="$CWD/${CFG[mission]}/"                      \
            -storage="$STORAGE_DIR"                               \
            -mod="$MODS"                                          \
            -serverMod="$SERVER_MODS"
