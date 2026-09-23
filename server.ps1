@@ -116,6 +116,11 @@ switch ($Action) {
             New-Item -ItemType $linkType -Path $dst -Target $src -Force | Out-Null
         }
 
+        $mpmissions = Join-Path $SRV_DIR "mpmissions"
+        Remove-Item -Recurse -Force $mpmissions -ErrorAction SilentlyContinue
+        Remove-Item -Recurse -Force (Join-Path $Root "mpmissions") -ErrorAction SilentlyContinue
+        New-Item -ItemType $linkType -Path (Join-Path $Root "mpmissions") -Target $mpmissions -Force | Out-Null
+
         $keysDir = Join-Path $SRV_DIR "keys"
         New-Item -ItemType Directory -Path $keysDir -Force | Out-Null
         Copy-Item -Path (Join-Path $contentDir "*\keys\*.bikey") -Destination $keysDir -Force -ErrorAction SilentlyContinue
@@ -129,7 +134,6 @@ switch ($Action) {
         $SERVER_MODS = ($SERVER_MOD_MAP.Values -join ';')
 
         $params = @(
-            "-idleShutdown=-1",
             "-port=$($CFG['port'])",
             "-limitFPS=$($CFG['limitFPS'])",
             "-cpuCount=$($CFG['cpuCount'])",
@@ -137,14 +141,19 @@ switch ($Action) {
             "-maxMem=$($CFG['maxMem'])",
             "-profiles=$(Join-Path $Root 'profiles')",
             "-config=$(Join-Path $Root $CFG['config'])",
-            "-mission=$($CFG['mission'])",
             "-storage=$STORAGE_DIR",
             "-mod=$MODS",
             "-serverMod=$SERVER_MODS"
         )
-        $exe = Join-Path $SRV_DIR "DayZServer_x64.exe"
-        & $exe @params
-        exit $LASTEXITCODE
+        $exe = Join-Path $SRV_DIR $(if ($IsWindows) { 'DayZServer_x64.exe' } else { 'DayZServer' })
+        Push-Location $SRV_DIR
+        try {
+            & $exe @params
+            exit $LASTEXITCODE
+        }
+        finally {
+            Pop-Location
+        }
     }
 
     'clean' {

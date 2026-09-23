@@ -76,6 +76,8 @@ case "$1" in
             src="$MOD_DIR/steamapps/workshop/content/${CFG[workshop_app_id]}/$id"
             ln -sfn $src $dst
         done
+        rm -rf "$SRV_DIR/mpmissions"
+        ln -sfn "$CWD/mpmissions" "$SRV_DIR/mpmissions"
         mkdir -p "$SRV_DIR/keys"
         cp -p "$MOD_DIR/steamapps/workshop/content/${CFG[workshop_app_id]}"/*/keys/*.bikey "$SRV_DIR/keys"
         cp -p "$MOD_DIR/steamapps/workshop/content/${CFG[workshop_app_id]}"/*/Keys/*.bikey "$SRV_DIR/keys"
@@ -94,7 +96,6 @@ case "$1" in
         done
         cd "$SRV_DIR"
         ./DayZServer                                             \
-           -idleShutdown=-1                                      \
            -port="${CFG[port]}"                                  \
            -limitFPS="${CFG[limitFPS]}"                          \
            -cpuCount="${CFG[cpuCount]}"                          \
@@ -102,7 +103,6 @@ case "$1" in
            -maxMem="${CFG[maxMem]}"                              \
            -profiles="$CWD/profiles"                             \
            -config="$CWD/${CFG[config]}"                         \
-           -mission="${CFG[mission]}"                            \
            -storage="$STORAGE_DIR"                               \
            -mod="$MODS"                                          \
            -serverMod="$SERVER_MODS"
