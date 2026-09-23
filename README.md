@@ -54,3 +54,5 @@ headers, `#` comments, `key = value` lines):
 
 Add or remove mods by editing the `[mods]`/`[server_mods]` sections, then run
 `update` to download and link them.
+
+Custom mods are added to `custom`. They also need to be added to `server.ini` with fake Workshop IDs.
