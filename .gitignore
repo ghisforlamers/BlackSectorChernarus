@@ -9,3 +9,5 @@ profiles/WebApiLog/*.log
 bin
 mods
 storage
+config/server.cfg
+config/server.ini
