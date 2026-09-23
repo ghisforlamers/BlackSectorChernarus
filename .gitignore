@@ -1,2 +1,11 @@
 profiles/*.RPT
 profiles/*.log
+profiles/CommunityOnlineTools/Logs/*.log
+profiles/DataCache/cache_lock
+profiles/*.mdmp
+profiles/EventManagerLog/*.log
+profiles/ExpansionMod/Logs/*.log
+profiles/WebApiLog/*.log
+bin
+mods
+storage
