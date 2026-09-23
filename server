@@ -67,8 +67,9 @@ case "$1" in
             exit 1
         fi
         if [ -d "$CWD/custom" ]; then
-            cp -pr "$CWD"/custom/* "$MOD_DIR"
+            cp -rp "$CWD"/custom/* "$SRV_DIR"
         fi
+        ln -sfn "$CWD/config" "$SRV_DIR/config"
         for id in "${!MOD_MAP[@]}"; do
             dst="$SRV_DIR/${MOD_MAP[$id]}"
             src="$MOD_DIR/steamapps/workshop/content/${CFG[workshop_app_id]}/$id"

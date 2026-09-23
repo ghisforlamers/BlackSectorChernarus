@@ -105,11 +105,18 @@ switch ($Action) {
 
         $customDir = Join-Path $Root "custom"
         if (Test-Path $customDir) {
-            Copy-Item -Path (Join-Path $customDir "*") -Destination $MOD_DIR -Recurse -Force
+            Copy-Item -Path (Join-Path $customDir "*") -Destination $SRV_DIR -Recurse -Force
         }
 
-        $contentDir = Join-Path $MOD_DIR "steamapps\workshop\content\$($CFG['workshop_app_id'])"
         $linkType = if ($IsWindows) { 'Junction' } else { 'SymbolicLink' }
+
+        # bin/config is a link pointing back to the source-controlled config dir.
+        $rootConfig = Join-Path $Root "config"
+        $binConfig = Join-Path $SRV_DIR "config"
+        Remove-Item -Recurse -Force $binConfig -ErrorAction SilentlyContinue
+        New-Item -ItemType $linkType -Path $binConfig -Target $rootConfig -Force | Out-Null
+
+        $contentDir = Join-Path $MOD_DIR "steamapps\workshop\content\$($CFG['workshop_app_id'])"
         foreach ($id in $MOD_MAP.Keys) {
             $dst = Join-Path $SRV_DIR $MOD_MAP[$id]
             $src = Join-Path $contentDir $id
