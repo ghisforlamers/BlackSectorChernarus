@@ -1,0 +1,80 @@
+#!/bin/bash
+#set -x
+source "config/server.cfg"
+
+case "$1" in
+    update)
+        SRV_DIR="$CWD/bin"
+        MOD_DIR="$CWD/mods"
+        steamcmd \
+            +force_install_dir "$SRV_DIR" \
+            +login "$STEAM_USER"          \
+            +app_update 223350 validate   \
+            +quit
+        if [ $? -ne 0 ]; then
+            echo "ERROR: SteamCMD failed with exit code $?"
+            exit 1
+        fi
+        MODS=""
+        for id in "${!MOD_MAP[@]}"; do
+            MODS="$MODS +workshop_download_item 221100 $id"
+        done
+        for id in "${!SERVER_MOD_MAP[@]}"; do
+            MODS="$MODS +workshop_download_item 221100 $id"
+        done
+        steamcmd                                      \
+            +force_install_dir "$MOD_DIR"             \
+            +login "$STEAM_USER"                      \
+            $MODS                                     \
+            +quit
+        if [ $? -ne 0 ]; then
+            echo "ERROR: SteamCMD failed with exit code $?"
+            exit 1
+        fi
+        for id in "${!MOD_MAP[@]}"; do
+            dst="$SRV_DIR/${MOD_MAP[$id]}"
+            src="$MOD_DIR/steamapps/workshop/content/221100/$id"
+            ln -sfn $src $dst
+        done
+        for id in "${!SERVER_MOD_MAP[@]}"; do
+            dst="$SRV_DIR/${SERVER_MOD_MAP[$id]}"
+            src="$MOD_DIR/steamapps/workshop/content/221100/$id"
+            ln -sfn $src $dst
+        done
+        cp -p "$MOD_DIR/steamapps/workshop/content/221100"/*/keys/*.bikey "$SRV_DIR/keys"
+        cp -p "$MOD_DIR/steamapps/workshop/content/221100"/*/Keys/*.bikey "$SRV_DIR/keys"
+        cp -p "$MOD_DIR/steamapps/workshop/content/221100"/*/key/*.bikey "$SRV_DIR/keys"
+        ;;
+    run)
+        SRV_DIR="$CWD/bin/"
+        MOD_DIR="$CWD/mods/"
+        MODS=""
+        for id in "${!MOD_MAP[@]}"; do
+            MODS="$MODS${MOD_MAP[$id]};"
+        done
+        SERVER_MODS=""
+        for id in "${!SERVER_MOD_MAP[@]}"; do
+            SERVER_MODS="$SERVER_MODS${SERVER_MOD_MAP[$id]};"
+        done
+        cd "$SRV_DIR"
+        ./DayZServer                                             \
+           -port=2302                                            \
+           -limitFPS=25                                          \
+           -cpuCount=4                                           \
+           -exThreads=4                                          \
+           -maxMem=8192                                          \
+           -profiles="$CWD/profiles"                             \
+           -config="$CWD/config/dayz.cfg"                        \
+           -mission="$CWD/mpmissions/dayzOffline.chernarusplus/" \
+           -storage="$STORAGE_DIR"                               \
+           -mod="$MODS"                                          \
+           -serverMod="$SERVER_MODS"
+        ;;
+    clean)
+        rm -rf ./bin ./mods
+        ;;
+    *)
+        echo "Usage: $0 {update|run|clean}"
+        exit 1
+        ;;
+esac
