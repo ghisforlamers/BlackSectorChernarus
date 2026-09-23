@@ -116,10 +116,13 @@ switch ($Action) {
             New-Item -ItemType $linkType -Path $dst -Target $src -Force | Out-Null
         }
 
-        $mpmissions = Join-Path $SRV_DIR "mpmissions"
-        Remove-Item -Recurse -Force $mpmissions -ErrorAction SilentlyContinue
-        Remove-Item -Recurse -Force (Join-Path $Root "mpmissions") -ErrorAction SilentlyContinue
-        New-Item -ItemType $linkType -Path (Join-Path $Root "mpmissions") -Target $mpmissions -Force | Out-Null
+        # Root/mpmissions is the real, source-controlled mission folder.
+        # bin/mpmissions is a link pointing back to it so the server finds it.
+        $rootMissions = Join-Path $Root "mpmissions"
+        $binMissions = Join-Path $SRV_DIR "mpmissions"
+        Remove-Item -Recurse -Force $binMissions -ErrorAction SilentlyContinue
+        New-Item -ItemType Directory -Path $rootMissions -Force | Out-Null
+        New-Item -ItemType $linkType -Path $binMissions -Target $rootMissions -Force | Out-Null
 
         $keysDir = Join-Path $SRV_DIR "keys"
         New-Item -ItemType Directory -Path $keysDir -Force | Out-Null
