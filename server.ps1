@@ -8,19 +8,23 @@ $Root = $PSScriptRoot
 # Directory for user storage
 $STORAGE_DIR = Join-Path $Root "storage"
 
-# Path to SteamCMD. Falls back to the default Windows install location.
-$SteamCmd = if (Get-Command steamcmd.exe -ErrorAction SilentlyContinue) {
-    (Get-Command steamcmd.exe).Source
-} else {
+$isWindowsHost = [Environment]::OSVersion.Platform -eq [PlatformID]::Win32NT
+
+# Path to SteamCMD. Windows binary is steamcmd.exe, Linux one is steamcmd.
+$SteamCmd = if ($cmd = Get-Command steamcmd.exe -ErrorAction SilentlyContinue) {
+    $cmd.Source
+} elseif ($cmd = Get-Command steamcmd -ErrorAction SilentlyContinue) {
+    $cmd.Source
+} elseif ($isWindowsHost) {
     "C:\steamcmd\steamcmd.exe"
+} else {
+    "/usr/games/steamcmd"
 }
 
 function Show-Usage {
     Write-Host "Usage: .\server.ps1 {update|run|clean}"
     exit 1
 }
-
-$isWindowsHost = [Environment]::OSVersion.Platform -eq [PlatformID]::Win32NT
 
 # Parse the shared config/server.ini
 function Read-ServerIni {
