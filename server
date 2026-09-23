@@ -101,7 +101,7 @@ case "$1" in
            -maxMem="${CFG[maxMem]}"                              \
            -profiles="$CWD/profiles"                             \
            -config="$CWD/${CFG[config]}"                         \
-           -mission="$CWD/${CFG[mission]}/"                      \
+           -mission="${CFG[mission]}"                            \
            -storage="$STORAGE_DIR"                               \
            -mod="$MODS"                                          \
            -serverMod="$SERVER_MODS"

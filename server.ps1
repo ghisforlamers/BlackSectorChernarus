@@ -136,7 +136,7 @@ switch ($Action) {
             "-maxMem=$($CFG['maxMem'])",
             "-profiles=$(Join-Path $Root 'profiles')",
             "-config=$(Join-Path $Root $CFG['config'])",
-            "-mission=$(Join-Path $Root $CFG['mission'])",
+            "-mission=$($CFG['mission'])",
             "-storage=$STORAGE_DIR",
             "-mod=$MODS",
             "-serverMod=$SERVER_MODS"
