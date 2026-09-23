@@ -20,11 +20,11 @@ Requirements: PowerShell 7+ (`pwsh`) or Windows PowerShell 5.1, `steamcmd`
 
 ```
 $env:STEAM_USER = "username"
-.\server.ps1 update                     # download server, mods, link as junctions / symlinks
+.\server update                     # download server, mods, link as junctions / symlinks
 
-.\server.ps1 run                        # launch DayZ server
+.\server run                        # launch DayZ server
 
-.\server.ps1 clean                      # remove bin\ and mods\
+.\server clean                      # remove bin\ and mods\
 ```
 
 ## Configuration
