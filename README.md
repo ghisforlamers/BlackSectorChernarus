@@ -1,4 +1,4 @@
-# DayZFallenEmpires
+# DayZ Black Sector: Chernarus
 
 DayZ server launcher scripts for PowerShell.
 
