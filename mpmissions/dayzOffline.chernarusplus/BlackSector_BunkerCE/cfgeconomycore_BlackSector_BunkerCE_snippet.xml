@@ -1,0 +1,5 @@
+<!-- Merge this block inside the existing <economycore> element. -->
+<ce folder="BlackSector_BunkerCE">
+    <file name="BlackSector_FOG_types.xml" type="types" />
+    <file name="BlackSector_SNAFU_types.xml" type="types" />
+</ce>

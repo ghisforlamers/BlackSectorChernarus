@@ -1,0 +1,34 @@
+{
+  "ConfigVersion": 6,
+  "ID": 104,
+  "ClassName": "ExpansionQuestNPCAICyril",
+  "Position": [
+    4890.392578,
+    9.539411,
+    2597.512939
+  ],
+  "Orientation": [
+    99.0998,
+    0,
+    0
+  ],
+  "NPCName": "Medical Officer",
+  "DefaultNPCText": "We are short on medical supplies. I may have work for you.",
+  "Waypoints": [
+    [
+      4890.392578,
+      9.539411,
+      2597.512939
+    ]
+  ],
+  "NPCEmoteID": 46,
+  "NPCEmoteIsStatic": 0,
+  "NPCLoadoutFile": "Balota_Medical",
+  "NPCInteractionEmoteID": 1,
+  "NPCQuestCancelEmoteID": 60,
+  "NPCQuestStartEmoteID": 58,
+  "NPCQuestCompleteEmoteID": 39,
+  "NPCFaction": "InvincibleObservers",
+  "NPCType": 2,
+  "Active": 1
+}

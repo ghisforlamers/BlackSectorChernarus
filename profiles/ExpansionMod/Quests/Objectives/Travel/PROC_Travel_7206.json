@@ -1,0 +1,18 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7206,
+  "ObjectiveType": 3,
+  "ObjectiveText": "Reach and scout Kabanino.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Position": [
+    5325,
+    335.4613037109375,
+    8554
+  ],
+  "MaxDistance": 17.5,
+  "MarkerName": "Kabanino",
+  "ShowDistance": 1,
+  "TriggerOnEnter": 1,
+  "TriggerOnExit": 0
+}

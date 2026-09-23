@@ -1,0 +1,18 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7212,
+  "ObjectiveType": 3,
+  "ObjectiveText": "Reach and scout Northeast Airfield.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Position": [
+    12043,
+    140.5,
+    12684
+  ],
+  "MaxDistance": 25,
+  "MarkerName": "Northeast Airfield",
+  "ShowDistance": 1,
+  "TriggerOnEnter": 1,
+  "TriggerOnExit": 0
+}

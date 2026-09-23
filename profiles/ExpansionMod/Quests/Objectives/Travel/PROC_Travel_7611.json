@@ -1,0 +1,18 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7611,
+  "ObjectiveType": 3,
+  "ObjectiveText": "Reach and scout Vybor.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Position": [
+    3800,
+    311.46333821614587,
+    8860
+  ],
+  "MaxDistance": 20,
+  "MarkerName": "Vybor",
+  "ShowDistance": 1,
+  "TriggerOnEnter": 1,
+  "TriggerOnExit": 0
+}

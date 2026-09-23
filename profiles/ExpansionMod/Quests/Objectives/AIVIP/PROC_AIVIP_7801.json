@@ -1,0 +1,20 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7801,
+  "ObjectiveType": 9,
+  "ObjectiveText": "Escort Survivor safely to Grishino.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Position": [
+    5995,
+    271.3066101074219,
+    10285
+  ],
+  "MaxDistance": 20,
+  "MarkerName": "Escort to Grishino",
+  "ShowDistance": 1,
+  "CanLootAI": 0,
+  "NPCLoadoutFile": "HumanLoadout",
+  "NPCClassName": "eAI_SurvivorF_Linda",
+  "NPCName": "Survivor"
+}

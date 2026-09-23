@@ -1,0 +1,18 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7210,
+  "ObjectiveType": 3,
+  "ObjectiveText": "Reach and scout Kamyshovo.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Position": [
+    12065,
+    6.624002011617025,
+    3488
+  ],
+  "MaxDistance": 17.5,
+  "MarkerName": "Kamyshovo",
+  "ShowDistance": 1,
+  "TriggerOnEnter": 1,
+  "TriggerOnExit": 0
+}

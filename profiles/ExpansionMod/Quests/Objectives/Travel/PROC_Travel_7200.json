@@ -1,0 +1,18 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7200,
+  "ObjectiveType": 3,
+  "ObjectiveText": "Reach and scout Dolina.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Position": [
+    11244,
+    83.22806549072266,
+    6633
+  ],
+  "MaxDistance": 17.5,
+  "MarkerName": "Dolina",
+  "ShowDistance": 1,
+  "TriggerOnEnter": 1,
+  "TriggerOnExit": 0
+}

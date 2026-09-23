@@ -1,0 +1,20 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7203,
+  "ObjectiveType": 9,
+  "ObjectiveText": "Escort Stranded Civilian safely to Chernogorsk.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Position": [
+    6718,
+    0.5665359497070311,
+    2568
+  ],
+  "MaxDistance": 20,
+  "MarkerName": "Escort to Chernogorsk",
+  "ShowDistance": 1,
+  "CanLootAI": 0,
+  "NPCLoadoutFile": "HumanLoadout",
+  "NPCClassName": "eAI_SurvivorF_Eva",
+  "NPCName": "Stranded Civilian"
+}

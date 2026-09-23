@@ -1,0 +1,82 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7019,
+  "ObjectiveType": 7,
+  "ObjectiveText": "Eliminate the bandit patrol near Stary Sobor (6 hostiles).",
+  "TimeLimit": -1,
+  "Active": 1,
+  "MaxDistance": -1,
+  "MinDistance": -1,
+  "AllowedWeapons": [],
+  "AllowedDamageZones": [],
+  "AISpawn": {
+    "Name": "Bandit",
+    "Persist": 0,
+    "Faction": "West",
+    "Formation": "RANDOM",
+    "FormationLooseness": 0,
+    "Loadout": "BanditLoadout",
+    "Units": [
+      "eAI_SurvivorF_Eva",
+      "eAI_SurvivorF_Gabi",
+      "eAI_SurvivorF_Linda",
+      "eAI_SurvivorM_Boris",
+      "eAI_SurvivorM_Denis",
+      "eAI_SurvivorM_Hassan",
+      "eAI_SurvivorM_Mirek",
+      "eAI_SurvivorM_Seth"
+    ],
+    "NumberOfAI": 6,
+    "Behaviour": "HALT_OR_LOOP",
+    "LootingBehaviour": "",
+    "Speed": "WALK",
+    "UnderThreatSpeed": "SPRINT",
+    "CanBeLooted": 1,
+    "UnlimitedReload": 1,
+    "SniperProneDistanceThreshold": 300,
+    "AccuracyMin": 0.45,
+    "AccuracyMax": 0.7,
+    "ThreatDistanceLimit": 500,
+    "NoiseInvestigationDistanceLimit": 350,
+    "DamageMultiplier": 1,
+    "DamageReceivedMultiplier": 1,
+    "CanBeTriggeredByAI": 0,
+    "MinDistRadius": 50,
+    "MaxDistRadius": 250,
+    "DespawnRadius": 600,
+    "MinSpreadRadius": 0,
+    "MaxSpreadRadius": 0,
+    "Chance": 1,
+    "WaypointInterpolation": "",
+    "DespawnTime": 1,
+    "RespawnTime": 1,
+    "UseRandomWaypointAsStartPoint": 1,
+    "Waypoints": [
+      [
+        6174,
+        302.5299438476563,
+        7754
+      ],
+      [
+        6132.896031482572,
+        301.5068099538461,
+        7695.293548991062
+      ],
+      [
+        6231.879064591036,
+        299.52177369114133,
+        7681.314642720569
+      ],
+      [
+        6127.337148975502,
+        301.489990234375,
+        7709.052026293124
+      ],
+      [
+        6239.938192736208,
+        301.69639169755266,
+        7775.958400167581
+      ]
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7606,
+  "ObjectiveType": 3,
+  "ObjectiveText": "Reach and scout Novodmitrovsk.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Position": [
+    11340,
+    41.87807235717774,
+    14391
+  ],
+  "MaxDistance": 25,
+  "MarkerName": "Novodmitrovsk",
+  "ShowDistance": 1,
+  "TriggerOnEnter": 1,
+  "TriggerOnExit": 0
+}

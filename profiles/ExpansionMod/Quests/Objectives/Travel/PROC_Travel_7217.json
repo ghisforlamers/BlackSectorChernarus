@@ -1,0 +1,18 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7217,
+  "ObjectiveType": 3,
+  "ObjectiveText": "Reach and scout Kamenka.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Position": [
+    1790,
+    6.442000198364258,
+    2154
+  ],
+  "MaxDistance": 15,
+  "MarkerName": "Kamenka",
+  "ShowDistance": 1,
+  "TriggerOnEnter": 1,
+  "TriggerOnExit": 0
+}

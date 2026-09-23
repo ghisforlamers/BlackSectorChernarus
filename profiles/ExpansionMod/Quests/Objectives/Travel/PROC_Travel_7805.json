@@ -1,0 +1,18 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7805,
+  "ObjectiveType": 3,
+  "ObjectiveText": "Reach and scout Dubrovka.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Position": [
+    10413,
+    117.82205301920573,
+    9817
+  ],
+  "MaxDistance": 17.5,
+  "MarkerName": "Dubrovka",
+  "ShowDistance": 1,
+  "TriggerOnEnter": 1,
+  "TriggerOnExit": 0
+}

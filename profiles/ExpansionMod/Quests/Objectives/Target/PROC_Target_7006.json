@@ -1,0 +1,28 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7006,
+  "ObjectiveType": 2,
+  "ObjectiveText": "Kill 13 military infected near Pavlovo Military.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Position": [
+    2162,
+    89.2960454305013,
+    3331
+  ],
+  "MaxDistance": 300,
+  "MinDistance": -1,
+  "Amount": 13,
+  "ClassNames": [
+    "ZmbM_PatrolNormal_Base",
+    "ZmbM_Soldier_Base",
+    "ZmbM_SoldierNormal_Base",
+    "ZmbM_usSoldier_normal_Base"
+  ],
+  "CountSelfKill": 0,
+  "AllowedWeapons": [],
+  "ExcludedClassNames": [],
+  "CountAIPlayers": 0,
+  "AllowedTargetFactions": [],
+  "AllowedDamageZones": []
+}

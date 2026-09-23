@@ -1,0 +1,18 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7613,
+  "ObjectiveType": 3,
+  "ObjectiveText": "Reach and scout Pusta.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Position": [
+    9148,
+    224.4373280843099,
+    3891
+  ],
+  "MaxDistance": 15,
+  "MarkerName": "Pusta",
+  "ShowDistance": 1,
+  "TriggerOnEnter": 1,
+  "TriggerOnExit": 0
+}

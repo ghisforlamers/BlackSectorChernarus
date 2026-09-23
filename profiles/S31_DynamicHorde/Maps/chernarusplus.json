@@ -10,7 +10,7 @@
         {
             "X": 1700.0,
             "Z": 14000.0,
-            "Weight": 3.4000000953674318,
+            "Weight": 3.4000000953674316,
             "Label": "Tisy Military"
         },
         {
@@ -40,7 +40,7 @@
         {
             "X": 6050.0,
             "Z": 7750.0,
-            "Weight": 2.4000000953674318,
+            "Weight": 2.4000000953674316,
             "Label": "Stary Sobor"
         },
         {
@@ -52,20 +52,8 @@
         {
             "X": 2740.0,
             "Z": 5060.0,
-            "Weight": 2.5999999046325685,
+            "Weight": 2.5999999046325684,
             "Label": "Zelenogorsk"
-        },
-        {
-            "X": 3700.0,
-            "Z": 6000.0,
-            "Weight": 2.200000047683716,
-            "Label": "Green Mountain"
-        },
-        {
-            "X": 4470.0,
-            "Z": 2450.0,
-            "Weight": 2.5999999046325685,
-            "Label": "Balota Airstrip"
         },
         {
             "X": 6650.0,
@@ -76,7 +64,7 @@
         {
             "X": 10450.0,
             "Z": 2300.0,
-            "Weight": 2.5999999046325685,
+            "Weight": 2.5999999046325684,
             "Label": "Elektrozavodsk"
         },
         {
@@ -94,7 +82,7 @@
         {
             "X": 12000.0,
             "Z": 9500.0,
-            "Weight": 2.4000000953674318,
+            "Weight": 2.4000000953674316,
             "Label": "Berezino"
         },
         {
@@ -118,7 +106,7 @@
         {
             "X": 11450.0,
             "Z": 14350.0,
-            "Weight": 2.5999999046325685,
+            "Weight": 2.5999999046325684,
             "Label": "Novodmitrovsk"
         },
         {
@@ -150,7 +138,7 @@
         {
             "X": 10200.0,
             "Z": 1900.0,
-            "Weight": 2.4000000953674318,
+            "Weight": 2.4000000953674316,
             "Label": "Elektro Power Plant"
         },
         {
@@ -164,12 +152,6 @@
             "Z": 14300.0,
             "Weight": 2.200000047683716,
             "Label": "Novo Construction Site"
-        },
-        {
-            "X": 4400.0,
-            "Z": 2500.0,
-            "Weight": 2.0,
-            "Label": "Balota Tower"
         }
     ],
     "ZombieTypes": [
@@ -196,7 +178,7 @@
         "ZmbM_ConstrWorkerNormal_Green",
         "ZmbM_HandymanNormal_Grey",
         "ZmbM_MechanicSkinny_Blue",
-        "ZmbM_BlueCollarFat_Blue",
+        "ZmbF_BlueCollarFat_Blue",
         "ZmbM_JoggerSkinny_Blue",
         "ZmbM_Jacket_black",
         "ZmbM_Jacket_stripes"

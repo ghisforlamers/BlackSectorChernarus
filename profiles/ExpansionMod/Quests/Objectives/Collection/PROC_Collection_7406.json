@@ -1,0 +1,19 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7406,
+  "ObjectiveType": 4,
+  "ObjectiveText": "Collect 2 vehicle radiators.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Collections": [
+    {
+      "Amount": 2,
+      "ClassName": "CarRadiator",
+      "QuantityPercent": -1,
+      "MinQuantityPercent": 0
+    }
+  ],
+  "ShowDistance": 1,
+  "AddItemsToNearbyMarketZone": 0,
+  "NeedAnyCollection": 0
+}

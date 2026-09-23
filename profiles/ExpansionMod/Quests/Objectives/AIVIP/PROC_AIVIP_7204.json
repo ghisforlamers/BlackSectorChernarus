@@ -1,0 +1,20 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7204,
+  "ObjectiveType": 9,
+  "ObjectiveText": "Escort Stranded Civilian safely to Northwest Airfield.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Position": [
+    4674,
+    339.6540100097656,
+    10083
+  ],
+  "MaxDistance": 20,
+  "MarkerName": "Escort to Northwest Airfield",
+  "ShowDistance": 1,
+  "CanLootAI": 0,
+  "NPCLoadoutFile": "HumanLoadout",
+  "NPCClassName": "eAI_SurvivorM_Hassan",
+  "NPCName": "Stranded Civilian"
+}

@@ -1,0 +1,18 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7201,
+  "ObjectiveType": 3,
+  "ObjectiveText": "Reach and scout Kozlovka.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Position": [
+    4409,
+    232.5,
+    4605
+  ],
+  "MaxDistance": 15,
+  "MarkerName": "Kozlovka",
+  "ShowDistance": 1,
+  "TriggerOnEnter": 1,
+  "TriggerOnExit": 0
+}

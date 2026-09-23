@@ -1,0 +1,18 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7803,
+  "ObjectiveType": 3,
+  "ObjectiveText": "Reach and scout Prigorodki.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Position": [
+    7781,
+    8.081981404622397,
+    3483
+  ],
+  "MaxDistance": 15,
+  "MarkerName": "Prigorodki",
+  "ShowDistance": 1,
+  "TriggerOnEnter": 1,
+  "TriggerOnExit": 0
+}

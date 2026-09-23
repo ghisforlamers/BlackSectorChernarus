@@ -1,0 +1,20 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7215,
+  "ObjectiveType": 9,
+  "ObjectiveText": "Escort Field Operative safely to Komarovo.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Position": [
+    3612,
+    6.536010519663493,
+    2413
+  ],
+  "MaxDistance": 20,
+  "MarkerName": "Escort to Komarovo",
+  "ShowDistance": 1,
+  "CanLootAI": 0,
+  "NPCLoadoutFile": "HumanLoadout",
+  "NPCClassName": "eAI_SurvivorF_Linda",
+  "NPCName": "Field Operative"
+}

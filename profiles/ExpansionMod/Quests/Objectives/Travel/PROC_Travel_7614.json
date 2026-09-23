@@ -1,0 +1,18 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7614,
+  "ObjectiveType": 3,
+  "ObjectiveText": "Reach and scout Nadezhdino.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Position": [
+    5813,
+    129.23752034505208,
+    4644
+  ],
+  "MaxDistance": 15,
+  "MarkerName": "Nadezhdino",
+  "ShowDistance": 1,
+  "TriggerOnEnter": 1,
+  "TriggerOnExit": 0
+}

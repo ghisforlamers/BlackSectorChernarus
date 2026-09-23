@@ -1,0 +1,18 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7205,
+  "ObjectiveType": 3,
+  "ObjectiveText": "Reach and scout Myshkino.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Position": [
+    1961,
+    258.30400797526045,
+    7382
+  ],
+  "MaxDistance": 15,
+  "MarkerName": "Myshkino",
+  "ShowDistance": 1,
+  "TriggerOnEnter": 1,
+  "TriggerOnExit": 0
+}

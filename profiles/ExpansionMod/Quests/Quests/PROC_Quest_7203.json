@@ -1,0 +1,64 @@
+{
+  "ConfigVersion": 22,
+  "ID": 7203,
+  "Type": 1,
+  "Title": "Recon: Recover sheets of field notes",
+  "Descriptions": [
+    "The Recon department has posted a new contract: Collect 4 sheets of field notes.",
+    "Collect 4 sheets of field notes.",
+    "Contract complete. Return for payment."
+  ],
+  "ObjectiveText": "Collect 4 sheets of field notes.",
+  "FollowUpQuest": -1,
+  "Repeatable": 1,
+  "IsDailyQuest": 1,
+  "IsWeeklyQuest": 0,
+  "CancelQuestOnPlayerDeath": 0,
+  "Autocomplete": 0,
+  "IsGroupQuest": 0,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [
+    {
+      "ClassName": "ExpansionBanknoteHryvnia",
+      "Amount": 850,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "Chance": 1
+    }
+  ],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": -1,
+  "RewardsForGroupOwnerOnly": 1,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    101
+  ],
+  "QuestTurnInIDs": [
+    101
+  ],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 7203,
+      "ObjectiveType": 4
+    }
+  ],
+  "QuestColor": 0,
+  "ReputationReward": 55,
+  "ReputationRequirement": -1,
+  "PreQuestIDs": [],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 1,
+  "DeleteQuestItems": 1,
+  "SequentialObjectives": 1,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}

@@ -1,0 +1,20 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7809,
+  "ObjectiveType": 9,
+  "ObjectiveText": "Escort Wounded Scout safely to Vybor.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Position": [
+    3800,
+    311.46333821614587,
+    8860
+  ],
+  "MaxDistance": 20,
+  "MarkerName": "Escort to Vybor",
+  "ShowDistance": 1,
+  "CanLootAI": 0,
+  "NPCLoadoutFile": "HumanLoadout",
+  "NPCClassName": "eAI_SurvivorF_Linda",
+  "NPCName": "Wounded Scout"
+}

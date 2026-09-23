@@ -1,0 +1,18 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7204,
+  "ObjectiveType": 3,
+  "ObjectiveText": "Reach and scout Guglovo.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Position": [
+    8427,
+    359.9039591471354,
+    6685
+  ],
+  "MaxDistance": 15,
+  "MarkerName": "Guglovo",
+  "ShowDistance": 1,
+  "TriggerOnEnter": 1,
+  "TriggerOnExit": 0
+}

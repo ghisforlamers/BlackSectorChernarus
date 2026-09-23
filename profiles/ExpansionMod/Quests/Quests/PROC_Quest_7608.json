@@ -1,0 +1,64 @@
+{
+  "ConfigVersion": 22,
+  "ID": 7608,
+  "Type": 1,
+  "Title": "Signals: Scout Staroye",
+  "Descriptions": [
+    "The Signals department has posted a new contract: Reach and scout Staroye.",
+    "Reach and scout Staroye.",
+    "Contract complete. Return for payment."
+  ],
+  "ObjectiveText": "Reach and scout Staroye.",
+  "FollowUpQuest": -1,
+  "Repeatable": 1,
+  "IsDailyQuest": 1,
+  "IsWeeklyQuest": 0,
+  "CancelQuestOnPlayerDeath": 0,
+  "Autocomplete": 0,
+  "IsGroupQuest": 0,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [
+    {
+      "ClassName": "ExpansionBanknoteHryvnia",
+      "Amount": 950,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "Chance": 1
+    }
+  ],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": -1,
+  "RewardsForGroupOwnerOnly": 1,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    103
+  ],
+  "QuestTurnInIDs": [
+    103
+  ],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 7608,
+      "ObjectiveType": 3
+    }
+  ],
+  "QuestColor": 0,
+  "ReputationReward": 40,
+  "ReputationRequirement": -1,
+  "PreQuestIDs": [],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 1,
+  "DeleteQuestItems": 1,
+  "SequentialObjectives": 1,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}

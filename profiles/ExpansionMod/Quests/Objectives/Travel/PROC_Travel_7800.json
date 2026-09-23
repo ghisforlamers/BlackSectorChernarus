@@ -1,0 +1,18 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7800,
+  "ObjectiveType": 3,
+  "ObjectiveText": "Reach and scout Novy Sobor.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Position": [
+    7161,
+    293.9833251953125,
+    7684
+  ],
+  "MaxDistance": 17.5,
+  "MarkerName": "Novy Sobor",
+  "ShowDistance": 1,
+  "TriggerOnEnter": 1,
+  "TriggerOnExit": 0
+}

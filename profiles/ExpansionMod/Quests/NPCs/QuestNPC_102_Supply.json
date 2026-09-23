@@ -1,0 +1,34 @@
+{
+  "ConfigVersion": 6,
+  "ID": 102,
+  "ClassName": "ExpansionQuestNPCAIBoris",
+  "Position": [
+    4935.122559,
+    9.523713,
+    2427.308838
+  ],
+  "Orientation": [
+    50.531815,
+    0,
+    0
+  ],
+  "NPCName": "Supply Officer",
+  "DefaultNPCText": "If you're heading into the zone, I have supplies that need recovering.",
+  "Waypoints": [
+    [
+      4935.122559,
+      9.523713,
+      2427.308838
+    ]
+  ],
+  "NPCEmoteID": 46,
+  "NPCEmoteIsStatic": 0,
+  "NPCLoadoutFile": "Balota_Supply",
+  "NPCInteractionEmoteID": 1,
+  "NPCQuestCancelEmoteID": 60,
+  "NPCQuestStartEmoteID": 58,
+  "NPCQuestCompleteEmoteID": 39,
+  "NPCFaction": "InvincibleObservers",
+  "NPCType": 2,
+  "Active": 1
+}

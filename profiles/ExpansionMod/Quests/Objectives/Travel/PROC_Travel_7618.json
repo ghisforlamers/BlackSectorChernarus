@@ -1,0 +1,18 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7618,
+  "ObjectiveType": 3,
+  "ObjectiveText": "Reach and scout Pavlovo Military.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Position": [
+    2162,
+    89.2960454305013,
+    3331
+  ],
+  "MaxDistance": 17.5,
+  "MarkerName": "Pavlovo Military",
+  "ShowDistance": 1,
+  "TriggerOnEnter": 1,
+  "TriggerOnExit": 0
+}

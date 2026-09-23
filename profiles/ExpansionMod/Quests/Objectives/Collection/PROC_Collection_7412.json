@@ -1,0 +1,19 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7412,
+  "ObjectiveType": 4,
+  "ObjectiveText": "Collect 2 boxes of nails.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Collections": [
+    {
+      "Amount": 2,
+      "ClassName": "NailBox",
+      "QuantityPercent": -1,
+      "MinQuantityPercent": 0
+    }
+  ],
+  "ShowDistance": 1,
+  "AddItemsToNearbyMarketZone": 0,
+  "NeedAnyCollection": 0
+}

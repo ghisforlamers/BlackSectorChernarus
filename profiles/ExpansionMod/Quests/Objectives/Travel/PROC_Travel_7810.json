@@ -1,0 +1,18 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7810,
+  "ObjectiveType": 3,
+  "ObjectiveText": "Reach and scout Balota Village.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Position": [
+    4578,
+    8.740025711059571,
+    2469
+  ],
+  "MaxDistance": 12.5,
+  "MarkerName": "Balota Village",
+  "ShowDistance": 1,
+  "TriggerOnEnter": 1,
+  "TriggerOnExit": 0
+}

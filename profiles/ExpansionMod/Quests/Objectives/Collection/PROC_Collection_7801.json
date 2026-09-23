@@ -1,0 +1,19 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7801,
+  "ObjectiveType": 4,
+  "ObjectiveText": "Collect 4 painkiller packets.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Collections": [
+    {
+      "Amount": 4,
+      "ClassName": "PainkillerTablets",
+      "QuantityPercent": -1,
+      "MinQuantityPercent": 0
+    }
+  ],
+  "ShowDistance": 1,
+  "AddItemsToNearbyMarketZone": 0,
+  "NeedAnyCollection": 0
+}

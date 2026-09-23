@@ -1,0 +1,20 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7800,
+  "ObjectiveType": 9,
+  "ObjectiveText": "Escort Field Operative safely to Staroye.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Position": [
+    10147,
+    244.61998799641927,
+    5522
+  ],
+  "MaxDistance": 20,
+  "MarkerName": "Escort to Staroye",
+  "ShowDistance": 1,
+  "CanLootAI": 0,
+  "NPCLoadoutFile": "HumanLoadout",
+  "NPCClassName": "eAI_SurvivorF_Linda",
+  "NPCName": "Field Operative"
+}

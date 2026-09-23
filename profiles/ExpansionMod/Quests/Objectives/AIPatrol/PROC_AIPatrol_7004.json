@@ -1,0 +1,82 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7004,
+  "ObjectiveType": 7,
+  "ObjectiveText": "Eliminate the bandit patrol near Kamenka (6 hostiles).",
+  "TimeLimit": -1,
+  "Active": 1,
+  "MaxDistance": -1,
+  "MinDistance": -1,
+  "AllowedWeapons": [],
+  "AllowedDamageZones": [],
+  "AISpawn": {
+    "Name": "Bandit",
+    "Persist": 0,
+    "Faction": "West",
+    "Formation": "RANDOM",
+    "FormationLooseness": 0,
+    "Loadout": "BanditLoadout",
+    "Units": [
+      "eAI_SurvivorF_Eva",
+      "eAI_SurvivorF_Gabi",
+      "eAI_SurvivorF_Linda",
+      "eAI_SurvivorM_Boris",
+      "eAI_SurvivorM_Denis",
+      "eAI_SurvivorM_Hassan",
+      "eAI_SurvivorM_Mirek",
+      "eAI_SurvivorM_Seth"
+    ],
+    "NumberOfAI": 6,
+    "Behaviour": "HALT_OR_LOOP",
+    "LootingBehaviour": "",
+    "Speed": "WALK",
+    "UnderThreatSpeed": "SPRINT",
+    "CanBeLooted": 1,
+    "UnlimitedReload": 1,
+    "SniperProneDistanceThreshold": 300,
+    "AccuracyMin": 0.45,
+    "AccuracyMax": 0.7,
+    "ThreatDistanceLimit": 500,
+    "NoiseInvestigationDistanceLimit": 350,
+    "DamageMultiplier": 1,
+    "DamageReceivedMultiplier": 1,
+    "CanBeTriggeredByAI": 0,
+    "MinDistRadius": 50,
+    "MaxDistRadius": 250,
+    "DespawnRadius": 600,
+    "MinSpreadRadius": 0,
+    "MaxSpreadRadius": 0,
+    "Chance": 1,
+    "WaypointInterpolation": "",
+    "DespawnTime": 1,
+    "RespawnTime": 1,
+    "UseRandomWaypointAsStartPoint": 1,
+    "Waypoints": [
+      [
+        1790,
+        6.442000198364258,
+        2154
+      ],
+      [
+        1758.1272226572721,
+        9.139143951493955,
+        2248.3026235174216
+      ],
+      [
+        1886.7124240740602,
+        5.866416575213121,
+        2140.9930318891143
+      ],
+      [
+        1771.1849668516634,
+        6.439588545284526,
+        2067.7506694833737
+      ],
+      [
+        1751.9796819208532,
+        6.314027559740292,
+        2196.4335569175805
+      ]
+    ]
+  }
+}

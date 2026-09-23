@@ -1,0 +1,18 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7816,
+  "ObjectiveType": 3,
+  "ObjectiveText": "Reach and scout Chernogorsk.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Position": [
+    6718,
+    0.5665359497070311,
+    2568
+  ],
+  "MaxDistance": 25,
+  "MarkerName": "Chernogorsk",
+  "ShowDistance": 1,
+  "TriggerOnEnter": 1,
+  "TriggerOnExit": 0
+}

@@ -1,0 +1,64 @@
+{
+  "ConfigVersion": 22,
+  "ID": 7401,
+  "Type": 1,
+  "Title": "Supply: Recover cans of peaches",
+  "Descriptions": [
+    "The Supply department has posted a new contract: Collect 3 cans of peaches.",
+    "Collect 3 cans of peaches.",
+    "Contract complete. Return for payment."
+  ],
+  "ObjectiveText": "Collect 3 cans of peaches.",
+  "FollowUpQuest": -1,
+  "Repeatable": 1,
+  "IsDailyQuest": 1,
+  "IsWeeklyQuest": 0,
+  "CancelQuestOnPlayerDeath": 0,
+  "Autocomplete": 0,
+  "IsGroupQuest": 0,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [
+    {
+      "ClassName": "ExpansionBanknoteHryvnia",
+      "Amount": 700,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "Chance": 1
+    }
+  ],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": -1,
+  "RewardsForGroupOwnerOnly": 1,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    102
+  ],
+  "QuestTurnInIDs": [
+    102
+  ],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 7401,
+      "ObjectiveType": 4
+    }
+  ],
+  "QuestColor": 0,
+  "ReputationReward": 30,
+  "ReputationRequirement": -1,
+  "PreQuestIDs": [],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 1,
+  "DeleteQuestItems": 1,
+  "SequentialObjectives": 1,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}

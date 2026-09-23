@@ -1,0 +1,1082 @@
+{
+  "Version": 3,
+  "SourceMap": "Forge_Bunker.map",
+  "BunkerCenter": [
+    5338.686035,
+    463.47171,
+    14845.963867
+  ],
+  "ActivationRadiusMeters": 120.0,
+  "ResetRadiusMeters": 300.0,
+  "CooldownSeconds": 7200,
+  "ContainerMatchRadiusMeters": 1.5,
+  "MoneyLoot": {
+    "ClassName": "ExpansionBanknoteHryvnia",
+    "MinAmount": 18000,
+    "MaxAmount": 25000
+  },
+  "Containers": [
+    {
+      "Id": "BS_BUNKER_001",
+      "MapLine": 17,
+      "ClassName": "SFM_Container_Items_Original",
+      "LootProfile": "Items",
+      "Room": "Room1",
+      "Position": [
+        5335.413086,
+        460.372803,
+        14848.014648
+      ],
+      "Orientation": [
+        -35.999996,
+        0.0,
+        -0.0
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_002",
+      "MapLine": 23,
+      "ClassName": "SFM_Container_Items_Original",
+      "LootProfile": "Items",
+      "Room": "Room1",
+      "Position": [
+        5333.696289,
+        460.388214,
+        14851.138672
+      ],
+      "Orientation": [
+        144.0,
+        0.0,
+        -0.0
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_003",
+      "MapLine": 29,
+      "ClassName": "SFM_Container_Junk_Gray",
+      "LootProfile": "Junk",
+      "Room": "Room1",
+      "Position": [
+        5336.941406,
+        460.309326,
+        14855.822266
+      ],
+      "Orientation": [
+        -48.84343,
+        -2.270897,
+        -0.152887
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_004",
+      "MapLine": 35,
+      "ClassName": "SFM_Container_Junk_Green",
+      "LootProfile": "Junk",
+      "Room": "Room2",
+      "Position": [
+        5342.119629,
+        460.169067,
+        14844.614258
+      ],
+      "Orientation": [
+        126.134705,
+        2.814778,
+        -0.7046
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_005",
+      "MapLine": 44,
+      "ClassName": "SFM_Container_Medicine_Gray",
+      "LootProfile": "Medicine",
+      "Room": "Room4",
+      "Position": [
+        5356.114258,
+        461.576233,
+        14841.605469
+      ],
+      "Orientation": [
+        26.999924,
+        0.0,
+        -0.840933
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_006",
+      "MapLine": 49,
+      "ClassName": "SFM_Container_Weapons_THICC_Green",
+      "LootProfile": "Weapons_THICC",
+      "Room": "Room3",
+      "Position": [
+        5342.668945,
+        461.225372,
+        14842.969727
+      ],
+      "Orientation": [
+        36.000072,
+        0.0,
+        -1.223658
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_007",
+      "MapLine": 53,
+      "ClassName": "SFM_Container_Weapons_THICC_Green",
+      "LootProfile": "Weapons_THICC",
+      "Room": "Room3",
+      "Position": [
+        5345.979004,
+        460.257751,
+        14847.00293
+      ],
+      "Orientation": [
+        41.664608,
+        0.107568,
+        -1.214408
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_008",
+      "MapLine": 56,
+      "ClassName": "SFM_Container_Weapons_THICC_Tan",
+      "LootProfile": "Weapons_THICC",
+      "Room": "Room3",
+      "Position": [
+        5344.809082,
+        461.154053,
+        14842.641602
+      ],
+      "Orientation": [
+        -136.089142,
+        0.0,
+        -0.0
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_009",
+      "MapLine": 59,
+      "ClassName": "SFM_Container_Weapons_THICC_Camo",
+      "LootProfile": "Weapons_THICC",
+      "Room": "Room3",
+      "Position": [
+        5345.328125,
+        461.208984,
+        14846.575195
+      ],
+      "Orientation": [
+        45.0,
+        0.0,
+        -0.0
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_010",
+      "MapLine": 62,
+      "ClassName": "SFM_Container_Items_THICC_Original",
+      "LootProfile": "Items_THICC",
+      "Room": "Room3",
+      "Position": [
+        5348.088867,
+        461.101929,
+        14848.742188
+      ],
+      "Orientation": [
+        -54.313465,
+        -1.883669,
+        1.632157
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_011",
+      "MapLine": 64,
+      "ClassName": "SFM_Container_Weapons_Camo",
+      "LootProfile": "Weapons",
+      "Room": "Room1",
+      "Position": [
+        5333.267578,
+        460.436188,
+        14850.542969
+      ],
+      "Orientation": [
+        27.000002,
+        0.0,
+        -0.0
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_012",
+      "MapLine": 66,
+      "ClassName": "SFM_Container_Items_THICC_Tan",
+      "LootProfile": "Items_THICC",
+      "Room": "Room3",
+      "Position": [
+        5346.089355,
+        461.947662,
+        14839.587891
+      ],
+      "Orientation": [
+        37.950401,
+        -0.030345,
+        -2.449238
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_013",
+      "MapLine": 69,
+      "ClassName": "SFM_Container_Ammo_Green",
+      "LootProfile": "Ammo",
+      "Room": "Room3",
+      "Position": [
+        5347.159668,
+        460.532196,
+        14840.571289
+      ],
+      "Orientation": [
+        161.999969,
+        0.0,
+        -0.0
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_014",
+      "MapLine": 72,
+      "ClassName": "SFM_Container_Ammo_Tan",
+      "LootProfile": "Ammo",
+      "Room": "Room3",
+      "Position": [
+        5346.898926,
+        461.299683,
+        14848.072266
+      ],
+      "Orientation": [
+        63.0,
+        0.0,
+        -0.0
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_015",
+      "MapLine": 75,
+      "ClassName": "SFM_Container_Weapons_Green",
+      "LootProfile": "Weapons",
+      "Room": "Room3",
+      "Position": [
+        5346.22168,
+        461.334839,
+        14847.449219
+      ],
+      "Orientation": [
+        48.599998,
+        0.0,
+        -0.0
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_016",
+      "MapLine": 78,
+      "ClassName": "SFM_Container_Items_Original",
+      "LootProfile": "Items",
+      "Room": "Room3",
+      "Position": [
+        5347.222168,
+        461.333557,
+        14847.84668
+      ],
+      "Orientation": [
+        -134.999985,
+        0.0,
+        -0.0
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_017",
+      "MapLine": 83,
+      "ClassName": "SFM_Container_Ammo_Brown",
+      "LootProfile": "Ammo",
+      "Room": "Room1",
+      "Position": [
+        5334.025879,
+        460.397339,
+        14851.203125
+      ],
+      "Orientation": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_018",
+      "MapLine": 85,
+      "ClassName": "SFM_Container_Ammo_Tan",
+      "LootProfile": "Ammo",
+      "Room": "Room2",
+      "Position": [
+        5338.563965,
+        460.00827,
+        14847.047852
+      ],
+      "Orientation": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_019",
+      "MapLine": 91,
+      "ClassName": "SFM_Container_Weapons_Original",
+      "LootProfile": "Weapons",
+      "Room": "Room3",
+      "Position": [
+        5346.758301,
+        461.180847,
+        14844.799805
+      ],
+      "Orientation": [
+        -152.999969,
+        0.0,
+        1.217835
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_020",
+      "MapLine": 101,
+      "ClassName": "SFM_Container_Junk_Tan",
+      "LootProfile": "Junk",
+      "Room": "Room1",
+      "Position": [
+        5335.73291,
+        461.021667,
+        14847.410156
+      ],
+      "Orientation": [
+        -108.234604,
+        -2.403525,
+        0.778163
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_021",
+      "MapLine": 117,
+      "ClassName": "SFM_Container_Money_Original",
+      "LootProfile": "Money",
+      "Room": "Room3",
+      "Position": [
+        5342.135742,
+        460.44754,
+        14842.481445
+      ],
+      "Orientation": [
+        17.253937,
+        84.425209,
+        -21.058081
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_022",
+      "MapLine": 119,
+      "ClassName": "SFM_Container_Junk_Camo",
+      "LootProfile": "Junk",
+      "Room": "Room4",
+      "Position": [
+        5348.615234,
+        460.992462,
+        14827.765625
+      ],
+      "Orientation": [
+        -161.999954,
+        0.0,
+        3.986976
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_023",
+      "MapLine": 120,
+      "ClassName": "SFM_Container_Items_Tan",
+      "LootProfile": "Items",
+      "Room": "Room2",
+      "Position": [
+        5344.150391,
+        461.733826,
+        14847.322266
+      ],
+      "Orientation": [
+        -80.613884,
+        -0.214114,
+        -0.764544
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_024",
+      "MapLine": 121,
+      "ClassName": "SFM_Container_Items_Tan",
+      "LootProfile": "Items",
+      "Room": "Room2",
+      "Position": [
+        5343.896973,
+        461.727539,
+        14846.881836
+      ],
+      "Orientation": [
+        -22.909845,
+        0.549733,
+        -0.58162
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_025",
+      "MapLine": 122,
+      "ClassName": "SFM_Container_Junk_Original",
+      "LootProfile": "Junk",
+      "Room": "Room4",
+      "Position": [
+        5352.318359,
+        460.54657,
+        14844.561523
+      ],
+      "Orientation": [
+        126.250519,
+        3.660195,
+        0.179701
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_026",
+      "MapLine": 123,
+      "ClassName": "SFM_Container_Items_THICC_Original",
+      "LootProfile": "Items_THICC",
+      "Room": "Room1",
+      "Position": [
+        5326.074219,
+        459.502747,
+        14847.064453
+      ],
+      "Orientation": [
+        129.73558,
+        2.412022,
+        -1.058338
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_027",
+      "MapLine": 124,
+      "ClassName": "SFM_Container_Junk_Green",
+      "LootProfile": "Junk",
+      "Room": "Room1",
+      "Position": [
+        5326.542969,
+        459.577209,
+        14845.467773
+      ],
+      "Orientation": [
+        39.600044,
+        0.0,
+        -2.095982
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_028",
+      "MapLine": 126,
+      "ClassName": "SFM_Container_Magazine_Camo",
+      "LootProfile": "Magazine",
+      "Room": "Room3",
+      "Position": [
+        5347.316895,
+        461.206116,
+        14844.314453
+      ],
+      "Orientation": [
+        113.824257,
+        0.694842,
+        -1.443237
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_029",
+      "MapLine": 127,
+      "ClassName": "SFM_Container_Weapons_Green",
+      "LootProfile": "Weapons",
+      "Room": "Room4",
+      "Position": [
+        5350.689453,
+        461.577301,
+        14836.357422
+      ],
+      "Orientation": [
+        -143.999985,
+        0.0,
+        2.374699
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_030",
+      "MapLine": 128,
+      "ClassName": "SFM_Container_Items_Gray",
+      "LootProfile": "Items",
+      "Room": "Room4",
+      "Position": [
+        5350.026367,
+        461.571991,
+        14835.575195
+      ],
+      "Orientation": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_031",
+      "MapLine": 129,
+      "ClassName": "SFM_Container_Ammo_Gray",
+      "LootProfile": "Ammo",
+      "Room": "Room4",
+      "Position": [
+        5349.658691,
+        461.559357,
+        14835.761719
+      ],
+      "Orientation": [
+        -52.507149,
+        -2.645873,
+        -1.191413
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_032",
+      "MapLine": 130,
+      "ClassName": "SFM_Container_Medicine_Black",
+      "LootProfile": "Medicine",
+      "Room": "Room4",
+      "Position": [
+        5350.564941,
+        460.760071,
+        14838.046875
+      ],
+      "Orientation": [
+        45.0,
+        0.0,
+        -0.0
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_033",
+      "MapLine": 131,
+      "ClassName": "SFM_Container_Medicine_Original",
+      "LootProfile": "Medicine",
+      "Room": "Room4",
+      "Position": [
+        5351.390625,
+        460.681976,
+        14841.123047
+      ],
+      "Orientation": [
+        -46.799992,
+        0.0,
+        -0.0
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_034",
+      "MapLine": 133,
+      "ClassName": "SFM_Container_Food_Red",
+      "LootProfile": "Food",
+      "Room": "Room4",
+      "Position": [
+        5353.600586,
+        461.58432,
+        14838.855469
+      ],
+      "Orientation": [
+        -54.243015,
+        -1.620611,
+        0.783286
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_035",
+      "MapLine": 134,
+      "ClassName": "SFM_Container_Food_Gray",
+      "LootProfile": "Food",
+      "Room": "Room4",
+      "Position": [
+        5356.124023,
+        460.839355,
+        14841.708984
+      ],
+      "Orientation": [
+        -52.454296,
+        0.0,
+        -0.0
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_036",
+      "MapLine": 135,
+      "ClassName": "SFM_Container_Weapons_THICC_Original",
+      "LootProfile": "Weapons_THICC",
+      "Room": "Room4",
+      "Position": [
+        5351.251953,
+        461.075684,
+        14828.882813
+      ],
+      "Orientation": [
+        -47.232594,
+        -2.478992,
+        0.111481
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_037",
+      "MapLine": 136,
+      "ClassName": "SFM_Container_Weapons_THICC_Tan",
+      "LootProfile": "Weapons_THICC",
+      "Room": "Room4",
+      "Position": [
+        5354.40918,
+        461.197845,
+        14828.582031
+      ],
+      "Orientation": [
+        -142.200378,
+        0.0,
+        3.506701
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_038",
+      "MapLine": 137,
+      "ClassName": "SFM_Container_Items_THICC_Gray",
+      "LootProfile": "Items_THICC",
+      "Room": "Room4",
+      "Position": [
+        5350.383789,
+        462.304596,
+        14826.272461
+      ],
+      "Orientation": [
+        129.394592,
+        2.465885,
+        -1.201177
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_039",
+      "MapLine": 139,
+      "ClassName": "SFM_Container_Items_THICC_Green",
+      "LootProfile": "Items_THICC",
+      "Room": "Room1",
+      "Position": [
+        5326.909668,
+        459.371582,
+        14851.862305
+      ],
+      "Orientation": [
+        -136.767899,
+        -0.15,
+        2.406735
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_040",
+      "MapLine": 140,
+      "ClassName": "SFM_Container_Magazine_Gray",
+      "LootProfile": "Magazine",
+      "Room": "Room1",
+      "Position": [
+        5326.071777,
+        459.414948,
+        14850.990234
+      ],
+      "Orientation": [
+        125.999992,
+        0.0,
+        -0.0
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_041",
+      "MapLine": 141,
+      "ClassName": "SFM_Container_Weapons_Brown",
+      "LootProfile": "Weapons",
+      "Room": "Room1",
+      "Position": [
+        5325.875977,
+        459.407104,
+        14849.708984
+      ],
+      "Orientation": [
+        26.999998,
+        0.0,
+        -2.916178
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_042",
+      "MapLine": 142,
+      "ClassName": "SFM_Container_Magazine_Green",
+      "LootProfile": "Magazine",
+      "Room": "Room4",
+      "Position": [
+        5354.284668,
+        461.106476,
+        14830.71582
+      ],
+      "Orientation": [
+        -140.399963,
+        0.0,
+        1.877202
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_043",
+      "MapLine": 143,
+      "ClassName": "SFM_Container_Magazine_Brown",
+      "LootProfile": "Magazine",
+      "Room": "Room4",
+      "Position": [
+        5353.422363,
+        461.059296,
+        14831.357422
+      ],
+      "Orientation": [
+        -144.000015,
+        0.0,
+        1.729302
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_044",
+      "MapLine": 145,
+      "ClassName": "SFM_Container_Weapons_Tan",
+      "LootProfile": "Weapons",
+      "Room": "Room1",
+      "Position": [
+        5330.041992,
+        459.556488,
+        14849.969727
+      ],
+      "Orientation": [
+        126.112755,
+        2.949359,
+        0.232289
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_045",
+      "MapLine": 146,
+      "ClassName": "SFM_Container_Weapons_THICC_Original",
+      "LootProfile": "Weapons_THICC",
+      "Room": "Room1",
+      "Position": [
+        5336.479492,
+        459.690002,
+        14853.927734
+      ],
+      "Orientation": [
+        90.0,
+        0.0,
+        -0.0
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_046",
+      "MapLine": 147,
+      "ClassName": "SFM_Container_Ammo_Original",
+      "LootProfile": "Ammo",
+      "Room": "Room2",
+      "Position": [
+        5344.839355,
+        460.925385,
+        14849.713867
+      ],
+      "Orientation": [
+        -125.999992,
+        0.0,
+        -0.0
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_047",
+      "MapLine": 148,
+      "ClassName": "SFM_Container_Weapons_THICC_Original",
+      "LootProfile": "Weapons_THICC",
+      "Room": "Room1",
+      "Position": [
+        5335.053223,
+        459.713501,
+        14851.27832
+      ],
+      "Orientation": [
+        1.35234,
+        0.0,
+        -0.0
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_048",
+      "MapLine": 149,
+      "ClassName": "SFM_Container_Weapons_THICC_Original",
+      "LootProfile": "Weapons_THICC",
+      "Room": "Room1",
+      "Position": [
+        5337.855957,
+        459.839935,
+        14851.09082
+      ],
+      "Orientation": [
+        -143.999985,
+        0.0,
+        -0.0
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_049",
+      "MapLine": 150,
+      "ClassName": "SFM_Container_Weapons_Original",
+      "LootProfile": "Weapons",
+      "Room": "Room2",
+      "Position": [
+        5344.097656,
+        460.734253,
+        14847.033203
+      ],
+      "Orientation": [
+        -144.000031,
+        0.0,
+        0.794684
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_050",
+      "MapLine": 151,
+      "ClassName": "SFM_Container_Weapons_Green",
+      "LootProfile": "Weapons",
+      "Room": "Room2",
+      "Position": [
+        5344.073242,
+        461.234833,
+        14847.053711
+      ],
+      "Orientation": [
+        -140.161118,
+        0.0,
+        2.632575
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_051",
+      "MapLine": 152,
+      "ClassName": "SFM_Container_Weapons_Camo",
+      "LootProfile": "Weapons",
+      "Room": "Room2",
+      "Position": [
+        5340.538574,
+        460.761932,
+        14850.813477
+      ],
+      "Orientation": [
+        53.999378,
+        0.0,
+        -1.309332
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_052",
+      "MapLine": 153,
+      "ClassName": "SFM_Container_Money_Original",
+      "LootProfile": "Money",
+      "Room": "Room2",
+      "Position": [
+        5342.51416,
+        459.91571,
+        14853.070313
+      ],
+      "Orientation": [
+        170.759796,
+        3.358737,
+        0.747909
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_053",
+      "MapLine": 154,
+      "ClassName": "SFM_Container_Items_THICC_White",
+      "LootProfile": "Items_THICC",
+      "Room": "Room2",
+      "Position": [
+        5344.348633,
+        459.99472,
+        14851.648438
+      ],
+      "Orientation": [
+        -50.462448,
+        -2.466903,
+        2.007107
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_054",
+      "MapLine": 155,
+      "ClassName": "SFM_Container_Magazine_Original",
+      "LootProfile": "Magazine",
+      "Room": "Room2",
+      "Position": [
+        5345.009766,
+        460.915649,
+        14850.164063
+      ],
+      "Orientation": [
+        -71.999992,
+        0.0,
+        -0.0
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_055",
+      "MapLine": 156,
+      "ClassName": "SFM_Container_Magazine_Green",
+      "LootProfile": "Magazine",
+      "Room": "Room2",
+      "Position": [
+        5341.938477,
+        460.95575,
+        14846.362305
+      ],
+      "Orientation": [
+        -63.284492,
+        -0.46567,
+        0.925167
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_056",
+      "MapLine": 157,
+      "ClassName": "SFM_Container_Magazine_Gray",
+      "LootProfile": "Magazine",
+      "Room": "Room3",
+      "Position": [
+        5351.412598,
+        461.289856,
+        14845.923828
+      ],
+      "Orientation": [
+        -64.493454,
+        -2.316697,
+        -0.149981
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_057",
+      "MapLine": 158,
+      "ClassName": "SFM_Container_Magazine_Brown",
+      "LootProfile": "Magazine",
+      "Room": "Room3",
+      "Position": [
+        5350.596191,
+        461.238434,
+        14847.049805
+      ],
+      "Orientation": [
+        -144.000031,
+        0.0,
+        0.947344
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_058",
+      "MapLine": 159,
+      "ClassName": "SFM_Container_Items_Gray",
+      "LootProfile": "Items",
+      "Room": "Room2",
+      "Position": [
+        5339.687988,
+        460.751251,
+        14849.998047
+      ],
+      "Orientation": [
+        118.055672,
+        2.34219,
+        1.247741
+      ],
+      "Enabled": true
+    },
+    {
+      "Id": "BS_BUNKER_059",
+      "MapLine": 160,
+      "ClassName": "SFM_Container_Magazine_Camo",
+      "LootProfile": "Magazine",
+      "Room": "Room3",
+      "Position": [
+        5346.265137,
+        461.204742,
+        14843.030273
+      ],
+      "Orientation": [
+        134.044037,
+        1.089413,
+        -1.126173
+      ],
+      "Enabled": true
+    }
+  ]
+}

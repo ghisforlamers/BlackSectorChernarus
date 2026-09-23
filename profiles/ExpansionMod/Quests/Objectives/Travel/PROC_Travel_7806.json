@@ -1,0 +1,18 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7806,
+  "ObjectiveType": 3,
+  "ObjectiveText": "Reach and scout Sosnovka.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Position": [
+    2540,
+    304.78672281901044,
+    6360
+  ],
+  "MaxDistance": 15,
+  "MarkerName": "Sosnovka",
+  "ShowDistance": 1,
+  "TriggerOnEnter": 1,
+  "TriggerOnExit": 0
+}

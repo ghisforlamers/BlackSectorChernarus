@@ -15,6 +15,6 @@
     "ShowDistance": 1,
     "CanLootAI": 0,
     "NPCLoadoutFile": "SurvivorLoadout",
-    "NPCClassName": "eAI_SurvivorF_Frida",
+    "NPCClassName": "eAI_SurvivorM_Taiki",
     "NPCName": "Survivior"
 }

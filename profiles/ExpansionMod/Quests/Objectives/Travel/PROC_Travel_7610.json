@@ -1,0 +1,18 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7610,
+  "ObjectiveType": 3,
+  "ObjectiveText": "Reach and scout Devil\u0027s Castle.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Position": [
+    6889,
+    406.40199381510416,
+    11430
+  ],
+  "MaxDistance": 13,
+  "MarkerName": "Devil\u0027s Castle",
+  "ShowDistance": 1,
+  "TriggerOnEnter": 1,
+  "TriggerOnExit": 0
+}

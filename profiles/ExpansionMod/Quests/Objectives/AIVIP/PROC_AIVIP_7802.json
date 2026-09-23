@@ -1,0 +1,20 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7802,
+  "ObjectiveType": 9,
+  "ObjectiveText": "Escort Field Operative safely to Pusta.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Position": [
+    9148,
+    224.4373280843099,
+    3891
+  ],
+  "MaxDistance": 20,
+  "MarkerName": "Escort to Pusta",
+  "ShowDistance": 1,
+  "CanLootAI": 0,
+  "NPCLoadoutFile": "HumanLoadout",
+  "NPCClassName": "eAI_SurvivorM_Mirek",
+  "NPCName": "Field Operative"
+}

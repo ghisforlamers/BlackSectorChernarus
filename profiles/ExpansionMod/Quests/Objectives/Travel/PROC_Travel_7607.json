@@ -1,0 +1,18 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7607,
+  "ObjectiveType": 3,
+  "ObjectiveText": "Reach and scout Nizhnoye.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Position": [
+    12893,
+    15.446604792277018,
+    8226
+  ],
+  "MaxDistance": 15,
+  "MarkerName": "Nizhnoye",
+  "ShowDistance": 1,
+  "TriggerOnEnter": 1,
+  "TriggerOnExit": 0
+}

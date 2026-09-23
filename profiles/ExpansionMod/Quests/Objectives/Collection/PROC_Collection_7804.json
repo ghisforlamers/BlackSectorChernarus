@@ -1,0 +1,19 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7804,
+  "ObjectiveType": 4,
+  "ObjectiveText": "Collect 1 NBC pants.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Collections": [
+    {
+      "Amount": 1,
+      "ClassName": "NBCPantsGray",
+      "QuantityPercent": -1,
+      "MinQuantityPercent": 0
+    }
+  ],
+  "ShowDistance": 1,
+  "AddItemsToNearbyMarketZone": 0,
+  "NeedAnyCollection": 0
+}

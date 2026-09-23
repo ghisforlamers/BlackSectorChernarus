@@ -1,0 +1,20 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7803,
+  "ObjectiveType": 9,
+  "ObjectiveText": "Escort Survivor safely to Balota Village.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Position": [
+    4578,
+    8.740025711059571,
+    2469
+  ],
+  "MaxDistance": 20,
+  "MarkerName": "Escort to Balota Village",
+  "ShowDistance": 1,
+  "CanLootAI": 0,
+  "NPCLoadoutFile": "HumanLoadout",
+  "NPCClassName": "eAI_SurvivorM_Hassan",
+  "NPCName": "Survivor"
+}

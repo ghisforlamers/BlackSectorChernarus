@@ -1,0 +1,64 @@
+{
+  "ConfigVersion": 22,
+  "ID": 7013,
+  "Type": 1,
+  "Title": "Operations: Hostile Camp at Svetlojarsk",
+  "Descriptions": [
+    "The Operations department has posted a new contract: Clear the bandit camp near Svetlojarsk (3 hostiles).",
+    "Clear the bandit camp near Svetlojarsk (3 hostiles).",
+    "Contract complete. Return for payment."
+  ],
+  "ObjectiveText": "Clear the bandit camp near Svetlojarsk (3 hostiles).",
+  "FollowUpQuest": -1,
+  "Repeatable": 1,
+  "IsDailyQuest": 1,
+  "IsWeeklyQuest": 0,
+  "CancelQuestOnPlayerDeath": 0,
+  "Autocomplete": 0,
+  "IsGroupQuest": 0,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [
+    {
+      "ClassName": "ExpansionBanknoteHryvnia",
+      "Amount": 8200,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "Chance": 1
+    }
+  ],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": -1,
+  "RewardsForGroupOwnerOnly": 1,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    100
+  ],
+  "QuestTurnInIDs": [
+    100
+  ],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 7013,
+      "ObjectiveType": 8
+    }
+  ],
+  "QuestColor": 0,
+  "ReputationReward": 205,
+  "ReputationRequirement": -1,
+  "PreQuestIDs": [],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 1,
+  "DeleteQuestItems": 1,
+  "SequentialObjectives": 1,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}

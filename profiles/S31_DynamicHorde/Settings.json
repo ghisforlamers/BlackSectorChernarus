@@ -5,11 +5,11 @@
     "LingerMinSeconds": 20,
     "LingerMaxSeconds": 60,
     "Hordes": {
-        "MaxActiveHordes": 2,
-        "MinHordeSize": 12,
-        "MaxHordeSize": 24,
+        "MaxActiveHordes": 12,
+        "MinHordeSize": 50,
+        "MaxHordeSize": 75,
         "SpawnCooldownSeconds": 60,
-        "MinDistanceBetweenHordes": 1200.0,
+        "MinDistanceBetweenHordes": 1000.0,
         "MinSpawnDistanceFromPlayers": 500.0,
         "SpawnBlockRadiusAfterWipe": 900.0,
         "SpawnBlockSecondsAfterWipe": 1800,
@@ -20,8 +20,8 @@
         "DematerializeDistance": 1000.0,
         "HiddenSpawnMinDistanceFromPlayer": 140.0,
         "HiddenSpawnSearchRadius": 110.0,
-        "ViewConeDot": 0.20000000298023225,
-        "HordeRadius": 24.0
+        "ViewConeDot": 0.20000000298023224,
+        "HordeRadius": 50
     },
     "Movement": {
         "VirtualTravelSpeed": 3.0,
@@ -67,7 +67,7 @@
         "InvestigateSeconds": 120
     },
     "EVR": {
-        "Enabled": 1,
+        "Enabled": 0,
         "CheckIntervalSeconds": 15,
         "HearingRadius": 2200.0,
         "InvestigateSeconds": 240,
@@ -76,7 +76,7 @@
         ]
     },
     "BaseSafety": {
-        "Enabled": 1,
+        "Enabled": 0,
         "CheckRadius": 45.0,
         "BlockRandomTracking": 1,
         "BreakTrackingOnEnter": 1,
@@ -89,24 +89,26 @@
     },
     "Scaling": {
         "EnableNightScaling": 1,
-        "NightSizeMultiplier": 1.399999976158142,
+        "NightSizeMultiplier": 1.0,
         "NightTrackChanceMultiplier": 2.0,
         "EnablePlayerScaling": 1,
         "PlayersPerExtraZombie": 5,
         "EnableGrowth": 0,
         "GrowthPerHour": 4.0,
-        "AbsoluteMaxHordeSize": 40
+        "AbsoluteMaxHordeSize": 100
     },
     "LiveReload": {
         "Enabled": 1,
         "IntervalSeconds": 30
     },
     "AdminMessages": {
-        "Enabled": 0,
+        "Enabled": 1,
         "IntervalSeconds": 30,
-        "UseNotifications": 1,
+        "UseNotifications": 0,
         "ShowCoordinates": 1,
-        "AdminPlainIds": []
+        "AdminPlainIds": [
+            "76561197978157047"
+        ]
     },
     "Discord": {
         "Enabled": 0,

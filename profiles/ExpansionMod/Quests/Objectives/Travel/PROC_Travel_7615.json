@@ -1,0 +1,18 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7615,
+  "ObjectiveType": 3,
+  "ObjectiveText": "Reach and scout Green Mountain.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Position": [
+    3721,
+    402.499989827474,
+    5995
+  ],
+  "MaxDistance": 12.5,
+  "MarkerName": "Green Mountain",
+  "ShowDistance": 1,
+  "TriggerOnEnter": 1,
+  "TriggerOnExit": 0
+}

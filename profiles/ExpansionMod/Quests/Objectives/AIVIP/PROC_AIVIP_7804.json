@@ -1,0 +1,20 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7804,
+  "ObjectiveType": 9,
+  "ObjectiveText": "Escort Field Operative safely to Bor.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Position": [
+    3300,
+    0,
+    3950
+  ],
+  "MaxDistance": 20,
+  "MarkerName": "Escort to Bor",
+  "ShowDistance": 1,
+  "CanLootAI": 0,
+  "NPCLoadoutFile": "HumanLoadout",
+  "NPCClassName": "eAI_SurvivorF_Eva",
+  "NPCName": "Field Operative"
+}

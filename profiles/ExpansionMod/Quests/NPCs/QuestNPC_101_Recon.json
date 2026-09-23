@@ -1,0 +1,34 @@
+{
+  "ConfigVersion": 6,
+  "ID": 101,
+  "ClassName": "ExpansionQuestNPCAIDenis",
+  "Position": [
+    4919.658691,
+    9.593163,
+    2599.158203
+  ],
+  "Orientation": [
+    -137.59848,
+    -0.112572,
+    0.040316
+  ],
+  "NPCName": "Recon Specialist",
+  "DefaultNPCText": "I need eyes in the exclusion zone. Check in if you're ready to scout.",
+  "Waypoints": [
+    [
+      4919.658691,
+      9.593163,
+      2599.158203
+    ]
+  ],
+  "NPCEmoteID": 46,
+  "NPCEmoteIsStatic": 0,
+  "NPCLoadoutFile": "Balota_Recon",
+  "NPCInteractionEmoteID": 1,
+  "NPCQuestCancelEmoteID": 60,
+  "NPCQuestStartEmoteID": 58,
+  "NPCQuestCompleteEmoteID": 39,
+  "NPCFaction": "InvincibleObservers",
+  "NPCType": 2,
+  "Active": 1
+}

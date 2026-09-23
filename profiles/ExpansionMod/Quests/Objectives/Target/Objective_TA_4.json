@@ -13,7 +13,14 @@
     "MaxDistance": -1.0,
     "MinDistance": -1.0,
     "Amount": 10,
-    "ClassNames": [],
+    "ClassNames": [
+    "ZmbM_PatrolNormal_Base",
+    "ZmbM_Soldier_Base",
+    "ZmbM_SoldierNormal_Base",
+    "ZmbM_usSoldier_normal_Base",
+    "ZmbM_NBC_Yellow",
+    "ZmbM_NBC_Grey"
+    ],
     "CountSelfKill": 0,
     "AllowedWeapons": [],
     "ExcludedClassNames": [],

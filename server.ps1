@@ -103,6 +103,11 @@ switch ($Action) {
             exit 1
         }
 
+        $customDir = Join-Path $Root "custom"
+        if (Test-Path $customDir) {
+            Copy-Item -Path (Join-Path $customDir "*") -Destination $MOD_DIR -Recurse -Force
+        }
+
         $contentDir = Join-Path $MOD_DIR "steamapps\workshop\content\$($CFG['workshop_app_id'])"
         $linkType = if ($IsWindows) { 'Junction' } else { 'SymbolicLink' }
         foreach ($id in $MOD_MAP.Keys) {

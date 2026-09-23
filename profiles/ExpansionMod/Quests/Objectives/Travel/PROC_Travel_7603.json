@@ -1,0 +1,18 @@
+{
+  "ConfigVersion": 28,
+  "ID": 7603,
+  "ObjectiveType": 3,
+  "ObjectiveText": "Reach and scout Gvozdno.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Position": [
+    8685,
+    205.40658264160155,
+    11852
+  ],
+  "MaxDistance": 17.5,
+  "MarkerName": "Gvozdno",
+  "ShowDistance": 1,
+  "TriggerOnEnter": 1,
+  "TriggerOnExit": 0
+}
