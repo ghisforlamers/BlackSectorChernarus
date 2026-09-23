@@ -20,6 +20,8 @@ function Show-Usage {
     exit 1
 }
 
+$isWindowsHost = [Environment]::OSVersion.Platform -eq [PlatformID]::Win32NT
+
 # Parse the shared config/server.ini
 function Read-ServerIni {
     param([string]$Path)
@@ -37,7 +39,9 @@ function Read-ServerIni {
     $section = ''
     foreach ($line in Get-Content $Path) {
         $line = $line.Trim()
-        if ($line -eq '' -or $line.StartsWith('#')) { continue }
+        $hashIndex = $line.IndexOf('#')
+        if ($hashIndex -ge 0) { $line = $line.Substring(0, $hashIndex).Trim() }
+        if ($line -eq '') { continue }
         if ($line -match '^\[(.+)\]$') {
             $section = $Matches[1].Trim()
             continue
@@ -108,7 +112,7 @@ switch ($Action) {
             Copy-Item -Path (Join-Path $customDir "*") -Destination $SRV_DIR -Recurse -Force
         }
 
-        $linkType = if ($IsWindows) { 'Junction' } else { 'SymbolicLink' }
+        $linkType = if ($isWindowsHost) { 'Junction' } else { 'SymbolicLink' }
 
         # bin/config is a link pointing back to the source-controlled config dir.
         $rootConfig = Join-Path $Root "config"
@@ -145,8 +149,10 @@ switch ($Action) {
 
     'run' {
         $SRV_DIR = Join-Path $Root "bin"
-        $MODS = ($MOD_MAP.Values -join ';')
-        $SERVER_MODS = ($SERVER_MOD_MAP.Values -join ';')
+        $MODS = ''
+        foreach ($value in $MOD_MAP.Values) { $MODS += "$value;" }
+        $SERVER_MODS = ''
+        foreach ($value in $SERVER_MOD_MAP.Values) { $SERVER_MODS += "$value;" }
 
         $params = @(
             "-port=$($CFG['port'])",
@@ -160,7 +166,7 @@ switch ($Action) {
             "-mod=$MODS",
             "-serverMod=$SERVER_MODS"
         )
-        $exe = Join-Path $SRV_DIR $(if ($IsWindows) { 'DayZServer_x64.exe' } else { 'DayZServer' })
+        $exe = Join-Path $SRV_DIR $(if ($isWindowsHost) { 'DayZServer_x64.exe' } else { 'DayZServer' })
         Push-Location $SRV_DIR
         try {
             & $exe @params
