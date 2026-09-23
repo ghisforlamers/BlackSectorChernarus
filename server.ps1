@@ -129,6 +129,7 @@ switch ($Action) {
         $SERVER_MODS = ($SERVER_MOD_MAP.Values -join ';')
 
         $params = @(
+            "-idleShutdown=-1",
             "-port=$($CFG['port'])",
             "-limitFPS=$($CFG['limitFPS'])",
             "-cpuCount=$($CFG['cpuCount'])",

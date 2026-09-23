@@ -94,6 +94,7 @@ case "$1" in
         done
         cd "$SRV_DIR"
         ./DayZServer                                             \
+           -idleShutdown=-1                                      \
            -port="${CFG[port]}"                                  \
            -limitFPS="${CFG[limitFPS]}"                          \
            -cpuCount="${CFG[cpuCount]}"                          \
