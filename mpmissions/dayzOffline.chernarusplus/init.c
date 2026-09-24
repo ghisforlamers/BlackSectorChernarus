@@ -86,33 +86,31 @@ class BlackSectorBunkerAmbush
 		m_InfectedTypes.Insert("ZmbM_SoldierNormal");
 		m_InfectedTypes.Insert("ZmbM_usSoldier_normal_Woodland");
 
-		// Approximate walkable positions immediately inside / behind the
-		// punched-card entrance. Exact XYZ values are re-applied after creation.
-		// Tune individual XYZ values if any infected appear inside geometry.
-		m_SpawnPositions.Insert("5298.0 460.2 14875.0");
-		m_SpawnPositions.Insert("5300.0 460.2 14874.0");
-		m_SpawnPositions.Insert("5302.0 460.2 14873.0");
-		m_SpawnPositions.Insert("5304.0 460.2 14872.0");
-		m_SpawnPositions.Insert("5306.0 460.2 14871.0");
-
-		m_SpawnPositions.Insert("5298.5 460.2 14878.0");
-		m_SpawnPositions.Insert("5300.5 460.2 14878.5");
-		m_SpawnPositions.Insert("5302.5 460.2 14878.0");
-		m_SpawnPositions.Insert("5304.5 460.2 14877.5");
-		m_SpawnPositions.Insert("5306.5 460.2 14877.0");
-
-		m_SpawnPositions.Insert("5299.0 460.2 14881.0");
-		m_SpawnPositions.Insert("5301.0 460.2 14881.0");
-		m_SpawnPositions.Insert("5303.0 460.2 14880.5");
-		m_SpawnPositions.Insert("5305.0 460.2 14880.0");
-
-		m_SpawnPositions.Insert("5307.0 460.2 14875.0");
-		m_SpawnPositions.Insert("5308.0 460.2 14873.0");
-		m_SpawnPositions.Insert("5308.5 460.2 14877.0");
-		m_SpawnPositions.Insert("5307.5 460.2 14880.0");
-
-		m_SpawnPositions.Insert("5303.5 460.2 14884.0");
-		m_SpawnPositions.Insert("5306.0 460.2 14883.0");
+		// Verified walkable bunker-floor positions measured in-game.
+		// Do not apply SurfaceY/ECE_PLACE_ON_SURFACE or random X/Z offsets here.
+		// These points intentionally span both the upper entrance level (~470 m)
+		// and the lower bunker level (~460-461 m).
+		m_SpawnPositions.Insert("5285.56 470.462 14866.7");
+		m_SpawnPositions.Insert("5284.3 470.457 14865.5");
+		m_SpawnPositions.Insert("5282.95 470.4 14865.7");
+		m_SpawnPositions.Insert("5283.91 470.395 14866.9");
+		m_SpawnPositions.Insert("5284.87 470.394 14867.9");
+		m_SpawnPositions.Insert("5283.41 470.311 14868.7");
+		m_SpawnPositions.Insert("5282.64 470.402 14867.8");
+		m_SpawnPositions.Insert("5281.55 470.349 14866.5");
+		m_SpawnPositions.Insert("5280.71 470.297 14868.1");
+		m_SpawnPositions.Insert("5281.49 470.288 14869.4");
+		m_SpawnPositions.Insert("5281.76 470.263 14870.8");
+		m_SpawnPositions.Insert("5285.7 470.695 14860.2");
+		m_SpawnPositions.Insert("5287.12 470.676 14862.2");
+		m_SpawnPositions.Insert("5287.34 470.662 14865.4");
+		m_SpawnPositions.Insert("5289.5 470.686 14864.4");
+		m_SpawnPositions.Insert("5289.18 460.742 14863.1");
+		m_SpawnPositions.Insert("5292.78 460.502 14873.8");
+		m_SpawnPositions.Insert("5299.93 460.88 14870.7");
+		m_SpawnPositions.Insert("5305.63 461.246 14866.2");
+		m_SpawnPositions.Insert("5308.63 461.594 14859.8");
+		m_SpawnPositions.Insert("5312.54 461.553 14865");
 
 		GetGame().GetCallQueue(CALL_CATEGORY_GAMEPLAY).CallLater(CheckPlayers, 2000, true);
 		Print("[BlackSector] Bunker ambush manager initialized.");
@@ -208,21 +206,24 @@ class BlackSectorBunkerAmbush
 		{
 			string infectedType = m_InfectedTypes.Get(Math.RandomInt(0, m_InfectedTypes.Count()));
 
-			// Use the basic CreateObject API here instead of CreateObjectEx/ECE flags.
-			// false = server/global object, true = initialize AI, true = create physics.
-			Object spawnedObject = GetGame().CreateObject(infectedType, pos, false, true, true);
+			// Preserve the measured underground X/Z and floor height.
+			// Add only 5 cm of vertical clearance so the infected capsule does not
+			// begin intersecting the bunker floor.
+			vector spawnPos = pos;
+			spawnPos[1] = spawnPos[1] + 0.05;
+
+			// IMPORTANT: no SurfaceY and no ECE_PLACE_ON_SURFACE.
+			// These are measured underground 3D positions.
+			Object spawnedObject = GetGame().CreateObject(infectedType, spawnPos, false, true, true);
 			DayZInfected infected = DayZInfected.Cast(spawnedObject);
 
 			if (infected)
 			{
-				// Re-apply the exact XYZ so the infected remains at the intended
-				// underground spawn position.
-				infected.SetPosition(pos);
+				infected.SetPosition(spawnPos);
 				m_SpawnedInfected.Insert(infected);
 			}
 			else if (spawnedObject)
 			{
-				// Defensive cleanup if the requested class did not create as DayZInfected.
 				GetGame().ObjectDelete(spawnedObject);
 			}
 		}
@@ -322,6 +323,32 @@ class CustomMission: MissionServer
 			SetRandomHealth( itemClothing );
 		
 		itemClothing = player.FindAttachmentBySlotName( "Feet" );
+
+		// Black Sector starter wristwatch.
+		// The watch uses the vanilla Armband equipment slot.
+		int armbandSlot = InventorySlots.GetSlotIdFromString("Armband");
+		EntityAI starterWatch = player.GetInventory().CreateAttachmentEx("Custom_Solid_Watch", armbandSlot);
+
+		// Fallback: if another starter item already occupies Armband, place the
+		// watch in the player's body clothing so it is not lost.
+		if (!starterWatch)
+		{
+			EntityAI bodyClothing = player.FindAttachmentBySlotName("Body");
+			if (bodyClothing)
+				starterWatch = bodyClothing.GetInventory().CreateInInventory("Custom_Solid_Watch");
+		}
+
+		if (starterWatch)
+		{
+			starterWatch.SetHealth01("", "", 1.0);
+
+			// Give every starter watch a working watch battery.
+			int watchBatterySlot = InventorySlots.GetSlotIdFromString("WatchBattery");
+			EntityAI starterWatchBattery = starterWatch.GetInventory().CreateAttachmentEx("Custom_Watch_Battery", watchBatterySlot);
+
+			if (starterWatchBattery)
+				starterWatchBattery.SetHealth01("", "", 1.0);
+		}
 	}
 };
 

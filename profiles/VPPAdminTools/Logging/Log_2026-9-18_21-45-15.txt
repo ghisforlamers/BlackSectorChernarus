@@ -1,0 +1,386 @@
+=========================Vanilla++ Admin Tools Session Logs=========================
+Logs Started: 2026-9-18_21-45-15
+====================================================================================
+21:45:15 | [PermissionManager] Perm (DeleteObjectAtCrosshair) has been registered!
+21:45:15 | [PermissionManager] Perm (TeleportToCrosshair) has been registered!
+21:45:15 | [PermissionManager] Perm (FreeCamera) has been registered!
+21:45:15 | [PermissionManager] Perm (RepairVehiclesAtCrosshair) has been registered!
+21:45:15 | [PermissionManager] Perm (MenuItemManager) has been registered!
+21:45:15 | [PermissionManager] Perm (MenuItemManager:SpawnItem) has been registered!
+21:45:15 | [PermissionManager] Perm (MenuItemManager:EditPreset) has been registered!
+21:45:15 | [PermissionManager] Perm (MenuItemManager:SpawnPreset) has been registered!
+21:45:15 | [PermissionManager] Perm (MenuItemManager:DeletePreset) has been registered!
+21:45:15 | [PermissionManager] Perm (MenuItemManager:AddPreset) has been registered!
+21:45:15 | [PermissionManager] Perm (MenuServerManager) has been registered!
+21:45:15 | [PermissionManager] Perm (ServerManager:RestartServer) has been registered!
+21:45:15 | [PermissionManager] Perm (ServerManager:LockServer) has been registered!
+21:45:15 | [PermissionManager] Perm (ServerManager:KickAllPlayers) has been registered!
+21:45:15 | [PermissionManager] Perm (MenuWeatherManager) has been registered!
+21:45:15 | [PermissionManager] Perm (WeatherManager:ApplyWeather) has been registered!
+21:45:15 | [PermissionManager] Perm (WeatherManager:ApplyTime) has been registered!
+21:45:15 | [PermissionManager] Perm (WeatherManager:SavePreset) has been registered!
+21:45:15 | [PermissionManager] Perm (WeatherManager:DeletePreset) has been registered!
+21:45:15 | [PermissionManager] Perm (WeatherManager:ApplyPreset) has been registered!
+21:45:15 | [PermissionManager] Perm (WeatherManager:ApplyTimePreset) has been registered!
+21:45:15 | [PermissionManager] Perm (WeatherManager:SaveTimePreset) has been registered!
+21:45:15 | [PermissionManager] Perm (WeatherManager:DeleteTimePreset) has been registered!
+21:45:15 | [PermissionManager] Perm (MenuObjectManager) has been registered!
+21:45:15 | [PermissionManager] Perm (MenuObjectManager:CreateNewSet) has been registered!
+21:45:15 | [PermissionManager] Perm (MenuObjectManager:UpdateSet) has been registered!
+21:45:15 | [PermissionManager] Perm (MenuObjectManager:DeleteSet) has been registered!
+21:45:15 | [PermissionManager] Perm (MenuObjectManager:EditSet) has been registered!
+21:45:15 | [PermissionManager] Perm (MenuPermissionsEditor) has been registered!
+21:45:15 | [PermissionManager] Perm (PermissionsEditor:RemoveUser) has been registered!
+21:45:15 | [PermissionManager] Perm (PermissionsEditor:AddUser) has been registered!
+21:45:15 | [PermissionManager] Perm (PermissionsEditor:CreateUserGroup) has been registered!
+21:45:15 | [PermissionManager] Perm (PermissionsEditor:DeleteUserGroup) has been registered!
+21:45:15 | [PermissionManager] Perm (PermissionsEditor:ChangePermLevel) has been registered!
+21:45:15 | [PermissionManager] Perm (MenuPlayerManager) has been registered!
+21:45:15 | [PermissionManager] Perm (PlayerManager:GiveGodmode) has been registered!
+21:45:15 | [PermissionManager] Perm (PlayerManager:BanPlayer) has been registered!
+21:45:15 | [PermissionManager] Perm (PlayerManager:KickPlayer) has been registered!
+21:45:15 | [PermissionManager] Perm (PlayerManager:HealPlayers) has been registered!
+21:45:15 | [PermissionManager] Perm (PlayerManager:SetPlayerStats) has been registered!
+21:45:15 | [PermissionManager] Perm (PlayerManager:KillPlayers) has been registered!
+21:45:15 | [PermissionManager] Perm (PlayerManager:GodMode) has been registered!
+21:45:15 | [PermissionManager] Perm (PlayerManager:SpectatePlayer) has been registered!
+21:45:15 | [PermissionManager] Perm (PlayerManager:TeleportToPlayer) has been registered!
+21:45:15 | [PermissionManager] Perm (PlayerManager:TeleportPlayerTo) has been registered!
+21:45:15 | [PermissionManager] Perm (PlayerManager:SetPlayerInvisible) has been registered!
+21:45:15 | [PermissionManager] Perm (PlayerManager:SendMessage) has been registered!
+21:45:15 | [PermissionManager] Perm (PlayerManager:GiveUnlimitedAmmo) has been registered!
+21:45:15 | [PermissionManager] Perm (PlayerManager:MakePlayerVomit) has been registered!
+21:45:15 | [PermissionManager] Perm (PlayerManager:FreezePlayers) has been registered!
+21:45:15 | [PermissionManager] Perm (PlayerManager:ChangeScale) has been registered!
+21:45:15 | [PermissionManager] Perm (PlayerManager:StopBleeding) has been registered!
+21:45:15 | [PermissionManager] Perm (PlayerManager:ClearInventory) has been registered!
+21:45:15 | [PermissionManager] Perm (PlayerManager:EditModifiers) has been registered!
+21:45:15 | [PermissionManager] Perm (MenuBansManager) has been registered!
+21:45:15 | [PermissionManager] Perm (BansManager:UnbanPlayer) has been registered!
+21:45:15 | [PermissionManager] Perm (BansManager:UpdateBanDuration) has been registered!
+21:45:15 | [PermissionManager] Perm (BansManager:UpdateBanReason) has been registered!
+21:45:15 | [PermissionManager] Perm (MenuSpectateTools) has been registered!
+21:45:15 | [PermissionManager] Perm (MenuWebHooks) has been registered!
+21:45:15 | [PermissionManager] Perm (MenuWebHooks:Create) has been registered!
+21:45:15 | [PermissionManager] Perm (MenuWebHooks:Edit) has been registered!
+21:45:15 | [PermissionManager] Perm (MenuWebHooks:Delete) has been registered!
+21:45:15 | [PermissionManager] Perm (MenuTeleportManager) has been registered!
+21:45:15 | [PermissionManager] Perm (TeleportManager:ViewPlayerPositions) has been registered!
+21:45:15 | [PermissionManager] Perm (TeleportManager:TPPlayers) has been registered!
+21:45:15 | [PermissionManager] Perm (TeleportManager:TPSelf) has been registered!
+21:45:15 | [PermissionManager] Perm (TeleportManager:DeletePreset) has been registered!
+21:45:15 | [PermissionManager] Perm (TeleportManager:AddNewPreset) has been registered!
+21:45:15 | [PermissionManager] Perm (TeleportManager:EditPreset) has been registered!
+21:45:15 | [PermissionManager] Perm (TeleportManager:TeleportEntity) has been registered!
+21:45:15 | [PermissionManager] Perm (EspToolsMenu) has been registered!
+21:45:15 | [PermissionManager] Perm (EspToolsMenu:DeleteObjects) has been registered!
+21:45:15 | [PermissionManager] Perm (EspToolsMenu:PlayerESP) has been registered!
+21:45:15 | [PermissionManager] Perm (EspToolsMenu:RestPasscodeFence) has been registered!
+21:45:15 | [PermissionManager] Perm (EspToolsMenu:RetriveCodeFromObj) has been registered!
+21:45:15 | [PermissionManager] Perm (EspToolsMenu:PlayerMeshEsp) has been registered!
+21:45:15 | [PermissionManager] Perm (EspToolsMenu:InstantBaseBuild) has been registered!
+21:45:15 | [PermissionManager] Perm (MenuXMLEditor) has been registered!
+21:45:15 | [PermissionManager] Perm (MenuCommandsConsole) has been registered!
+21:45:15 | [PermissionManager] Adding Super Admin (76561197978157047)
+21:45:15 | [PermissionManager] Loaded UserGroups.json
+21:45:15 | [BansManager]:: Load(): Loading ban list Json File $profile:VPPAdminTools/BanList.json
+21:45:15 | [PermissionManager] Perm (Chat:StripPlayer) has been registered!
+21:45:15 | [PermissionManager] Perm (Chat:KillPlayer) has been registered!
+21:45:15 | [PermissionManager] Perm (Chat:HealPlayer) has been registered!
+21:45:15 | [PermissionManager] Perm (Chat:BringPlayer) has been registered!
+21:45:15 | [PermissionManager] Perm (Chat:ReturnPlayer) has been registered!
+21:45:15 | [PermissionManager] Perm (Chat:GotoPlayer) has been registered!
+21:45:15 | [PermissionManager] Perm (Chat:UnbanPlayer) has been registered!
+21:45:15 | [PermissionManager] Perm (Chat:TeleportToTown) has been registered!
+21:45:15 | [PermissionManager] Perm (Chat:TeleportToPoint) has been registered!
+21:45:15 | [PermissionManager] Perm (Chat:GiveAmmo) has been registered!
+21:45:15 | [PermissionManager] Perm (Chat:SpawnInventory) has been registered!
+21:45:15 | [PermissionManager] Perm (Chat:SpawnOnGround) has been registered!
+21:45:15 | [PermissionManager] Perm (Chat:SpawnInHands) has been registered!
+21:45:15 | [PermissionManager] Perm (Chat:SpawnCar) has been registered!
+21:45:15 | [PermissionManager] Perm (Chat:refuelCar) has been registered!
+21:45:15 | [WeatherManager] Loading Json File $profile:VPPAdminTools/ConfigurablePlugins/WeatherManager/WeatherSettingsPresets.json
+21:45:15 | [TimeManager] Loading Json File $profile:VPPAdminTools/ConfigurablePlugins/TimeManager/TimeSettingsPresets.json
+21:45:15 | Building Sets Loaded: 0
+21:45:15 | [SteamAPIManager] WARNING couldn't fetch server IP from configs; using cURL...
+21:45:15 | [SteamAPIManager] ERROR No steam API key configured, and or key is invalid.
+23:20:56 | Player "Sepultaris" (steamId=76561197978157047) connected to server!
+23:25:12 | Player "Survivor" (steamId=76561198032247375) connected to server!
+1:52:20 | Player "Survivor (2)" (steamId=76561197978022302) connected to server!
+3:7:3 | Player "Survivor" (steamId=76561198032247375) initiated disconnect process...
+3:7:9 | Player "Survivor" (steamId=76561198032247375) disconnected early from server (EXIT NOW).
+3:7:18 | Player "Survivor" (steamId=76561198032247375) disconnected from server.
+3:36:54 | Player "Survivor (2)" (steamId=76561197978022302) initiated disconnect process...
+3:37:2 | Player "Survivor (2)" (steamId=76561197978022302) disconnected early from server (EXIT NOW).
+3:37:9 | Player "Survivor (2)" (steamId=76561197978022302) disconnected from server.
+3:44:58 | Player "Sepultaris" (steamId=76561197978157047) initiated disconnect process...
+3:45:2 | Player "Sepultaris" (steamId=76561197978157047) disconnected early from server (EXIT NOW).
+3:45:13 | Player "Sepultaris" (steamId=76561197978157047) disconnected from server.
+4:7:56 | Player "Sepultaris" (steamId=76561197978157047) connected to server!
+4:21:25 | Admin "Sepultaris" (steamId=76561197978157047) built part d_right_final_planks at position: <2582.885254, 304.831757, 6351.595215>
+4:21:27 | Admin "Sepultaris" (steamId=76561197978157047) built part e_right_outer_plate at position: <2582.885254, 304.831757, 6351.595215>
+4:21:29 | Admin "Sepultaris" (steamId=76561197978157047) built part d_left_final_planks at position: <2582.885254, 304.831757, 6351.595215>
+4:21:30 | Admin "Sepultaris" (steamId=76561197978157047) built part e_left_outer_plate at position: <2582.885254, 304.831757, 6351.595215>
+4:22:49 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2557.750732, 309.490662, 6431.802734>)
+4:22:51 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2479.590576, 325.011993, 6502.190430>)
+4:22:53 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2657.402588, 337.112488, 6588.008301>)
+4:22:54 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2661.423584, 340.309540, 6597.482910>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2682.901855, 345.415985, 6625.922363>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2688.558838, 347.093903, 6631.937988>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2688.563477, 347.096771, 6631.944336>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2688.576904, 347.103943, 6631.961426>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2688.583252, 347.107605, 6631.969238>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2688.600586, 347.116638, 6631.990234>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2688.607666, 347.120239, 6631.998535>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2688.624512, 347.128967, 6632.018555>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2688.632080, 347.133331, 6632.028320>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2688.645752, 347.139130, 6632.041504>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2688.666992, 347.148865, 6632.062500>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2688.676514, 347.152771, 6632.071777>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2688.697998, 347.162537, 6632.093262>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2688.705078, 347.165436, 6632.099609>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2688.731201, 347.175812, 6632.122070>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2688.744385, 347.181091, 6632.133789>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2688.771973, 347.191864, 6632.156738>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2688.780518, 347.195160, 6632.164551>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2689.195557, 347.389587, 6632.600098>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2689.509033, 347.536957, 6632.931152>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2689.860107, 347.693695, 6633.297852>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2690.192627, 347.842346, 6633.647461>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2690.498535, 347.979034, 6633.970215>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2690.796875, 348.111481, 6634.281250>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2691.053955, 348.226318, 6634.551270>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2691.303955, 348.336090, 6634.808594>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2691.508057, 348.426788, 6635.022949>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2691.691650, 348.507446, 6635.211914>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2691.840332, 348.573364, 6635.367188>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2691.980225, 348.634277, 6635.509766>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2692.092041, 348.683655, 6635.625488>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2692.201172, 348.730438, 6635.734375>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2692.286865, 348.767548, 6635.821777>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2692.763184, 348.984650, 6636.318848>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2693.109619, 349.146057, 6636.681152>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2693.368408, 349.266296, 6636.950684>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2693.555176, 349.352844, 6637.145508>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2693.691895, 349.416046, 6637.286621>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2693.792480, 349.462494, 6637.391113>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2693.871826, 349.498688, 6637.471680>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2693.940674, 349.526611, 6637.541992>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2694.002686, 349.549316, 6637.604492>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2695.159668, 349.984009, 6638.810547>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2695.909668, 350.265717, 6639.591797>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2696.371582, 350.439209, 6640.073242>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2696.652344, 350.544556, 6640.365234>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2696.819824, 350.607300, 6640.539551>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2697.430420, 350.794861, 6641.179688>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2697.785156, 350.901306, 6641.553711>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2697.982422, 350.961792, 6641.768066>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2698.090820, 350.994629, 6641.883789>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2698.145996, 351.013428, 6641.951172>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2698.190430, 351.028107, 6642.003906>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2698.239014, 351.046387, 6642.070801>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2698.274658, 351.058746, 6642.115234>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2698.322998, 351.077393, 6642.183594>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2698.357666, 351.089539, 6642.227539>)
+4:22:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2700.216309, 351.663300, 6644.198242>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2701.074707, 351.923248, 6645.126953>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2701.465332, 352.040955, 6645.560547>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2701.633057, 352.092804, 6645.752930>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2701.720947, 352.122498, 6645.865723>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2701.773438, 352.138885, 6645.926758>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2701.821533, 352.154572, 6645.985840>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2701.855713, 352.165680, 6646.027344>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2701.901611, 352.180878, 6646.084473>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2702.868408, 352.463440, 6647.117676>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2703.196533, 352.562164, 6647.481934>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2703.303711, 352.594513, 6647.601074>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2703.339355, 352.605927, 6647.644043>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2703.355957, 352.611206, 6647.664063>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2703.699707, 352.712677, 6648.036621>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2703.881836, 352.767212, 6648.236816>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2704.064941, 352.822021, 6648.438477>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2704.251953, 352.873779, 6648.644531>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2704.432373, 352.923798, 6648.843750>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2704.599365, 352.969330, 6649.024414>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2704.758301, 353.012726, 6649.196289>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2704.903320, 353.052551, 6649.354004>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2705.035156, 353.088715, 6649.498047>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2705.147461, 353.119873, 6649.622070>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2705.612549, 353.247467, 6650.128906>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2705.978516, 353.350494, 6650.540527>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2706.276611, 353.434998, 6650.878418>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2706.513428, 353.502014, 6651.145996>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2707.104492, 353.664703, 6651.792480>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2707.539795, 353.788300, 6652.277344>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2707.828857, 353.881378, 6652.600098>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2708.030273, 353.950134, 6652.825195>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2708.176758, 353.999908, 6652.988281>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2708.283203, 354.036102, 6653.106445>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2708.369141, 354.064789, 6653.199707>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2708.432861, 354.086395, 6653.270020>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2708.489014, 354.104828, 6653.329590>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2708.531738, 354.119232, 6653.376465>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2708.771484, 354.198730, 6653.633789>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2708.919922, 354.249023, 6653.798340>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2709.017822, 354.281158, 6653.902344>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2709.075684, 354.300446, 6653.964844>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2709.117676, 354.313171, 6654.004395>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2709.149902, 354.323181, 6654.036133>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2709.194580, 354.336243, 6654.076172>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2709.220947, 354.344666, 6654.103027>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2709.267822, 354.358002, 6654.143555>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2709.294189, 354.366241, 6654.169922>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2709.667480, 354.489563, 6654.568848>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2709.853516, 354.551392, 6654.769531>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2709.953369, 354.583923, 6654.874023>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2710.000977, 354.599487, 6654.923828>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2710.036133, 354.609772, 6654.956543>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2710.057617, 354.616547, 6654.978027>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2710.090576, 354.626373, 6655.008301>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2710.110596, 354.632813, 6655.028809>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2710.145508, 354.643311, 6655.062012>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2710.887695, 354.896759, 6655.891113>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2711.188477, 354.998840, 6656.224609>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2711.316162, 355.038055, 6656.366211>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2711.364014, 355.051697, 6656.417480>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2711.381592, 355.056671, 6656.436523>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2712.556396, 355.399200, 6657.738281>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2712.951660, 355.514465, 6658.176270>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2713.080078, 355.551727, 6658.317871>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2713.120361, 355.563385, 6658.362305>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2713.134766, 355.567322, 6658.377441>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2713.154541, 355.573151, 6658.398926>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2713.205322, 355.588013, 6658.455078>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2713.226074, 355.593994, 6658.478516>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2713.277100, 355.608917, 6658.534668>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2713.298096, 355.614899, 6658.557617>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2713.535400, 355.683746, 6658.818359>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2713.590088, 355.699738, 6658.879883>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2713.647461, 355.717041, 6658.945801>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2713.699219, 355.732330, 6659.003906>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2713.757080, 355.749664, 6659.070801>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2713.809814, 355.765320, 6659.130371>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2713.872314, 355.784302, 6659.203613>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2713.925293, 355.799866, 6659.262695>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2713.990723, 355.819733, 6659.339355>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2714.078125, 355.844299, 6659.431641>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2714.160156, 355.868439, 6659.523926>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2714.221436, 355.885864, 6659.589355>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2714.279297, 355.903412, 6659.656250>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2714.320557, 355.915161, 6659.701172>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2714.363037, 355.928162, 6659.750977>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2714.400635, 355.939484, 6659.794434>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2714.442139, 355.951935, 6659.842773>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2714.477295, 355.962524, 6659.882813>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2714.728760, 356.039703, 6660.152344>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2714.894531, 356.092377, 6660.328125>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2715.012451, 356.129120, 6660.457520>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2715.125000, 356.154114, 6660.579102>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2715.194580, 356.170380, 6660.657227>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2715.243896, 356.181488, 6660.710938>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2715.753418, 356.296875, 6661.271484>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2716.075439, 356.369751, 6661.624512>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2716.270020, 356.414185, 6661.840332>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2716.391113, 356.441681, 6661.973633>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2716.464111, 356.458649, 6662.056152>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2716.519775, 356.471405, 6662.117676>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2716.569336, 356.482819, 6662.173340>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2716.607178, 356.491669, 6662.215332>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2716.648926, 356.501251, 6662.261719>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2717.854736, 356.776642, 6663.597168>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2718.669189, 356.919708, 6664.497070>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2719.421143, 356.989319, 6665.325684>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2719.782227, 357.022736, 6665.723145>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2719.955322, 357.038727, 6665.913574>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2720.038330, 357.050171, 6666.026367>)
+4:23:0 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2720.096191, 357.058167, 6666.105469>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2720.137695, 357.068298, 6666.187012>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2720.188232, 357.075623, 6666.257324>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2720.437500, 357.103210, 6666.557617>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2720.155029, 357.093933, 6666.341797>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2719.602539, 357.064728, 6665.858398>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2719.394287, 357.054382, 6665.680176>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2718.838867, 357.022339, 6665.177734>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2718.877441, 357.046570, 6665.337891>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2718.261475, 357.020599, 6664.835449>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2718.146240, 357.019073, 6664.760742>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2717.865234, 357.006317, 6664.556152>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2717.796387, 357.003326, 6664.531738>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2717.746582, 356.995087, 6664.490234>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2717.692871, 357.004272, 6664.520508>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2717.530029, 357.002502, 6664.487793>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2717.476563, 357.008026, 6664.502441>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2717.340332, 357.003632, 6664.462891>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2717.304199, 357.007477, 6664.473145>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2717.220703, 357.006378, 6664.455566>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2717.177979, 357.010773, 6664.467285>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2717.093018, 357.010468, 6664.452148>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2717.055176, 357.014618, 6664.464844>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2716.954834, 357.009308, 6664.426758>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2716.921387, 357.015320, 6664.445801>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2716.815430, 357.009583, 6664.405762>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2716.764160, 357.013489, 6664.414551>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2716.929688, 357.032532, 6664.519043>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2716.895020, 357.052704, 6664.598145>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2716.855469, 357.065094, 6664.644043>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2716.835449, 357.073700, 6664.676270>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2717.200928, 357.141052, 6665.013672>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2717.325195, 357.188507, 6665.250488>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2717.429932, 357.214661, 6665.459961>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2717.491699, 357.230499, 6665.585449>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2717.544189, 357.241028, 6665.674316>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2717.583740, 357.248718, 6665.741699>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2717.643311, 357.257782, 6665.827148>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2717.658936, 357.265137, 6665.877441>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2717.713623, 357.274506, 6665.962402>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2718.473877, 357.369720, 6666.941406>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2718.782227, 357.427917, 6667.449219>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2718.984619, 357.443298, 6667.817871>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2719.098633, 357.450806, 6668.041016>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2719.151367, 357.454346, 6668.144531>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2720.508789, 357.528320, 6670.201660>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2720.927246, 357.593842, 6670.839355>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2721.117432, 357.625092, 6671.140137>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2721.197266, 357.638184, 6671.265625>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2721.233887, 357.644989, 6671.329590>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2721.259766, 357.648956, 6671.368652>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2721.297119, 357.655457, 6671.430176>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2721.310791, 357.660309, 6671.471191>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2721.342773, 357.667267, 6671.534180>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2721.354736, 357.672180, 6671.575195>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2722.263672, 357.785583, 6672.747559>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2722.525879, 357.824707, 6673.121094>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2722.597656, 357.838013, 6673.212891>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2722.619629, 357.842072, 6673.241211>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2722.623291, 357.843658, 6673.252930>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2722.627441, 357.846313, 6673.271484>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2722.632813, 357.850952, 6673.305664>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2722.635986, 357.854340, 6673.329590>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2722.642090, 357.860077, 6673.372559>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2722.629639, 357.862946, 6673.393555>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2722.571533, 357.864838, 6673.412109>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2722.547852, 357.867737, 6673.435547>)
+4:23:1 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2722.483887, 357.870789, 6673.455566>)
+4:23:3 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2714.294922, 360.252777, 6691.635742>)
+4:23:4 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2706.736328, 362.095398, 6713.624023>)
+4:23:5 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<2697.137695, 363.484009, 6732.309570>)
+4:30:28 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<7134.047852, 68.874847, 2910.615234>)
+4:33:12 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<7233.616211, 30.172920, 3050.564697>)
+4:33:59 | "Sepultaris" (steamid=76561197978157047) teleported to crosshair (pos=<7114.825195, 44.626869, 2913.613770>)
+4:55:20 | Admin "Sepultaris" (steamId=76561197978157047) built part base at position: <2590.590088, 308.582642, 6345.706055>
+4:55:24 | Admin "Sepultaris" (steamId=76561197978157047) built part step_one at position: <2590.590088, 308.582642, 6345.706055>
+4:55:25 | Admin "Sepultaris" (steamId=76561197978157047) built part step_two at position: <2590.590088, 308.582642, 6345.706055>
+4:55:26 | Admin "Sepultaris" (steamId=76561197978157047) built part step_five at position: <2590.590088, 308.582642, 6345.706055>
+4:55:52 | Admin "Sepultaris" (steamId=76561197978157047) built part base at position: <2589.596436, 308.502594, 6343.064453>
+4:55:53 | Admin "Sepultaris" (steamId=76561197978157047) built part step_one at position: <2589.596436, 308.502594, 6343.064453>
+4:55:54 | Admin "Sepultaris" (steamId=76561197978157047) built part step_two at position: <2589.596436, 308.502594, 6343.064453>
+4:55:55 | Admin "Sepultaris" (steamId=76561197978157047) built part step_five at position: <2589.596436, 308.502594, 6343.064453>
+4:56:17 | Admin "Sepultaris" (steamId=76561197978157047) built part base at position: <2587.354248, 308.468414, 6341.865723>
+4:56:18 | Admin "Sepultaris" (steamId=76561197978157047) built part step_one at position: <2587.354248, 308.468414, 6341.865723>
+4:56:19 | Admin "Sepultaris" (steamId=76561197978157047) built part step_two at position: <2587.354248, 308.468414, 6341.865723>
+4:56:20 | Admin "Sepultaris" (steamId=76561197978157047) built part step_five at position: <2587.354248, 308.468414, 6341.865723>
+4:57:24 | "Sepultaris" (steamid=76561197978157047) toggled freecam
+5:0:25 | Player "Sepultaris" (steamId=76561197978157047) initiated disconnect process...
+5:0:27 | Player "Sepultaris" (steamId=76561197978157047) disconnected early from server (EXIT NOW).
+5:3:8 | Player "Sepultaris" (steamId=76561197978157047) initiated disconnect process...
+5:3:9 | Player "Sepultaris" (steamId=76561197978157047) disconnected early from server (EXIT NOW).

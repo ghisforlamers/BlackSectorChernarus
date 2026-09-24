@@ -19,6 +19,30 @@
             ],
             "Variants": []
         },
+		{
+		"ClassName": "Custom_Solid_Watch",
+		"MaxPriceThreshold": 1000,
+		"MinPriceThreshold": 1000,
+		"SellPricePercent": 0.5,
+		"MaxStockThreshold": 20,
+		"MinStockThreshold": 5,
+		"QuantityPercent": -1,
+		"SpawnAttachments": [
+			"Custom_Watch_Battery"
+		],
+		"Variants": []
+		},
+		{
+		"ClassName": "Custom_Battery_Pack",
+		"MaxPriceThreshold": 250,
+		"MinPriceThreshold": 250,
+		"SellPricePercent": 0.5,
+		"MaxStockThreshold": 30,
+		"MinStockThreshold": 10,
+		"QuantityPercent": -1,
+		"SpawnAttachments": [],
+		"Variants": []
+		},
         {
             "ClassName": "megaphone",
             "MaxPriceThreshold": 5050,

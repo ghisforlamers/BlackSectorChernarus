@@ -44,4 +44,7 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="BlackSector_FOG_types.xml" type="types" />
 		<file name="BlackSector_SNAFU_types.xml" type="types" />
 	</ce>
+		<ce folder="BlackSector_ServerInfoItems">
+		<file name="types.xml" type="types" />
+	</ce>
 </economycore>

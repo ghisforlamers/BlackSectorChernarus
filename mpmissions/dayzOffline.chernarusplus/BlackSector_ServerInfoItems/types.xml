@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<types>
+    <!-- Starter-only wristwatch. Does not spawn naturally. -->
+    <type name="Custom_Solid_Watch">
+        <nominal>10</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
+    </type>
+
+    <!-- Calendar: normal residential/civilian CE loot. -->
+    <type name="Custom_Calendar_Rolled">
+        <nominal>15</nominal>
+        <lifetime>14400</lifetime>
+        <restock>1800</restock>
+        <min>8</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+    </type>
+
+    <!-- Wall clock item: normal civilian CE loot. -->
+    <type name="Custom_Clock_Item">
+        <nominal>10</nominal>
+        <lifetime>14400</lifetime>
+        <restock>1800</restock>
+        <min>5</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+    </type>
+
+    <!-- Pack that unpacks into the custom watch battery. -->
+    <type name="Custom_Battery_Pack">
+        <nominal>20</nominal>
+        <lifetime>14400</lifetime>
+        <restock>1800</restock>
+        <min>10</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Industrial"/>
+    </type>
+
+    <!-- Created by unpacking Custom_Battery_Pack and used as watch attachment. -->
+    <type name="Custom_Watch_Battery">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <category name="tools"/>
+    </type>
+
+    <!-- Deployed forms. Never CE-spawned, but long-lived when placed. -->
+    <type name="Custom_Calendar_Deployed">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <category name="tools"/>
+    </type>
+
+    <type name="Custom_Clock_Deployed">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <category name="tools"/>
+    </type>
+</types>
