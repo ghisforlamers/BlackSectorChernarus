@@ -4,8 +4,8 @@ DayZ server launcher scripts for PowerShell.
 
 Install:
 ```
-git clone https://github.com/ghisforlamers/DayZFallenEmpires.git
-cd DayZFallenEmpires
+git clone https://github.com/ghisforlamers/BlackSectorChernarus.git
+cd BlackSectorChernarus
 ```
 
 Update:
