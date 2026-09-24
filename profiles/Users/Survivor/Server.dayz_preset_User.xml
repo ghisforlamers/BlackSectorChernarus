@@ -1343,29 +1343,125 @@
     <input name="UAToggleNVGPosition">
         <btn name="kSemicolon" />
     </input>
-    <input name="UAEarPlugsToggleMute">
+    <input name="UATogglePlayerControls">
+        <btn name="kSpace" />
+    </input>
+    <input name="UAHealTargets">
+        <btn name="kJ" />
+    </input>
+    <input name="UAToggleFreeCam">
+        <btn name="kBackspace" />
+    </input>
+    <input name="UACopyPositionClipboard">
+        <btn name="kP" />
+    </input>
+    <input name="UARepairVehicleAtCrosshairs">
+        <btn name="kK" />
+    </input>
+    <input name="UAFocusOnGame">
+        <btn name="kTab" />
+    </input>
+    <input name="UACollapseESPDropDwn" />
+    <input name="UATogglePlayerDetailEsp" />
+    <input name="UAExitSpectate">
+        <btn name="kPrior" />
+    </input>
+    <input name="UAToggleSpectatePerspective">
+        <btn name="kV" />
+    </input>
+    <input name="UASpectateNextTarget">
         <btn name="kN" />
     </input>
-    <input name="UAEarPlugsIncreaseVol">
-        <btn name="kEquals" />
+    <input name="UASpectatePrevTarget">
+        <btn name="kB" />
     </input>
-    <input name="UAEarPlugsDecreaseVol">
-        <btn name="kMinus" />
+    <input name="UASelectObject">
+        <btn name="mBLeft" />
     </input>
-    <input name="UADayzDogWhistle">
-        <btn name="kAdd" />
+    <input name="UADeSelectObject">
+        <btn name="kLControl" />
     </input>
-    <input name="UADayzDogFollow">
-        <btn name="kDivide" />
+    <input name="UAExecuteCommand">
+        <btn name="kReturn" />
+        <btn name="kNumpadEnter" />
     </input>
-    <input name="UADayzDogPatrol">
-        <btn name="kMultiply" />
+    <input name="UAUPCommand">
+        <btn name="kUp" />
     </input>
-    <input name="UADayzDogStayHere">
-        <btn name="kSubstract" />
+    <input name="UADOWNCommand">
+        <btn name="kDown" />
     </input>
-    <input name="UADayzDogEmoteToggle">
-        <btn name="kNumpad9" />
+    <input name="UAToggleAdminTools">
+        <btn name="kEnd" />
+    </input>
+    <input name="UAToggleMeshEsp">
+        <btn name="kY" />
+    </input>
+    <input name="UAOpenAdminTools">
+        <btn name="kHome" />
+    </input>
+    <input name="UATeleportToCrosshair">
+        <btn name="kH" />
+    </input>
+    <input name="UADeleteObjCrosshair">
+        <btn name="kDelete" />
+    </input>
+    <input name="UAToggleGodMode">
+        <btn name="kInsert" />
+    </input>
+    <input name="UACamForward">
+        <btn name="kW" />
+    </input>
+    <input name="UACamBackward">
+        <btn name="kS" />
+    </input>
+    <input name="UACamRight">
+        <btn name="kD" />
+    </input>
+    <input name="UACamLeft">
+        <btn name="kA" />
+    </input>
+    <input name="UACamUp">
+        <btn name="kQ" />
+    </input>
+    <input name="UACamDown">
+        <btn name="kZ" />
+    </input>
+    <input name="UACamTurbo">
+        <btn name="kLShift" />
+    </input>
+    <input name="UACamFOV">
+        <btn name="kLControl" />
+    </input>
+    <input name="UARotateLeft">
+        <btn name="mLeft" />
+    </input>
+    <input name="UARotateRight">
+        <btn name="mRight" />
+    </input>
+    <input name="UACamShiftLeft">
+        <btn name="mLeft" />
+    </input>
+    <input name="UACamShiftRight">
+        <btn name="mRight" />
+    </input>
+    <input name="UACamShiftUp">
+        <btn name="mUp" />
+    </input>
+    <input name="UACamShiftDown">
+        <btn name="mDown" />
+    </input>
+    <input name="UACamSpeedAdd">
+        <btn name="mWheelUp" />
+    </input>
+    <input name="UACamSpeedDeduct">
+        <btn name="mWheelDown" />
+    </input>
+    <input name="UACamRelease">
+        <btn name="kLControl" />
+    </input>
+    <input name="UAToggleInvis">
+        <btn name="kI" />
     </input>
     <controller name="PCKeyboard">
         <limit name="doubleclick" value="0.500000" />

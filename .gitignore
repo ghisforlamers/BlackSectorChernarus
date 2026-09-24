@@ -10,3 +10,8 @@ bin
 mods
 storage
 mpmissions/dayzOffline.chernarusplus/storage_1/
+*.log
+*.txt
+/profiles/BattlEye
+/profiles/BattlEye
+profiles/BattlEye/BEServer_x64.cfg
