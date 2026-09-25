@@ -58,11 +58,18 @@ INI format: `[section]` headers, `#` comments, `key = value` lines.
 
 ```
 [steam]        # server_app_id, workshop_app_id
-[run]          # port, limitFPS, cpuCount, exThreads, maxMem, config
+[run]          # port, limitFPS, cpuCount, exThreads, maxMem, config, storage
 [battleye]     # enabled, config, rcon_password, rcon_port, rcon_ip, restrict_rcon
 ```
 
 `[run] config` points at the DayZ server config (`config/server.conf` by default).
+
+`[run] storage` sets the player data / persistence folder that the server is started
+with (`-storage`). It is resolved relative to `server.ini` like `config`, and it is
+optional: an instance config that does not set it keeps using the `storage` folder
+beside the launcher. Point it elsewhere to keep server data off the checkout, for
+example to a separate volume for multiple instances. The engine appends
+`storage_<instanceId>` to it, using `instanceId` from `server.conf`.
 
 `[battleye]` is described below.
 

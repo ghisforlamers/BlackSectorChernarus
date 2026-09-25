@@ -21,6 +21,7 @@ cpuCount = 4
 exThreads = 4
 maxMem = 16384
 config = server.conf   # DayZ server config, resolved relative to this file
+storage = ../storage   # player data / persistence, resolved relative to this file; defaults to the launcher's storage folder
 
 [battleye]
 enabled = 1                        # set to 0 to run without BattlEye

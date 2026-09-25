@@ -10,9 +10,6 @@ param(
 
 $Root = $PSScriptRoot
 
-# Directory for user storage
-$STORAGE_DIR = Join-Path $Root "storage"
-
 $isWindowsHost = [Environment]::OSVersion.Platform -eq [PlatformID]::Win32NT
 
 # Path to SteamCMD. Windows binary is steamcmd.exe, Linux one is steamcmd.
@@ -287,6 +284,17 @@ switch ($Action) {
             exit 1
         }
 
+        # Optional, so an older config keeps working: it defaults to the storage
+        # folder beside the launcher.
+        $storagePath = if ($CFG.ContainsKey('storage')) { $CFG['storage'] } else { Join-Path $Root 'storage' }
+        $storageDir = Resolve-IniPath $storagePath $iniDir
+        if (Test-Path -LiteralPath $storageDir -PathType Leaf) {
+            Write-Host "ERROR: [run] storage in $iniPath points at a file, not a directory: $storageDir"
+            exit 1
+        }
+        New-Item -ItemType Directory -Path $storageDir -Force | Out-Null
+        Write-Host "Storage: $storageDir"
+
         $params = @(
             "-port=$($CFG['port'])",
             "-limitFPS=$($CFG['limitFPS'])",
@@ -295,7 +303,7 @@ switch ($Action) {
             "-maxMem=$($CFG['maxMem'])",
             "-profiles=$(Join-Path $Root 'profiles')",
             "-config=$serverConfig",
-            "-storage=$STORAGE_DIR",
+            "-storage=$storageDir",
             "-mod=$MODS",
             "-serverMod=$SERVER_MODS"
         )
