@@ -16,13 +16,8 @@ git pull
 Copy the two templates and edit the copies. Neither copy is tracked in git, and
 both may live anywhere, including outside this repository.
 
-```
-cp config/server.ini.example config/server.ini
-cp config/server.conf.example config/server.conf
-```
-
-`config/server.ini` — launcher settings: ports, performance, BattlEye.
-`config/server.conf` — DayZ server config: hostname, passwords, mission.
+`config/server.ini.example` — launcher settings: ports, performance, BattlEye.
+`config/server.conf.example` — DayZ server config: hostname, passwords, mission.
 
 Paths inside `server.ini` resolve relative to `server.ini` itself, not to the
 launcher. INI format: `[section]` headers, `key = value` lines, `#` comments.
