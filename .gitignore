@@ -25,6 +25,6 @@ profiles/BlackSector_BunkerLoot/BlackSector_BunkerLootState.json
 # VPPAdminTools admin password, written by the mod on first run.
 profiles/VPPAdminTools/Permissions/credentials.txt
 # Per-instance config, created by copying the checked-in *.example templates.
-config/server.ini
+config/*.ini
 config/*.conf
 config/*.cfg
