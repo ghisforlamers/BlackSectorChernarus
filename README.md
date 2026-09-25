@@ -10,6 +10,15 @@ PATH.
 git clone https://github.com/ghisforlamers/BlackSectorChernarus.git
 git pull
 ```
+Command examples:
+
+```
+$env:STEAM_USER = "username"
+.\server.ps1 update
+.\server.ps1 run config\server.ini.example
+.\server.ps1 clean
+```
+
 
 ## Configuration
 
@@ -43,13 +52,6 @@ junctions (Windows) or symlinks (Linux) for the mods, `bin\config` and
 `bin\mpmissions`.
 
 `run` requires a `server.ini`. `clean` removes `bin\` and `mods\`.
-
-```
-$env:STEAM_USER = "username"
-.\server.ps1 update
-.\server.ps1 run    config\server.ini.example
-.\server.ps1 clean
-```
 
 ## Mods
 
