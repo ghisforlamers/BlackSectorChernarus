@@ -51,9 +51,6 @@ $env:STEAM_USER = "username"
 .\server.ps1 clean
 ```
 
-Passing a `server.ini` to `update` only overrides the app ids and writes the
-BattlEye config early; both happen on `run` anyway.
-
 ## Mods
 
 The mod list is shared across instances, so it lives in the checked-in
