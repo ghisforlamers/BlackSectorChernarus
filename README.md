@@ -47,7 +47,7 @@ junctions (Windows) or symlinks (Linux) for the mods, `bin\config` and
 ```
 $env:STEAM_USER = "username"
 .\server.ps1 update
-.\server.ps1 run    config\server.ini
+.\server.ps1 run    config\server.ini.example
 .\server.ps1 clean
 ```
 
