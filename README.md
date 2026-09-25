@@ -1,121 +1,92 @@
 # DayZ Black Sector: Chernarus
 
-DayZ server launcher scripts for PowerShell.
+PowerShell launcher for a DayZ dedicated server. Server files are downloaded by
+the launcher; the mod list, missions and shared config are tracked in git.
 
-Install:
+Requires PowerShell 7+ (`pwsh`) or Windows PowerShell 5.1, and `steamcmd` on
+PATH.
+
 ```
 git clone https://github.com/ghisforlamers/BlackSectorChernarus.git
-cd BlackSectorChernarus
-```
-
-Update:
-```
 git pull
 ```
 
-## PowerShell (Windows / Linux)
-
-Requirements: PowerShell 7+ (`pwsh`) or Windows PowerShell 5.1, `steamcmd`
-(on PATH).
-
 ## Configuration
 
-Only `run` needs a config. `update` works on its own, it just uses the default
-DayZ app ids (223350 / 221100) and the checked in `config/mods.ini`.
-
-A per-instance `server.ini` is **not** tracked by this repository. Copy the
-templates out of `config/` and customize them:
+Copy the two templates and edit the copies. Neither copy is tracked in git, and
+both may live anywhere, including outside this repository.
 
 ```
-cp config/server.ini.example config/server.ini       # Copy-Item on Windows
+cp config/server.ini.example config/server.ini
 cp config/server.conf.example config/server.conf
 ```
 
-Then edit the copies: `config/server.ini` sets the ports, performance and
-BattlEye options, `config/server.conf` is the DayZ server config (hostname,
-passwords, mission settings).
+`config/server.ini` — launcher settings: ports, performance, BattlEye.
+`config/server.conf` — DayZ server config: hostname, passwords, mission.
 
-`server.ini` may live anywhere, including outside this repository. Paths inside it
-are resolved relative to the `server.ini` itself, so `config = server.conf` means
-"<that folder>/server.conf" no matter where the file is kept.
+Paths inside `server.ini` resolve relative to `server.ini` itself, not to the
+launcher. INI format: `[section]` headers, `key = value` lines, `#` comments.
+
+| Section | Keys |
+| --- | --- |
+| `[steam]` | `server_app_id`, `workshop_app_id` (defaults 223350 / 221100) |
+| `[run]` | `port`, `limitFPS`, `cpuCount`, `exThreads`, `maxMem`, `config`, `storage` |
+| `[battleye]` | `enabled`, `config`, `rcon_password`, `rcon_port`, `rcon_ip`, `restrict_rcon` |
+
+`[run] config` points at `server.conf`. `[run] storage` is the player data
+folder passed to the server as `-storage`; it is optional and defaults to the
+`storage` folder beside the launcher. The engine appends `storage_<instanceId>`
+to it, using `instanceId` from `server.conf`. Point it at a separate volume to
+run multiple instances.
+
+## server.ps1
+
+`update` needs only `$env:STEAM_USER`; it works without a `server.ini` and uses
+the default app ids and the checked-in `config/mods.ini`. It downloads the
+server, downloads the workshop mods, copies `custom/` into `bin\`, and creates
+junctions (Windows) or symlinks (Linux) for the mods, `bin\config` and
+`bin\mpmissions`.
+
+`run` requires a `server.ini`. `clean` removes `bin\` and `mods\`.
 
 ```
-$env:STEAM_USER = "username"
-
-.\server update                     # download server, mods, link as junctions / symlinks
-
-.\server run    config/server.ini    # launch DayZ server (needs server.ini)
-
-.\server clean                      # remove bin\ and mods\
+.\server.ps1 update
+.\server.ps1 update config\server.ini
+.\server.ps1 run    config\server.ini
+.\server.ps1 clean
 ```
 
-`update` also takes an optional `server.ini`, but only to override the app ids or to
-write the BattlEye config before the first run. Both happen on `run` anyway.
+Passing a `server.ini` to `update` only overrides the app ids and writes the
+BattlEye config early; both happen on `run` anyway.
 
-### `server.ini`
+## Mods
 
-INI format: `[section]` headers, `#` comments, `key = value` lines.
-
-```
-[steam]        # server_app_id, workshop_app_id
-[run]          # port, limitFPS, cpuCount, exThreads, maxMem, config, storage
-[battleye]     # enabled, config, rcon_password, rcon_port, rcon_ip, restrict_rcon
-```
-
-`[run] config` points at the DayZ server config (`config/server.conf` by default).
-
-`[run] storage` sets the player data / persistence folder that the server is started
-with (`-storage`). It is resolved relative to `server.ini` like `config`, and it is
-optional: an instance config that does not set it keeps using the `storage` folder
-beside the launcher. Point it elsewhere to keep server data off the checkout, for
-example to a separate volume for multiple instances. The engine appends
-`storage_<instanceId>` to it, using `instanceId` from `server.conf`.
-
-`[battleye]` is described below.
-
-### Mods
-
-The mod list is shared, so it lives in `config/mods.ini` and is checked in:
+The mod list is shared across instances, so it lives in the checked-in
+`config/mods.ini`. Edit it, then run `update`.
 
 ```
 [mods]         # WorkshopID = @ModName
 [server_mods]  # WorkshopID = @ServerModName
 ```
 
-Add or remove mods by editing `config/mods.ini`, then run `update` to download and
-link them.
+Mods that are not on the workshop go in `custom/` and are listed in `mods.ini`
+with fake Workshop IDs (1001, 1002, ...). `update` copies them into `bin\`.
 
-Mods that aren't in the workshop are added to `custom`. They also need to be added
-to `mods.ini` with fake Workshop IDs (1001, 1002, ...).
-
-### BattlEye
+## BattlEye
 
 With `[battleye] enabled = 1` the launcher writes `bin\battleye\beserver_x64.cfg`
-next to the BattlEye binaries that ship with the server, and starts the server with
-`-bepath` pointing at that folder. The file is rewritten on every `update`/`run`,
-so a changed password or port always takes effect:
+next to the BattlEye binaries and starts the server with `-bepath` pointing at
+that folder. The file is rewritten on every `update` and `run`, so password and
+port changes always take effect. The stale `beserver_x64_active_*.cfg` copies
+BattlEye leaves behind are deleted on each run.
 
-```
-[battleye]
-enabled = 1
-config = beserver_x64.cfg     # file name written into the BattlEye folder
-rcon_password = change-me     # keep this private
-rcon_port = 27015             # open this UDP port in the firewall
-rcon_ip = 127.0.0.1
-restrict_rcon = 0
-```
+`rcon_ip = 127.0.0.1` only accepts clients on the server itself; use `0.0.0.0`
+to connect remotely, and open `rcon_port` (UDP) in the firewall. Log in with the
+`passwordAdmin` from `server.conf`. `bin\ban.txt` (Steam IDs) and
+`bin\battleye\bans.txt` (BattlEye GUIDs) are read while the server runs.
 
-Connect an RCON client (Dart, BEC, ...) to `rcon_ip`:`rcon_port` with
-`rcon_password`, then use `passwordAdmin` from `server.conf` to log in with
-`#login`. `rcon_ip = 127.0.0.1` only accepts tools running on the server itself; use
-`0.0.0.0` if you connect from another machine, and open the port in the firewall.
-`bin\ban.txt` (Steam IDs) and `bin\battleye\bans.txt` (BattlEye GUIDs) are read
-while the server runs.
-
-Note that the option is spelled `-bepath`, in lower case, because the engine matches
-it against a case sensitive table. A misspelled option is not an error, the engine
-just falls back to its built in `battleye/` folder, so the server starts without
-BattlEye wherever the binaries happen to be. The config file name has to stay lower
-case as well: BattlEye looks for `beserver_x64.cfg` next to `beserver_x64.so` and
-ignores any other spelling, which is why the launcher rewrites both the config and
-the stale `beserver_x64_active_*.cfg` copy BattlEye leaves behind.
+Both `-bepath` and the config file name must be lower case. The engine matches
+the option against a case-sensitive table, and a wrong spelling is not an
+error — it silently falls back to the built-in `battleye/` folder, so the server
+starts without BattlEye. BattlEye likewise only reads `beserver_x64.cfg` next to
+`beserver_x64.so`.
