@@ -45,6 +45,7 @@ junctions (Windows) or symlinks (Linux) for the mods, `bin\config` and
 `run` requires a `server.ini`. `clean` removes `bin\` and `mods\`.
 
 ```
+$env:STEAM_USER = "username"
 .\server.ps1 update
 .\server.ps1 run    config\server.ini
 .\server.ps1 clean
