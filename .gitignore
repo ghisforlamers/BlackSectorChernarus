@@ -1,17 +1,15 @@
-profiles/*.RPT
-profiles/*.log
-profiles/CommunityOnlineTools/Logs/*.log
-profiles/DataCache/cache_lock
-profiles/*.mdmp
-profiles/EventManagerLog/*.log
-profiles/ExpansionMod/Logs/*.log
-profiles/WebApiLog/*.log
 bin
 mods
 storage
-mpmissions/dayzOffline.chernarusplus/storage_1/
+storage_*
+mpmissions/*/storage_*/
 *.log
 *.txt
-/profiles/BattlEye
-/profiles/BattlEye
-profiles/BattlEye/BEServer_x64.cfg
+*.RPT
+*.mdmp
+profiles/BattlEye
+profiles/DataCache/*
+# Per-instance config, created by copying the checked-in *.example templates.
+config/server.ini
+config/*.conf
+config/*.cfg
