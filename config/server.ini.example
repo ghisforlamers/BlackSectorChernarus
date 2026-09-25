@@ -1,0 +1,31 @@
+# DayZ server launcher configuration.
+# This file is a template: copy it and customize the copy.
+#   cp config/server.ini.example config/server.ini
+# The copy is not tracked by git and may live anywhere, including outside this
+# repository. Paths below are resolved relative to this file, not to the
+# launcher script, so `config = server.conf` means "<this file's dir>/server.conf".
+# Read by ./server.ps1 (PowerShell).
+# Format: [section] plus "key = value" lines. Lines starting with # are comments.
+#
+# The mod list is not here: it lives in config/mods.ini, which is shared and
+# checked in.
+
+[steam]
+server_app_id = 223350
+workshop_app_id = 221100
+
+[run]
+port = 2304
+limitFPS = 40
+cpuCount = 4
+exThreads = 4
+maxMem = 16384
+config = server.conf   # DayZ server config, resolved relative to this file
+
+[battleye]
+enabled = 1                        # set to 0 to run without BattlEye
+config = beserver_x64.cfg          # written into the BattlEye folder beside the server binary
+rcon_password = change-me          # BattlEye RCON password (keep it private)
+rcon_port = 27015                  # RCON port, must be open in the firewall
+rcon_ip = 127.0.0.1                # address RCON clients connect to
+restrict_rcon = 0                  # 1 restricts RCON to admin commands
