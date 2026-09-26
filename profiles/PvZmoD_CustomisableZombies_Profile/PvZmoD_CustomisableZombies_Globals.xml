@@ -50,8 +50,8 @@
 	</type>
 	<type name="Night_Management">
 		<OverRide_Vanilla_Night_Time Activated="1" />
-		<Night_Beginning Time="18:30" />
-		<Night_End Time="06:00" />
+		<Night_Beginning Time="19:00" />
+		<Night_End Time="05:00" />
 	</type>
 	<type name="Damages_To_Vehicles_Radiator_When_Cruching_Zombies">
 		<Damages_To_Vehicles Activated="1" />
