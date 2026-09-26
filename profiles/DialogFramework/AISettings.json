@@ -1,0 +1,10 @@
+{
+    "ResetOnDeath": 1,
+    "ResetOnWeaponStowed": 1,
+    "ResetOnLeaveArea": 1,
+    "LeaveAreaDistance": 60.0,
+    "ResetOnSurrender": 1,
+    "PersistentAggroThreshold": 0,
+    "PersistenceMode": "FACTION",
+    "CheckInterval": 2.0
+}

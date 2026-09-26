@@ -1,0 +1,18 @@
+{
+    "ConfigVersion": 3,
+    "Quests": [
+        {
+            "QuestID": 9999,
+            "AcceptTexts": [ "I'll do it.", "Consider it handled." ],
+            "DeclineTexts": [ "Not this time." ],
+            "TurnInTexts": [ "It's done." ],
+            "NotYetTexts": [ "Not yet." ],
+            "InProgressTexts": [ "Still working on it." ],
+            "QuestListTexts": [ "You again. Here's what's open." ],
+            "NoQuestsTexts": [ "Nothing more from me. Try the docks." ],
+            "NoQuestsBackTexts": [ "Let's talk about something else." ],
+            "NoQuestsLeaveTexts": [ "I'll be on my way." ],
+            "RewardSelectText": "Take your pick."
+        }
+    ]
+}

@@ -1,0 +1,107 @@
+{
+    "ID": 9999,
+    "NPCIDs": [],
+    "RootNodeID": 1,
+    "GreetingVoiceLineIDs": [
+        "Example_Greeting_1",
+        "Example_Greeting_2",
+        "Example_Greeting_3"
+    ],
+    "FarewellVoiceLineIDs": [
+        "Example_Farewell_1",
+        "Example_Farewell_2",
+        "Example_Farewell_3"
+    ],
+    "QuestListTexts": [],
+    "NoQuestsTexts": [],
+    "NoQuestsBackTexts": [],
+    "NoQuestsLeaveTexts": [],
+    "NoQuestsVoiceLineIDs": [],
+    "QuestListBackTexts": [],
+    "OfferBackTexts": [],
+    "InProgressBackTexts": [],
+    "TurnInBackTexts": [],
+    "Stages": [],
+    "Nodes": [
+        {
+            "ID": 1,
+            "Type": "STANDARD",
+            "SpeakerText": "Well, look who wandered in. What do you need?",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "I'm looking for work.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "SHOW_QUEST_LIST"
+                },
+                {
+                    "Text": "Nevermind.",
+                    "NextNodeID": -1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "END_CONVERSATION"
+                },
+                {
+                    "Text": "Rough weather we're having.",
+                    "NextNodeID": 2,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "Seen any infected nearby?",
+                    "NextNodeID": 3,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                },
+                {
+                    "Text": "How long have you been out here?",
+                    "NextNodeID": 4,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                }
+            ]
+        },
+        {
+            "ID": 2,
+            "Type": "STANDARD",
+            "SpeakerText": "Tell me about it. Hasn't let up in days.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Anyway...",
+                    "NextNodeID": 1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                }
+            ]
+        },
+        {
+            "ID": 3,
+            "Type": "STANDARD",
+            "SpeakerText": "A few stragglers past the treeline. Nothing I can't handle.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Good to know.",
+                    "NextNodeID": 1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                }
+            ]
+        },
+        {
+            "ID": 4,
+            "Type": "STANDARD",
+            "SpeakerText": "Longer than I'd like. You lose count after a while.",
+            "VoiceLineIDs": [],
+            "Responses": [
+                {
+                    "Text": "Fair enough.",
+                    "NextNodeID": 1,
+                    "RequiredQuestID": -1,
+                    "ActionType": "NONE"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "ConfigVersion": 11,
+    "Position": "BOTTOM_CENTER",
+    "PanelWidth": 0.6000000238418579,
+    "PanelHeight": 0.5199999809265137,
+    "OffsetX": 0.0,
+    "OffsetY": 0.0,
+    "EdgeMargin": 0.029999999329447748,
+    "BackgroundColor": [
+        230,
+        0,
+        0,
+        0
+    ],
+    "ResponseBackgroundColor": [
+        200,
+        0,
+        0,
+        0
+    ],
+    "HoverBorderColor": [
+        255,
+        255,
+        215,
+        0
+    ],
+    "SpeakerNameColor": [
+        255,
+        255,
+        255,
+        255
+    ],
+    "SpeakerTextColor": [
+        255,
+        255,
+        255,
+        255
+    ],
+    "ResponseTextColor": [
+        255,
+        220,
+        220,
+        220
+    ],
+    "RewardSelectedColor": [
+        230,
+        90,
+        70,
+        20
+    ],
+    "WindowBorderColor": [
+        255,
+        255,
+        255,
+        255
+    ],
+    "WindowBorderThickness": 2,
+    "VisitedResponseOpacity": 0.4000000059604645,
+    "FontStyle": "DEFAULT",
+    "Font": "DEFAULT",
+    "TextSize": "NORMAL",
+    "ShowResponseIcons": 0,
+    "ShowLanguageButton": 1,
+    "ScaleTextWithPanel": 0,
+    "ShowErrorNotifications": 1,
+    "ScrollSpeed": 1.0,
+    "ShowReputationNotifications": 1,
+    "BookTabName": "",
+    "BookPageTitle": "",
+    "BookColumnName": "",
+    "BookColumnStatus": "",
+    "BookColumnReputation": "",
+    "LayoutOverride": ""
+}
