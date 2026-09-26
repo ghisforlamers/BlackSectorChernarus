@@ -341,6 +341,13 @@
                 "ClassName": "Apple",
                 "Quantity": -1,
                 "Attachments": []
+            },
+            {
+                "ClassName": "Custom_Solid_Watch",
+                "Quantity": 1,
+                "Attachments": [
+                    "Custom_Watch_Battery"
+                ]
             }
         ],
         "PantsGear": [],
