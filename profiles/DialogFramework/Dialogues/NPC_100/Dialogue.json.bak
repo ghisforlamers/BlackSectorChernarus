@@ -1,12 +1,6 @@
 {
     "ID": 9999,
-    "NPCIDs": [
-        100,
-        101,
-        102,
-        103,
-        104
-    ],
+    "NPCIDs": [],
     "RootNodeID": 1,
     "GreetingVoiceLineIDs": [
         "Example_Greeting_1",
