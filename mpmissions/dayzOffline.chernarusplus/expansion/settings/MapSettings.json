@@ -18,11 +18,11 @@
     "ShowDistanceOnServerMarkers": 1,
     "ServerMarkers": [
         {
-            "m_UID": "ServerMarker_Aircrafts_Balota",
+            "m_UID": "ServerMarker_Trader_Green_Montain",
             "m_Visibility": 6,
             "m_Is3D": 1,
-            "m_Text": "Aircrafts - Balota",
-            "m_IconName": "Helicopter",
+            "m_Text": "F.O.B. Balota",
+            "m_IconName": "Trader",
             "m_Color": -13710223,
             "m_Position": [
                 4973.0,
