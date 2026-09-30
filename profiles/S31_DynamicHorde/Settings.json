@@ -102,7 +102,7 @@
         "IntervalSeconds": 30
     },
     "AdminMessages": {
-        "Enabled": 1,
+        "Enabled": 0,
         "IntervalSeconds": 30,
         "UseNotifications": 0,
         "ShowCoordinates": 1,
