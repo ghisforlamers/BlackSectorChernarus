@@ -12,7 +12,7 @@
             "MinPriceThreshold": 370,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
+            "MinStockThreshold": 100,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
@@ -28,7 +28,7 @@
             "MinPriceThreshold": 5670,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
+            "MinStockThreshold": 100,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
@@ -39,7 +39,7 @@
             "MinPriceThreshold": 265,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
+            "MinStockThreshold": 100,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
@@ -50,7 +50,7 @@
             "MinPriceThreshold": 495,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
+            "MinStockThreshold": 100,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
@@ -61,7 +61,7 @@
             "MinPriceThreshold": 270,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
+            "MinStockThreshold": 100,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
@@ -72,7 +72,7 @@
             "MinPriceThreshold": 170,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
+            "MinStockThreshold": 100,
             "QuantityPercent": -1,
             "SpawnAttachments": [
                 "battery9v"
@@ -85,7 +85,7 @@
             "MinPriceThreshold": 260,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
+            "MinStockThreshold": 100,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
@@ -96,7 +96,7 @@
             "MinPriceThreshold": 750,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
+            "MinStockThreshold": 100,
             "QuantityPercent": -1,
             "SpawnAttachments": [
                 "mediumgascanister"
@@ -109,7 +109,7 @@
             "MinPriceThreshold": 365,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
+            "MinStockThreshold": 100,
             "QuantityPercent": -1,
             "SpawnAttachments": [
                 "mediumgascanister"
@@ -122,7 +122,7 @@
             "MinPriceThreshold": 1770,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
+            "MinStockThreshold": 100,
             "QuantityPercent": -1,
             "SpawnAttachments": [
                 "battery9v"
@@ -137,7 +137,7 @@
             "MinPriceThreshold": 670,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
+            "MinStockThreshold": 100,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
@@ -148,7 +148,7 @@
             "MinPriceThreshold": 2855,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
+            "MinStockThreshold": 100,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
@@ -159,7 +159,7 @@
             "MinPriceThreshold": 2855,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
+            "MinStockThreshold": 100,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []

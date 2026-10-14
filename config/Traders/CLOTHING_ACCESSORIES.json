@@ -1,30 +1,33 @@
 {
-  "m_Version": 9,
-  "DisplayName": "#STR_EXPANSION_MARKET_TRADER_CLOTHING_ACCESSORIES",
-  "MinRequiredHumanity": -2147483648,
-  "MaxRequiredHumanity": 2147483647,
-  "TraderIcon": "Backpack",
-  "Currencies": [
-    "expansionbanknotehryvnia"
-  ],
-  "Categories": [
-    "MASKS",
-    "BACKPACKS",
-	"WINDSTRIDER_BAGS",
-    "ARMBANDS",
-    "EYEWEAR",
-    "HELMETS",
-    "BANDANAS",
-    "CAPS",
-    "HATS_AND_HOODS",
-	"WINDSTRIDER_HEADGEAR",
-    "HOLSTERS_AND_POUCHES",
-    "BELTS",
-    "GHILLIES",
-    "VESTS",
-    "GLOVES",
-	"WINDSTRIDER_GLOVES",
-    "GUITAR"
-  ],
-  "Items": {}
+    "m_Version": 13,
+    "DisplayName": "#STR_EXPANSION_MARKET_TRADER_CLOTHING_ACCESSORIES",
+    "MinRequiredReputation": 0,
+    "MaxRequiredReputation": 2147483647,
+    "RequiredFaction": "",
+    "RequiredCompletedQuestID": -1,
+    "TraderIcon": "Backpack",
+    "Currencies": [
+        "expansionbanknotehryvnia"
+    ],
+    "DisplayCurrencyValue": 1,
+    "DisplayCurrencyName": "",
+    "UseCategoryOrder": 0,
+    "Categories": [
+        "Helmets",
+        "Caps",
+        "Hats_And_Hoods",
+        "Armbands",
+        "Backpacks",
+        "Eyewear",
+        "Gloves",
+        "Bandanas",
+        "Masks",
+        "Vests",
+        "Holsters_And_Pouches",
+        "Ghillies",
+        "Belts"
+    ],
+    "Items": {
+        "gasmask_filter": 3
+    }
 }

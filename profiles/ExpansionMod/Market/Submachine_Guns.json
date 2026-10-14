@@ -12,7 +12,7 @@
             "MinPriceThreshold": 2975,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
+            "MinStockThreshold": 100,
             "QuantityPercent": -1,
             "SpawnAttachments": [
                 "mag_cz61_20rnd"
@@ -37,7 +37,7 @@
             "MinPriceThreshold": 4165,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
+            "MinStockThreshold": 100,
             "QuantityPercent": -1,
             "SpawnAttachments": [
                 "mag_ump_25rnd"
@@ -62,7 +62,7 @@
             "MinPriceThreshold": 3355,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
+            "MinStockThreshold": 100,
             "QuantityPercent": -1,
             "SpawnAttachments": [
                 "mp5k_stockbttstck",
@@ -89,7 +89,7 @@
             "MinPriceThreshold": 5390,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
+            "MinStockThreshold": 100,
             "QuantityPercent": -1,
             "SpawnAttachments": [
                 "aks74u_bttstck",
@@ -115,7 +115,7 @@
             "MinPriceThreshold": 4165,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
+            "MinStockThreshold": 100,
             "QuantityPercent": -1,
             "SpawnAttachments": [
                 "pp19_bttstck",
@@ -129,7 +129,7 @@
             "MinPriceThreshold": 700,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
+            "MinStockThreshold": 100,
             "QuantityPercent": -1,
             "SpawnAttachments": [
                 "mag_expansion_kedr_20rnd"
@@ -142,7 +142,7 @@
             "MinPriceThreshold": 900,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
+            "MinStockThreshold": 100,
             "QuantityPercent": -1,
             "SpawnAttachments": [
                 "mag_expansion_mpx_50rnd"
@@ -155,7 +155,7 @@
             "MinPriceThreshold": 1100,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
+            "MinStockThreshold": 100,
             "QuantityPercent": -1,
             "SpawnAttachments": [
                 "mag_mp5_30rnd"
@@ -168,7 +168,7 @@
             "MinPriceThreshold": 1300,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
+            "MinStockThreshold": 100,
             "QuantityPercent": -1,
             "SpawnAttachments": [
                 "mag_mp5_30rnd"
@@ -181,7 +181,7 @@
             "MinPriceThreshold": 1200,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
+            "MinStockThreshold": 100,
             "QuantityPercent": -1,
             "SpawnAttachments": [
                 "mag_expansion_mp7_40rnd"
@@ -194,7 +194,7 @@
             "MinPriceThreshold": 1400,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
+            "MinStockThreshold": 100,
             "QuantityPercent": -1,
             "SpawnAttachments": [
                 "ak_plasticbttstck",

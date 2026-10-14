@@ -1,310 +1,346 @@
 {
-  "m_Version": 12,
-  "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_OPTICS",
-  "Icon": "Deliver",
-  "Color": "FBFCFEFF",
-  "InitStockPercent": 75.0,
-  "IsExchange": 0,
-  "Items": [
-    {
-      "ClassName": "acogoptic",
-      "MaxPriceThreshold": 2200,
-      "MinPriceThreshold": 2000,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 100,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "acogoptic_6x",
-      "MaxPriceThreshold": 4400,
-      "MinPriceThreshold": 3800,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 100,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "buisoptic",
-      "MaxPriceThreshold": 600,
-      "MinPriceThreshold": 550,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 100,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "expansion_m1a_railatt",
-      "MaxPriceThreshold": 600,
-      "MinPriceThreshold": 550,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 100,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "expansion_mp5_railatt",
-      "MaxPriceThreshold": 600,
-      "MinPriceThreshold": 550,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 100,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "expansion_pmii25optic",
-      "MaxPriceThreshold": 4200,
-      "MinPriceThreshold": 3100,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 100,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "expansiondeltapointoptic",
-      "MaxPriceThreshold": 600,
-      "MinPriceThreshold": 550,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 100,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "expansionexps3holooptic",
-      "MaxPriceThreshold": 800,
-      "MinPriceThreshold": 700,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 100,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [
-        "battery9v"
-      ],
-      "Variants": []
-    },
-    {
-      "ClassName": "expansionhamroptic",
-      "MaxPriceThreshold": 1600,
-      "MinPriceThreshold": 1500,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 100,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [
-        "battery9v",
-        "expansiondeltapointoptic"
-      ],
-      "Variants": []
-    },
-    {
-      "ClassName": "expansionkar98scopeoptic",
-      "MaxPriceThreshold": 4200,
-      "MinPriceThreshold": 3100,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 100,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "expansionreflexmrsoptic",
-      "MaxPriceThreshold": 600,
-      "MinPriceThreshold": 550,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 100,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [
-        "battery9v"
-      ],
-      "Variants": []
-    },
-    {
-      "ClassName": "fnp45_mrdsoptic",
-      "MaxPriceThreshold": 600,
-      "MinPriceThreshold": 550,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 100,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [
-        "battery9v"
-      ],
-      "Variants": []
-    },
-    {
-      "ClassName": "huntingoptic",
-      "MaxPriceThreshold": 4000,
-      "MinPriceThreshold": 3000,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 100,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "kashtanoptic",
-      "MaxPriceThreshold": 2400,
-      "MinPriceThreshold": 2000,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 100,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "kazuaroptic",
-      "MaxPriceThreshold": 4400,
-      "MinPriceThreshold": 3200,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 100,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [
-        "battery9v"
-      ],
-      "Variants": []
-    },
-    {
-      "ClassName": "kobraoptic",
-      "MaxPriceThreshold": 2200,
-      "MinPriceThreshold": 1900,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 100,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [
-        "battery9v"
-      ],
-      "Variants": []
-    },
-    {
-      "ClassName": "m4_carryhandleoptic",
-      "MaxPriceThreshold": 600,
-      "MinPriceThreshold": 550,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 100,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "m4_t3nrdsoptic",
-      "MaxPriceThreshold": 1000,
-      "MinPriceThreshold": 800,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 100,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [
-        "battery9v"
-      ],
-      "Variants": []
-    },
-    {
-      "ClassName": "m68optic",
-      "MaxPriceThreshold": 2000,
-      "MinPriceThreshold": 1900,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 100,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [
-        "battery9v"
-      ],
-      "Variants": []
-    },
-    {
-      "ClassName": "pistoloptic",
-      "MaxPriceThreshold": 400,
-      "MinPriceThreshold": 300,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 100,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "pso11optic",
-      "MaxPriceThreshold": 4800,
-      "MinPriceThreshold": 3400,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 100,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [
-        "battery9v"
-      ],
-      "Variants": []
-    },
-    {
-      "ClassName": "pso1optic",
-      "MaxPriceThreshold": 4200,
-      "MinPriceThreshold": 3100,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 100,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [
-        "battery9v"
-      ],
-      "Variants": []
-    },
-    {
-      "ClassName": "puscopeoptic",
-      "MaxPriceThreshold": 2800,
-      "MinPriceThreshold": 2500,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 100,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "reflexoptic",
-      "MaxPriceThreshold": 600,
-      "MinPriceThreshold": 550,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 100,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [
-        "battery9v"
-      ],
-      "Variants": []
-    },
-    {
-      "ClassName": "starlightoptic",
-      "MaxPriceThreshold": 8800,
-      "MinPriceThreshold": 7400,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 100,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [
-        "battery9v"
-      ],
-      "Variants": []
-    }
-  ]
+    "m_Version": 12,
+    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_OPTICS",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "pistoloptic",
+            "MaxPriceThreshold": 10085,
+            "MinPriceThreshold": 6050,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 100,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "reflexoptic",
+            "MaxPriceThreshold": 8450,
+            "MinPriceThreshold": 5070,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 100,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "battery9v"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "m4_carryhandleoptic",
+            "MaxPriceThreshold": 2485,
+            "MinPriceThreshold": 1490,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 100,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "buisoptic",
+            "MaxPriceThreshold": 8640,
+            "MinPriceThreshold": 5185,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 100,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "fnp45_mrdsoptic",
+            "MaxPriceThreshold": 16355,
+            "MinPriceThreshold": 9810,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 100,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "battery9v"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "acogoptic",
+            "MaxPriceThreshold": 2465,
+            "MinPriceThreshold": 1480,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 100,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "acogoptic_6x",
+            "MaxPriceThreshold": 13310,
+            "MinPriceThreshold": 7985,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 100,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "m68optic",
+            "MaxPriceThreshold": 2400,
+            "MinPriceThreshold": 1440,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 100,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "battery9v"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "m4_t3nrdsoptic",
+            "MaxPriceThreshold": 10905,
+            "MinPriceThreshold": 6540,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 100,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "battery9v"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "kobraoptic",
+            "MaxPriceThreshold": 2400,
+            "MinPriceThreshold": 1440,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 100,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "battery9v"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "kashtanoptic",
+            "MaxPriceThreshold": 2400,
+            "MinPriceThreshold": 1440,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 100,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "puscopeoptic",
+            "MaxPriceThreshold": 1785,
+            "MinPriceThreshold": 1070,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 100,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "huntingoptic",
+            "MaxPriceThreshold": 7855,
+            "MinPriceThreshold": 4715,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 100,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "pso1optic",
+            "MaxPriceThreshold": 2400,
+            "MinPriceThreshold": 1440,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 100,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "battery9v"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "pso11optic",
+            "MaxPriceThreshold": 10715,
+            "MinPriceThreshold": 6430,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 100,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "battery9v"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "kazuaroptic",
+            "MaxPriceThreshold": 7345,
+            "MinPriceThreshold": 4405,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 100,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "battery9v"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "starlightoptic",
+            "MaxPriceThreshold": 7345,
+            "MinPriceThreshold": 4405,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 100,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "battery9v"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "expansion_m1a_railatt",
+            "MaxPriceThreshold": 300,
+            "MinPriceThreshold": 150,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 100,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "expansion_mp5_railatt",
+            "MaxPriceThreshold": 300,
+            "MinPriceThreshold": 150,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 100,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "expansionreflexmrsoptic",
+            "MaxPriceThreshold": 300,
+            "MinPriceThreshold": 150,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 100,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "battery9v"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "expansiondeltapointoptic",
+            "MaxPriceThreshold": 300,
+            "MinPriceThreshold": 150,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 100,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "expansionexps3holooptic",
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 200,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 100,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "battery9v"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "expansionhamroptic",
+            "MaxPriceThreshold": 800,
+            "MinPriceThreshold": 400,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 100,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "battery9v",
+                "expansiondeltapointoptic"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "expansion_pmii25optic",
+            "MaxPriceThreshold": 2200,
+            "MinPriceThreshold": 1100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 100,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "expansionkar98scopeoptic",
+            "MaxPriceThreshold": 2200,
+            "MinPriceThreshold": 1100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 100,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "mk4optic_black",
+            "MaxPriceThreshold": 1600,
+            "MinPriceThreshold": 800,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 100,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "mk4optic_green",
+                "mk4optic_tan"
+            ]
+        },
+        {
+            "ClassName": "pso6optic",
+            "MaxPriceThreshold": 1600,
+            "MinPriceThreshold": 800,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 100,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "sportingoptic",
+            "MaxPriceThreshold": 1600,
+            "MinPriceThreshold": 800,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 100,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        }
+    ]
 }

@@ -1,0 +1,38 @@
+{
+    "m_Version": 13,
+    "DisplayName": "#STR_EXPANSION_MARKET_TRADER_WEAPONS",
+    "MinRequiredReputation": 0,
+    "MaxRequiredReputation": 2147483647,
+    "RequiredFaction": "",
+    "RequiredCompletedQuestID": -1,
+    "TraderIcon": "Shotgun",
+    "Currencies": [
+        "expansionbanknoteusd"
+    ],
+    "DisplayCurrencyValue": 50,
+    "DisplayCurrencyName": "$",
+    "UseCategoryOrder": 0,
+    "Categories": [
+        "Ammo"
+    ],
+    "Items": {
+        "snafu_ammo_127x55mm": 1,
+        "snafu_ammo_127x55mmap": 1,
+        "snafu_ammo_145cal": 1,
+        "snafu_ammo_300acc": 1,
+        "snafu_ammo_338": 1,
+        "snafu_ammo_44": 1,
+        "snafu_ammo_44_magnum": 1,
+        "snafu_ammo_45_70mm": 1,
+        "snafu_ammo_46x30": 1,
+        "snafu_ammo_5_7x28mm": 1,
+        "snafu_ammo_500_sw": 1,
+        "snafu_ammo_762x25": 1,
+        "snafu_ammo_762x51": 1,
+        "snafu_md_ammo_556x45mm_m855a1": 1,
+        "gcgn_ammo_3006": 1,
+        "gcgn_ammo_408chey": 1,
+        "gcgn_ammo_50cal": 1,
+        "gcgn_ammo_762x51": 1
+    }
+}

@@ -1,22 +1,27 @@
 {
-  "m_Version": 9,
-  "DisplayName": "#STR_EXPANSION_MARKET_TRADER_ATTACHMENTS",
-  "MinRequiredHumanity": -2147483648,
-  "MaxRequiredHumanity": 2147483647,
-  "TraderIcon": "Scrap Metal",
-  "Currencies": [
-    "expansionbanknotehryvnia"
-  ],
-  "Categories": [
-    "MAGAZINES",
-    "MUZZLES",
-    "BAYONETS",
-    "OPTICS",
-    "BUTTSTOCKS",
-    "HANDGUARDS"
-  ],
-  "Items": {
-    "universallight": 1,
-    "tlrlight": 1
-  }
+    "m_Version": 13,
+    "DisplayName": "#STR_EXPANSION_MARKET_TRADER_ATTACHMENTS",
+    "MinRequiredReputation": 0,
+    "MaxRequiredReputation": 2147483647,
+    "RequiredFaction": "",
+    "RequiredCompletedQuestID": -1,
+    "TraderIcon": "Scrap Metal",
+    "Currencies": [
+        "expansionbanknotehryvnia"
+    ],
+    "DisplayCurrencyValue": 1,
+    "DisplayCurrencyName": "",
+    "UseCategoryOrder": 0,
+    "Categories": [
+        "Magazines",
+        "Muzzles",
+        "Bayonets",
+        "Optics",
+        "Buttstocks",
+        "Handguards"
+    ],
+    "Items": {
+        "universallight": 1,
+        "tlrlight": 1
+    }
 }

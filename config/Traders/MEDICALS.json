@@ -1,17 +1,19 @@
 {
-  "m_Version": 9,
-  "DisplayName": "#STR_EXPANSION_MARKET_TRADER_MEDICALS",
-  "MinRequiredHumanity": -2147483648,
-  "MaxRequiredHumanity": 2147483647,
-  "TraderIcon": "Medic Box",
-  "Currencies": [
-    "expansionbanknotehryvnia"
-  ],
-  "Categories": [
-    "MEDICAL:1",
-    "ZENVIRUS:1"
-  ],
-  "Items": {
-    "Zen_Virus_Brain": 2
-  }
+    "m_Version": 13,
+    "DisplayName": "#STR_EXPANSION_MARKET_TRADER_MEDICALS",
+    "MinRequiredReputation": 0,
+    "MaxRequiredReputation": 2147483647,
+    "RequiredFaction": "",
+    "RequiredCompletedQuestID": -1,
+    "TraderIcon": "Medic Box",
+    "Currencies": [
+        "expansionbanknotehryvnia"
+    ],
+    "DisplayCurrencyValue": 1,
+    "DisplayCurrencyName": "",
+    "UseCategoryOrder": 0,
+    "Categories": [
+        "Medical"
+    ],
+    "Items": {}
 }

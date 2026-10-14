@@ -12,7 +12,7 @@
             "MinPriceThreshold": 6020,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
+            "MinStockThreshold": 100,
             "QuantityPercent": -1,
             "SpawnAttachments": [
                 "fal_oebttstck",
@@ -26,7 +26,7 @@
             "MinPriceThreshold": 6715,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
+            "MinStockThreshold": 100,
             "QuantityPercent": -1,
             "SpawnAttachments": [
                 "ak_woodbttstck",
@@ -41,7 +41,7 @@
             "MinPriceThreshold": 2730,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
+            "MinStockThreshold": 100,
             "QuantityPercent": -1,
             "SpawnAttachments": [
                 "ak_plasticbttstck",
@@ -56,7 +56,7 @@
             "MinPriceThreshold": 5940,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
+            "MinStockThreshold": 100,
             "QuantityPercent": -1,
             "SpawnAttachments": [
                 "ak74_woodbttstck",
@@ -71,7 +71,7 @@
             "MinPriceThreshold": 1225,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
+            "MinStockThreshold": 100,
             "QuantityPercent": -1,
             "SpawnAttachments": [
                 "m4_carryhandleoptic",
@@ -87,7 +87,7 @@
             "MinPriceThreshold": 2730,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
+            "MinStockThreshold": 100,
             "QuantityPercent": -1,
             "SpawnAttachments": [
                 "mag_stanag_30rnd"
@@ -100,7 +100,7 @@
             "MinPriceThreshold": 2730,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
+            "MinStockThreshold": 100,
             "QuantityPercent": -1,
             "SpawnAttachments": [
                 "mag_famas_25rnd"
@@ -113,7 +113,7 @@
             "MinPriceThreshold": 800,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
+            "MinStockThreshold": 100,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
@@ -124,7 +124,7 @@
             "MinPriceThreshold": 1225,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
+            "MinStockThreshold": 100,
             "QuantityPercent": -1,
             "SpawnAttachments": [
                 "mag_aug_30rnd"
@@ -137,7 +137,7 @@
             "MinPriceThreshold": 2730,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
+            "MinStockThreshold": 100,
             "QuantityPercent": -1,
             "SpawnAttachments": [
                 "mag_aug_30rnd"
@@ -150,7 +150,7 @@
             "MinPriceThreshold": 2730,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
+            "MinStockThreshold": 100,
             "QuantityPercent": -1,
             "SpawnAttachments": [
                 "mag_stanag_30rnd"
@@ -163,7 +163,7 @@
             "MinPriceThreshold": 1225,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
+            "MinStockThreshold": 100,
             "QuantityPercent": -1,
             "SpawnAttachments": [
                 "mag_expansion_g36_30rnd"

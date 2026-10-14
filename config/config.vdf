@@ -1,0 +1,122 @@
+"InstallConfigStore"
+{
+	"Software"
+	{
+		"Valve"
+		{
+			"Steam"
+			{
+				"ipv6check_http_state"		"bad"
+				"ipv6check_udp_state"		"bad"
+				"CMWebSocket"
+				{
+					"cmp2-iad1.steamserver.net:27018"
+					{
+						"LastPingTimestamp"		"1791977410"
+						"dc"		"iad1"
+						"LastPingValue"		"58"
+						"LastLoadValue"		"30"
+					}
+					"cmp1-ord1.steamserver.net:443"
+					{
+						"LastPingTimestamp"		"1791977410"
+						"dc"		"ord1"
+						"LastPingValue"		"58"
+						"LastLoadValue"		"40"
+					}
+					"cmp2-iad1.steamserver.net:443"
+					{
+						"LastPingTimestamp"		"0"
+						"dc"		"iad1"
+						"LastPingValue"		"42"
+						"LastLoadValue"		"56"
+					}
+					"cmp1-lax1.steamserver.net:443"
+					{
+						"LastPingTimestamp"		"0"
+						"dc"		"lax1"
+					}
+					"cmp2-atl3.steamserver.net:443"
+					{
+						"LastPingTimestamp"		"1791977411"
+						"dc"		"atl3"
+						"LastPingValue"		"100000"
+						"LastLoadValue"		"0"
+					}
+					"cmp2-atl3.steamserver.net:27018"
+					{
+						"LastPingTimestamp"		"0"
+						"dc"		"atl3"
+					}
+					"cmp1-ord1.steamserver.net:27018"
+					{
+						"LastPingTimestamp"		"1791977410"
+						"dc"		"ord1"
+						"LastPingValue"		"54"
+						"LastLoadValue"		"30"
+					}
+					"cmp2-ord1.steamserver.net:27018"
+					{
+						"LastPingTimestamp"		"1791977411"
+						"dc"		"ord1"
+						"LastPingValue"		"100000"
+						"LastLoadValue"		"0"
+					}
+					"cmp1-sea1.steamserver.net:27018"
+					{
+						"LastPingTimestamp"		"0"
+						"dc"		"sea1"
+					}
+					"cmp1-iad1.steamserver.net:27018"
+					{
+						"LastPingTimestamp"		"1791977410"
+						"dc"		"iad1"
+						"LastPingValue"		"62"
+						"LastLoadValue"		"32"
+					}
+					"cmp1-iad1.steamserver.net:443"
+					{
+						"LastPingTimestamp"		"1791977410"
+						"dc"		"iad1"
+						"LastPingValue"		"58"
+						"LastLoadValue"		"45"
+					}
+					"cmp2-ord1.steamserver.net:443"
+					{
+						"LastPingTimestamp"		"0"
+						"dc"		"ord1"
+					}
+					"cmp1-atl3.steamserver.net:443"
+					{
+						"LastPingTimestamp"		"0"
+						"dc"		"atl3"
+					}
+					"cmp1-sea1.steamserver.net:443"
+					{
+						"LastPingTimestamp"		"1791977410"
+						"dc"		"sea1"
+						"LastPingValue"		"125"
+						"LastLoadValue"		"4"
+					}
+					"cmp2-sea1.steamserver.net:27018"
+					{
+						"LastPingTimestamp"		"1791977410"
+						"dc"		"sea1"
+						"LastPingValue"		"121"
+						"LastLoadValue"		"1"
+					}
+					"cmp2-sea1.steamserver.net:443"
+					{
+						"LastPingTimestamp"		"0"
+						"dc"		"sea1"
+					}
+				}
+				"RecentWebSocket443Failures"		""
+				"RecentWebSocketNon443Failures"		""
+				"RecentUDPFailures"		""
+				"RecentTCPFailures"		""
+				"CellIDServerOverride"		"63"
+			}
+		}
+	}
+}

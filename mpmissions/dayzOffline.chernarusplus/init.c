@@ -48,6 +48,20 @@ void main()
 	}
 
 	caves();
+	
+	// ---- @FastTravel boards ----
+	// 1 = SKVSCh Biathlon Arena, 2 = NEAF, 3 = FOB Balota, 4 = Green Mountain
+	// 5 = Staroye
+	// Board Y lowered 0.5 from the DayZ Editor placeholder to bring the
+	// upper pins within reach.
+	DC_FastTravel.SpawnBoard(1, "506.769379 422.798401 11088.577148", "-134.550629 -0.092907 0.043595", 0);
+	DC_FastTravel.SpawnBoard(2, "11862.488281 140.985535 12455.500000", "-157.353775 -0.115411 0.085979", 0);
+	DC_FastTravel.SpawnBoard(3, "4951.472168 10.520592 2476.131592", "139.318817 0.031751 0.128248", 0);
+	DC_FastTravel.SpawnBoard(4, "3719.390625 402.989105 5997.007324", "45.000000 0.000000 -0.000000", 0);
+	// ID 5 - Staroye
+	//   board      10122.933594 246.508835 5494.860352
+	//   youarehere 10121.563477 245.121841 5492.837891
+	DC_FastTravel.SpawnBoard(5, "10122.933594 246.008835 5494.860352", "-54.321350 0.000000 -0.000000", 0);
 
 	// Start Black Sector bunker loot manager after the mission/bunker mapping is loaded.
 	GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(BS_StartBunkerLootManager, 15000, false);
@@ -204,7 +218,7 @@ class BlackSectorBunkerAmbush
 
 		foreach (vector pos : m_SpawnPositions)
 		{
-			string infectedType = m_InfectedTypes.Get(Math.RandomInt(0, m_InfectedTypes.Count()));
+			string infectedType = m_InfectedTypes.Get(Math.RandomInt(0, m_InfectedTypes.Count() - 1));
 
 			// Preserve the measured underground X/Z and floor height.
 			// Add only 5 cm of vertical clearance so the infected capsule does not
@@ -302,7 +316,7 @@ class CustomMission: MissionServer
 			player.SetQuickBarEntityShortcut(itemEnt, 2);
 			
 			string chemlightArray[] = { "Chemlight_White", "Chemlight_Yellow", "Chemlight_Green", "Chemlight_Red" };
-			int rndIndex = Math.RandomInt( 0, 4 );
+			int rndIndex = Math.RandomInt( 0, 3 );
 			itemEnt = itemClothing.GetInventory().CreateInInventory( chemlightArray[rndIndex] );
 			SetRandomHealth( itemEnt );
 			player.SetQuickBarEntityShortcut(itemEnt, 1);
@@ -347,7 +361,10 @@ class CustomMission: MissionServer
 			EntityAI starterWatchBattery = starterWatch.GetInventory().CreateAttachmentEx("Custom_Watch_Battery", watchBatterySlot);
 
 			if (starterWatchBattery)
+			{
 				starterWatchBattery.SetHealth01("", "", 1.0);
+				starterWatchBattery.GetCompEM().SetEnergy0To1(1.0);
+			}
 		}
 	}
 };

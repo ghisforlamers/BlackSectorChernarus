@@ -24,7 +24,7 @@
         "HordeRadius": 50
     },
     "Movement": {
-        "VirtualTravelSpeed": 3.0,
+        "VirtualTravelSpeed": 6.0,
         "TravelMinDistance": 250.0,
         "TravelMaxDistance": 650.0,
         "StepDistance": 80.0

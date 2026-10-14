@@ -18,7 +18,7 @@
     "ShowDistanceOnServerMarkers": 1,
     "ServerMarkers": [
         {
-            "m_UID": "ServerMarker_Trader_Green_Montain",
+            "m_UID": "ServerMarker_Aircrafts_Balota",
             "m_Visibility": 6,
             "m_Is3D": 1,
             "m_Text": "F.O.B. Balota",
@@ -58,6 +58,51 @@
                 3698.0,
                 405.0,
                 5988.0
+            ],
+            "m_Locked": 0,
+            "m_Persist": 1
+        },
+        {
+            "m_UID": "ServerMarker_FastTravel_Staroye",
+            "m_Visibility": 6,
+            "m_Is3D": 1,
+            "m_Text": "Fast Travel - Staroye",
+            "m_IconName": "Map Marker",
+            "m_Color": -13710223,
+            "m_Position": [
+                10122.933594,
+                246.508835,
+                5494.860352
+            ],
+            "m_Locked": 0,
+            "m_Persist": 1
+        },
+        {
+            "m_UID": "ServerMarker_FastTravel_NEAF",
+            "m_Visibility": 6,
+            "m_Is3D": 1,
+            "m_Text": "Fast Travel - NEAF",
+            "m_IconName": "Map Marker",
+            "m_Color": -13710223,
+            "m_Position": [
+                11862.488281,
+                141.485535,
+                12455.5
+            ],
+            "m_Locked": 0,
+            "m_Persist": 1
+        },
+        {
+            "m_UID": "ServerMarker_FastTravel_Biathlon_Arena",
+            "m_Visibility": 6,
+            "m_Is3D": 1,
+            "m_Text": "Fast Travel - SKVSCh Biathlon Arena",
+            "m_IconName": "Map Marker",
+            "m_Color": -13710223,
+            "m_Position": [
+                506.769379,
+                423.298401,
+                11088.577148
             ],
             "m_Locked": 0,
             "m_Persist": 1

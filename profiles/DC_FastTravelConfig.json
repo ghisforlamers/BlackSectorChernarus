@@ -1,0 +1,219 @@
+{
+    "m_CreateLogs": 1,
+    "m_MessageDisplayTime": 5.0,
+    "m_Locations": [
+        {
+            "m_ID": 1,
+            "m_Name": "SKVSCh Biathlon Arena",
+            "m_MarkerCoordinates": [
+                508.240966796875,
+                -1.0,
+                11086.990234375
+            ],
+            "m_MarkerType": 0,
+            "m_LocationCoordinates": [
+                {
+                    "m_Coordinates": [
+                        508.240966796875,
+                        -1.0,
+                        11086.990234375
+                    ],
+                    "m_Radius": 3.0
+                }
+            ],
+            "m_VisitableLocations": [
+                {
+                    "m_LocationID": 2,
+                    "m_RequiredTokenClassName": "ExpansionBanknoteHryvnia",
+                    "m_RequiredTokenQuantity": 50
+                },
+                {
+                    "m_LocationID": 3,
+                    "m_RequiredTokenClassName": "ExpansionBanknoteHryvnia",
+                    "m_RequiredTokenQuantity": 50
+                },
+                {
+                    "m_LocationID": 4,
+                    "m_RequiredTokenClassName": "ExpansionBanknoteHryvnia",
+                    "m_RequiredTokenQuantity": 50
+                },
+                {
+                    "m_LocationID": 5,
+                    "m_RequiredTokenClassName": "ExpansionBanknoteHryvnia",
+                    "m_RequiredTokenQuantity": 50
+                }
+            ]
+        },
+        {
+            "m_ID": 2,
+            "m_Name": "NEAF",
+            "m_MarkerCoordinates": [
+                11865.505859375,
+                -1.0,
+                12454.48046875
+            ],
+            "m_MarkerType": 0,
+            "m_LocationCoordinates": [
+                {
+                    "m_Coordinates": [
+                        11865.505859375,
+                        -1.0,
+                        12454.48046875
+                    ],
+                    "m_Radius": 3.0
+                }
+            ],
+            "m_VisitableLocations": [
+                {
+                    "m_LocationID": 1,
+                    "m_RequiredTokenClassName": "ExpansionBanknoteHryvnia",
+                    "m_RequiredTokenQuantity": 50
+                },
+                {
+                    "m_LocationID": 3,
+                    "m_RequiredTokenClassName": "ExpansionBanknoteHryvnia",
+                    "m_RequiredTokenQuantity": 50
+                },
+                {
+                    "m_LocationID": 4,
+                    "m_RequiredTokenClassName": "ExpansionBanknoteHryvnia",
+                    "m_RequiredTokenQuantity": 50
+                },
+                {
+                    "m_LocationID": 5,
+                    "m_RequiredTokenClassName": "ExpansionBanknoteHryvnia",
+                    "m_RequiredTokenQuantity": 50
+                }
+            ]
+        },
+        {
+            "m_ID": 3,
+            "m_Name": "FOB Balota",
+            "m_MarkerCoordinates": [
+                4953.6474609375,
+                -1.0,
+                2477.97119140625
+            ],
+            "m_MarkerType": 0,
+            "m_LocationCoordinates": [
+                {
+                    "m_Coordinates": [
+                        4953.6474609375,
+                        -1.0,
+                        2477.97119140625
+                    ],
+                    "m_Radius": 3.0
+                }
+            ],
+            "m_VisitableLocations": [
+                {
+                    "m_LocationID": 1,
+                    "m_RequiredTokenClassName": "ExpansionBanknoteHryvnia",
+                    "m_RequiredTokenQuantity": 50
+                },
+                {
+                    "m_LocationID": 2,
+                    "m_RequiredTokenClassName": "ExpansionBanknoteHryvnia",
+                    "m_RequiredTokenQuantity": 50
+                },
+                {
+                    "m_LocationID": 4,
+                    "m_RequiredTokenClassName": "ExpansionBanknoteHryvnia",
+                    "m_RequiredTokenQuantity": 50
+                },
+                {
+                    "m_LocationID": 5,
+                    "m_RequiredTokenClassName": "ExpansionBanknoteHryvnia",
+                    "m_RequiredTokenQuantity": 50
+                }
+            ]
+        },
+        {
+            "m_ID": 4,
+            "m_Name": "Green Mountain",
+            "m_MarkerCoordinates": [
+                3717.72412109375,
+                -1.0,
+                5998.60791015625
+            ],
+            "m_MarkerType": 0,
+            "m_LocationCoordinates": [
+                {
+                    "m_Coordinates": [
+                        3717.72412109375,
+                        -1.0,
+                        5998.60791015625
+                    ],
+                    "m_Radius": 3.0
+                }
+            ],
+            "m_VisitableLocations": [
+                {
+                    "m_LocationID": 1,
+                    "m_RequiredTokenClassName": "ExpansionBanknoteHryvnia",
+                    "m_RequiredTokenQuantity": 50
+                },
+                {
+                    "m_LocationID": 2,
+                    "m_RequiredTokenClassName": "ExpansionBanknoteHryvnia",
+                    "m_RequiredTokenQuantity": 50
+                },
+                {
+                    "m_LocationID": 3,
+                    "m_RequiredTokenClassName": "ExpansionBanknoteHryvnia",
+                    "m_RequiredTokenQuantity": 50
+                },
+                {
+                    "m_LocationID": 5,
+                    "m_RequiredTokenClassName": "ExpansionBanknoteHryvnia",
+                    "m_RequiredTokenQuantity": 50
+                }
+            ]
+        },
+        {
+            "m_ID": 5,
+            "m_Name": "Staroye",
+            "m_MarkerCoordinates": [
+                10121.5634765625,
+                -1.0,
+                5492.837890625
+            ],
+            "m_MarkerType": 0,
+            "m_LocationCoordinates": [
+                {
+                    "m_Coordinates": [
+                        10121.5634765625,
+                        -1.0,
+                        5492.837890625
+                    ],
+                    "m_Radius": 3.0
+                }
+            ],
+            "m_VisitableLocations": [
+                {
+                    "m_LocationID": 1,
+                    "m_RequiredTokenClassName": "ExpansionBanknoteHryvnia",
+                    "m_RequiredTokenQuantity": 50
+                },
+                {
+                    "m_LocationID": 2,
+                    "m_RequiredTokenClassName": "ExpansionBanknoteHryvnia",
+                    "m_RequiredTokenQuantity": 50
+                },
+                {
+                    "m_LocationID": 3,
+                    "m_RequiredTokenClassName": "ExpansionBanknoteHryvnia",
+                    "m_RequiredTokenQuantity": 50
+                },
+                {
+                    "m_LocationID": 4,
+                    "m_RequiredTokenClassName": "ExpansionBanknoteHryvnia",
+                    "m_RequiredTokenQuantity": 50
+                }
+            ]
+        }
+    ],
+    "m_LocationMarkerTypes": {
+        "0": "DC_FastTravelMarkerNeedle"
+    }
+}

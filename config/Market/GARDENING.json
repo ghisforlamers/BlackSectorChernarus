@@ -1,65 +1,65 @@
 {
-  "m_Version": 12,
-  "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_GARDENING",
-  "Icon": "Deliver",
-  "Color": "FBFCFEFF",
-  "InitStockPercent": 75.0,
-  "IsExchange": 0,
-  "Items": [
-    {
-      "ClassName": "gardenlime",
-      "MaxPriceThreshold": 80,
-      "MinPriceThreshold": 40,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 100,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "pepperseeds",
-      "MaxPriceThreshold": 80,
-      "MinPriceThreshold": 40,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 100,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "pumpkinseeds",
-      "MaxPriceThreshold": 200,
-      "MinPriceThreshold": 100,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 100,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "tomatoseeds",
-      "MaxPriceThreshold": 80,
-      "MinPriceThreshold": 40,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 100,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "zucchiniseeds",
-      "MaxPriceThreshold": 120,
-      "MinPriceThreshold": 60,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 100,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    }
-  ]
+    "m_Version": 12,
+    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_GARDENING",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "gardenlime",
+            "MaxPriceThreshold": 595,
+            "MinPriceThreshold": 355,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 100,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "pepperseedspack",
+            "MaxPriceThreshold": 585,
+            "MinPriceThreshold": 350,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 100,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "tomatoseedspack",
+            "MaxPriceThreshold": 585,
+            "MinPriceThreshold": 350,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 100,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "zucchiniseedspack",
+            "MaxPriceThreshold": 585,
+            "MinPriceThreshold": 350,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 100,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "pumpkinseedspack",
+            "MaxPriceThreshold": 585,
+            "MinPriceThreshold": 350,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 100,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        }
+    ]
 }

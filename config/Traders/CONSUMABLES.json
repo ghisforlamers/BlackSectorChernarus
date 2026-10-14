@@ -1,19 +1,23 @@
 {
-  "m_Version": 9,
-  "DisplayName": "#STR_EXPANSION_MARKET_TRADER_CONSUMABLES",
-  "MinRequiredHumanity": -2147483648,
-  "MaxRequiredHumanity": 2147483647,
-  "TraderIcon": "Can Of Beans Big",
-  "Currencies": [
-    "expansionbanknotehryvnia"
-  ],
-  "Categories": [
-    "DRINKS",
-    "FOOD",
-    "FRUIT_AND_VEGETABLES",
-    "MEAT",
-    "FISH",
-    "TABACO:1"
-  ],
-  "Items": {}
+    "m_Version": 13,
+    "DisplayName": "#STR_EXPANSION_MARKET_TRADER_CONSUMABLES",
+    "MinRequiredReputation": 0,
+    "MaxRequiredReputation": 2147483647,
+    "RequiredFaction": "",
+    "RequiredCompletedQuestID": -1,
+    "TraderIcon": "Can Of Beans Big",
+    "Currencies": [
+        "expansionbanknotehryvnia"
+    ],
+    "DisplayCurrencyValue": 1,
+    "DisplayCurrencyName": "",
+    "UseCategoryOrder": 0,
+    "Categories": [
+        "Drinks",
+        "Food",
+        "Fruit_And_Vegetables",
+        "Meat",
+        "Fish"
+    ],
+    "Items": {}
 }

@@ -1,22 +1,26 @@
 {
-  "m_Version": 9,
-  "DisplayName": "#STR_EXPANSION_MARKET_TRADER_BUILDING_SUPPLIES",
-  "MinRequiredHumanity": -2147483648,
-  "MaxRequiredHumanity": 2147483647,
-  "TraderIcon": "Nails",
-  "Currencies": [
-    "expansionbanknotehryvnia"
-  ],
-  "Categories": [
-    "GARDENING:1",
-    "TOOLS:1",
-    "SUPPLIES:1",
-    "LOCKS:1",
-    "CONTAINERS:1",
-    "TENTS:1",
-    "FURNISHINGS:1",
-    "FLAGS:1",
-    "SAFE_BIG:2"
-  ],
-  "Items": {}
+    "m_Version": 13,
+    "DisplayName": "#STR_EXPANSION_MARKET_TRADER_BUILDING_SUPPLIES",
+    "MinRequiredReputation": 0,
+    "MaxRequiredReputation": 2147483647,
+    "RequiredFaction": "",
+    "RequiredCompletedQuestID": -1,
+    "TraderIcon": "Nails",
+    "Currencies": [
+        "expansionbanknotehryvnia"
+    ],
+    "DisplayCurrencyValue": 1,
+    "DisplayCurrencyName": "",
+    "UseCategoryOrder": 0,
+    "Categories": [
+        "Gardening",
+        "Tools",
+        "Supplies",
+        "Locks",
+        "Containers",
+        "Tents",
+        "Furnishings",
+        "Flags"
+    ],
+    "Items": {}
 }
